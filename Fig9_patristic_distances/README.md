@@ -50,13 +50,14 @@ Idea of the analysis: compare four studied _Eulimnogammarus_ species adequately 
     # clean up
     rm *log; rm *mldist; rm *bionj; rm *uniqueseq.phy; rm *model.gz; rm *ckp.gz
     ```
-  - These distances were loaded into `Fig9_draw_network_maps.R` to produce plots in Fig. 9B
+  - These distances were loaded into `Fig9_draw_network_maps.R` to produce plots in Fig. 9B. It also produces statistics in plain text (see `statistics.txt`).
 
 ### Software used:
   - R packages:
      - phangorn ## required for tanggle to read networks
      - tanggle ## plot networks
      - ggtree ## required by tanggle
+     - ape ## required by tanggle
      - dplyr ## for table rearrangement
      - cowplot ## to combine plots
      - ggrastr ## to rasterize points and reduce svg size!
