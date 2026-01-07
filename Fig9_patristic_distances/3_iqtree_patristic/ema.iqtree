@@ -1,0 +1,269 @@
+IQ-TREE 2.0.7 built Jan 21 2022
+
+Input file name: ../4_Ema.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 297207
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 64 sequences with 503 nucleotide sites
+Number of constant sites: 430 (= 85.4871% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 430 (= 85.4871% of all sites)
+Number of parsimony informative sites: 62
+Number of distinct site patterns: 49
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+I
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+I           -1194.842    2525.683 +   0.0683    2547.305 +    0.104    2812.683 +    0.352
+HKY+F+G4          -1194.982    2525.964 +   0.0594    2547.586 +   0.0905    2812.964 +    0.306
+TPM3+F+I          -1194.055    2526.111 +   0.0552    2548.420 +   0.0596    2817.332 -   0.0344
+TPM3u+F+I         -1194.056    2526.111 +   0.0551    2548.421 +   0.0596    2817.332 -   0.0344
+TN+F+I            -1194.070    2526.140 +   0.0544    2548.450 +   0.0588    2817.361 -   0.0339
+TN+F+G4           -1194.212    2526.425 -   0.0471    2548.734 +    0.051    2817.646 -   0.0294
+TPM3+F+G4         -1194.229    2526.458 -   0.0464    2548.767 +   0.0501    2817.678 -    0.029
+TPM3u+F+G4        -1194.229    2526.458 -   0.0464    2548.767 +   0.0501    2817.679 -    0.029
+K3Pu+F+I          -1194.375    2526.750 -   0.0401    2549.060 -   0.0433    2817.971 -    0.025
+K3Pu+F+G4         -1194.510    2527.020 -    0.035    2549.329 -   0.0379    2818.240 -   0.0219
+TPM2u+F+I         -1194.712    2527.423 -   0.0286    2549.733 -   0.0309    2818.644 -   0.0179
+TPM2+F+I          -1194.712    2527.423 -   0.0286    2549.733 -   0.0309    2818.644 -   0.0179
+TPM2+F+G4         -1194.847    2527.694 -    0.025    2550.004 -    0.027    2818.915 -   0.0156
+TPM2u+F+G4        -1194.847    2527.694 -    0.025    2550.004 -    0.027    2818.915 -   0.0156
+HKY+F+I+G4        -1195.207    2528.415 -   0.0174    2550.724 -   0.0188    2819.635 -   0.0109
+HKY+F+R2          -1195.959    2529.917 -  0.00822    2552.227 -  0.00889    2821.138 -  0.00513
+TIM3+F+I          -1193.287    2526.575 -   0.0437    2549.584 -   0.0333    2822.016 -  0.00331
+TIM3+F+G4         -1193.462    2526.923 -   0.0367    2549.932 -    0.028    2822.364 -  0.00278
+TIM+F+I           -1193.622    2527.244 -   0.0313    2550.253 -   0.0239    2822.685 -  0.00237
+TIM+F+G4          -1193.759    2527.518 -   0.0273    2550.527 -   0.0208    2822.959 -  0.00207
+TIM2+F+I          -1193.937    2527.874 -   0.0228    2550.883 -   0.0174    2823.315 -  0.00173
+TIM2+F+G4         -1194.073    2528.145 -   0.0199    2551.154 -   0.0152    2823.586 -  0.00151
+TN+F+I+G4         -1194.464    2528.929 -   0.0135    2551.938 -   0.0103    2824.370 -  0.00102
+TPM3+F+I+G4       -1194.475    2528.950 -   0.0133    2551.959 -   0.0102    2824.391 -  0.00101
+TPM3u+F+I+G4      -1194.475    2528.950 -   0.0133    2551.960 -   0.0102    2824.392 -  0.00101
+K3Pu+F+I+G4       -1194.727    2529.455 -   0.0104    2552.464 -   0.0079    2824.896 - 0.000784
+TPM2+F+I+G4       -1195.063    2530.127 -  0.00741    2553.136 -  0.00564    2825.568 -  0.00056
+TPM2u+F+I+G4      -1195.063    2530.127 -  0.00741    2553.136 -  0.00564    2825.568 -  0.00056
+TN+F+R2           -1195.158    2530.316 -  0.00674    2553.325 -  0.00513    2825.757 -  0.00051
+TPM3+F+R2         -1195.222    2530.443 -  0.00632    2553.452 -  0.00482    2825.885 - 0.000478
+TPM3u+F+R2        -1195.222    2530.443 -  0.00632    2553.453 -  0.00482    2825.885 - 0.000478
+K3Pu+F+R2         -1195.481    2530.961 -  0.00488    2553.971 -  0.00372    2826.403 - 0.000369
+K2P+I             -1211.161    2552.322 - 1.12e-07    2571.956 - 4.62e-07    2826.660 - 0.000325
+K2P+G4            -1211.216    2552.432 - 1.06e-07    2572.066 - 4.38e-07    2826.770 - 0.000307
+TPM2u+F+R2        -1195.813    2531.625 -   0.0035    2554.635 -  0.00267    2827.067 - 0.000265
+TPM2+F+R2         -1195.813    2531.625 -   0.0035    2554.635 -  0.00267    2827.067 - 0.000265
+TVM+F+I           -1193.625    2529.251 -   0.0115    2552.972 -  0.00613    2828.912 - 0.000105
+TIM3+F+I+G4       -1193.736    2529.472 -   0.0103    2553.193 -  0.00548    2829.134 - 9.42e-05
+TVM+F+G4          -1193.777    2529.555 -  0.00986    2553.276 -  0.00526    2829.217 - 9.04e-05
+TIM+F+I+G4        -1194.003    2530.006 -  0.00787    2553.727 -   0.0042    2829.668 - 7.22e-05
+TIM2+F+I+G4       -1194.313    2530.626 -  0.00577    2554.348 -  0.00308    2830.288 - 5.29e-05
+TIM3+F+R2         -1194.518    2531.035 -   0.0047    2554.757 -  0.00251    2830.697 - 4.31e-05
+TIM+F+R2          -1194.695    2531.391 -  0.00394    2555.112 -   0.0021    2831.053 - 3.61e-05
+TIM2+F+R2         -1195.005    2532.010 -  0.00289    2555.731 -  0.00154    2831.672 - 2.65e-05
+K3P+I             -1210.653    2553.306 - 6.86e-08    2573.590 - 2.04e-07    2831.865 - 2.41e-05
+K3P+G4            -1210.709    2553.418 - 6.49e-08    2573.702 - 1.93e-07    2831.977 - 2.27e-05
+TNe+I             -1210.949    2553.899 -  5.1e-08    2574.183 - 1.52e-07    2832.458 - 1.79e-05
+TNe+G4            -1211.011    2554.022 - 4.79e-08    2574.307 - 1.43e-07    2832.581 - 1.68e-05
+K2P+I+G4          -1211.375    2554.750 - 3.33e-08    2575.034 - 9.92e-08    2833.308 - 1.17e-05
+GTR+F+I           -1192.866    2529.732 -  0.00902    2554.178 -  0.00335    2833.614 -    1e-05
+GTR+F+G4          -1193.018    2530.035 -  0.00775    2554.482 -  0.00288    2833.918 - 8.62e-06
+K2P+R2            -1211.962    2555.923 - 1.85e-08    2576.208 - 5.52e-08    2834.482 -  6.5e-06
+TVM+F+I+G4        -1194.001    2532.001 -   0.0029    2556.448 -  0.00108    2835.884 - 3.22e-06
+TVM+F+R2          -1194.748    2533.496 -  0.00137    2557.942 -  0.00051    2837.378 - 1.53e-06
+TIMe+I            -1210.449    2554.897 -  3.1e-08    2575.844 - 6.61e-08    2837.677 - 1.32e-06
+TIMe+G4           -1210.511    2555.021 - 2.91e-08    2575.969 - 6.22e-08    2837.801 - 1.24e-06
+TIM3e+I           -1210.770    2555.540 - 2.24e-08    2576.487 -  4.8e-08    2838.319 - 9.54e-07
+TIM3e+G4          -1210.845    2555.691 - 2.08e-08    2576.638 - 4.45e-08    2838.470 - 8.85e-07
+K3P+I+G4          -1210.862    2555.725 - 2.05e-08    2576.672 - 4.37e-08    2838.504 -  8.7e-07
+TIM2e+I           -1210.902    2555.804 - 1.97e-08    2576.751 -  4.2e-08    2838.584 - 8.36e-07
+TIM2e+G4          -1210.960    2555.919 - 1.86e-08    2576.866 - 3.97e-08    2838.699 - 7.89e-07
+TNe+I+G4          -1211.188    2556.376 - 1.48e-08    2577.323 - 3.16e-08    2839.156 - 6.28e-07
+K3P+R2            -1211.450    2556.901 - 1.14e-08    2577.848 - 2.43e-08    2839.680 - 4.83e-07
+TNe+R2            -1211.802    2557.604 -    8e-09    2578.551 - 1.71e-08    2840.383 -  3.4e-07
+GTR+F+I+G4        -1193.264    2532.529 -  0.00223    2557.713 - 0.000572    2840.632 -    3e-07
+GTR+F+R2          -1194.036    2534.071 -  0.00103    2559.256 - 0.000265    2842.175 - 1.39e-07
+TVMe+I            -1210.520    2557.041 - 1.06e-08    2578.663 - 1.62e-08    2844.041 - 5.46e-08
+TVMe+G4           -1210.581    2557.161 - 9.98e-09    2578.783 - 1.52e-08    2844.161 - 5.14e-08
+TIMe+I+G4         -1210.681    2557.363 - 9.02e-09    2578.985 - 1.38e-08    2844.363 - 4.65e-08
+TIM3e+I+G4        -1211.037    2558.075 - 6.32e-09    2579.697 - 9.64e-09    2845.075 - 3.26e-08
+TIM2e+I+G4        -1211.128    2558.256 - 5.77e-09    2579.878 -  8.8e-09    2845.256 - 2.97e-08
+TIMe+R2           -1211.284    2558.568 - 4.94e-09    2580.190 - 7.53e-09    2845.568 - 2.54e-08
+TIM3e+R2          -1211.650    2559.300 - 3.42e-09    2580.922 - 5.22e-09    2846.300 - 1.76e-08
+TIM2e+R2          -1211.726    2559.453 - 3.17e-09    2581.075 - 4.84e-09    2846.453 - 1.63e-08
+GTR+F             -1203.329    2548.657 - 7.01e-07    2572.379 - 3.74e-07    2848.319 - 6.43e-09
+SYM+I             -1210.311    2558.622 - 4.81e-09    2580.931 -  5.2e-09    2849.843 -    3e-09
+SYM+G4            -1210.374    2558.747 - 4.52e-09    2581.057 - 4.88e-09    2849.968 - 2.82e-09
+TVMe+I+G4         -1210.727    2559.454 - 3.17e-09    2581.764 - 3.43e-09    2850.675 - 1.98e-09
+TVMe+R2           -1211.315    2560.631 - 1.76e-09    2582.940 -  1.9e-09    2851.852 -  1.1e-09
+GTR+F+R3          -1193.395    2536.790 - 0.000265    2563.488 - 3.19e-05    2853.334 - 5.24e-10
+SYM+I+G4          -1210.540    2561.081 - 1.41e-09    2584.090 - 1.07e-09    2856.522 - 1.06e-10
+SYM+R2            -1211.139    2562.278 - 7.73e-10    2585.288 - 5.89e-10    2857.720 - 5.85e-11
+F81+F+I           -1244.213    2622.427 - 6.71e-23    2643.374 - 1.43e-22    2905.206 - 2.85e-21
+F81+F+G4          -1244.314    2622.627 - 6.07e-23    2643.574 -  1.3e-22    2905.407 - 2.58e-21
+F81+F+I+G4        -1244.441    2624.882 - 1.97e-23    2646.504 -    3e-23    2911.882 - 1.01e-22
+F81+F+R2          -1245.216    2626.432 - 9.06e-24    2648.055 - 1.38e-23    2913.433 - 4.67e-23
+JC+I              -1259.614    2647.227 - 2.76e-28    2666.223 - 1.57e-27    2917.345 -  6.6e-24
+JC+G4             -1259.659    2647.319 - 2.64e-28    2666.314 -  1.5e-27    2917.437 -  6.3e-24
+JC+I+G4           -1259.749    2649.497 - 8.88e-29    2669.131 - 3.66e-28    2923.836 - 2.57e-25
+JC+R2             -1260.461    2650.923 - 4.36e-29    2670.557 - 1.79e-28    2925.261 - 1.26e-25
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+I
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 11.6307
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 11.6307
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2388
+  pi(C) = 0.2004
+  pi(G) = 0.2037
+  pi(T) = 0.3571
+
+Rate matrix Q:
+
+  A   -0.8897   0.06091    0.7202    0.1086
+  C    0.0726    -1.397   0.06192     1.263
+  G    0.8444   0.06091    -1.014    0.1086
+  T    0.0726    0.7085   0.06192    -0.843
+
+Model of rate heterogeneity: Invar
+Proportion of invariable sites: 0.6871
+
+ Category  Relative_rate  Proportion
+  0         0              0.6871
+  1         3.196          0.3129
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1194.8212 (s.e. 55.6984)
+Unconstrained log-likelihood (without tree): -1047.5632
+Number of free parameters (#branches + #model parameters): 68
+Akaike information criterion (AIC) score: 2525.6425
+Corrected Akaike information criterion (AICc) score: 2547.2646
+Bayesian information criterion (BIC) score: 2812.6426
+
+Total tree length (sum of branch lengths): 0.2073
+Sum of internal branch lengths: 0.1574 (75.9439% of tree length)
+
+WARNING: 22 near-zero internal branches (<0.0020) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'PV804880.1_Eulimnogammarus_marituji_S_AmspA1_COI_EmaritujiLAmspY20_EmaS' is drawn at root
+
++**PV804880.1_Eulimnogammarus_marituji_S_AmspA1_COI_EmaritujiLAmspY20_EmaS
+|
+|  +**PV804881.1_Eulimnogammarus_marituji_S_AmspA2_COI_EmaritujiLAmspY20_EmaS
++**|
+|  |                                                              +**PV804886.1_Eulimnogammarus_marituji_C_AmspA14_COI_EmaritujiLUy15_EmaC
+|  |                                                           +--|
+|  |                                                           |  |              +**PV804888.1_Eulimnogammarus_marituji_C_AmspA97_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  |           +**|
+|  |                                                           |  |           |  |  +**PV804894.1_Eulimnogammarus_marituji_C_GRA3_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  |           |  +**|
+|  |                                                           |  |           |     +**PV804899.1_Eulimnogammarus_marituji_C_BolR2_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  |        +**|
+|  |                                                           |  |        |  +**PV804921.1_Eulimnogammarus_marituji_C_Uy12_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  |     +**|
+|  |                                                           |  |     |  |     +**PV804924.1_Eulimnogammarus_marituji_C_Uy15_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  |     |  |  +**|
+|  |                                                           |  |     |  |  |  +**PV804926.1_Eulimnogammarus_marituji_C_Uy17_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  |     |  +**|
+|  |                                                           |  |     |     +**PV804925.1_Eulimnogammarus_marituji_C_Uy16_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  |  +**|
+|  |                                                           |  |  |  +**PV804922.1_Eulimnogammarus_marituji_C_Uy13_COI_EmaritujiLUy15_EmaC
+|  |                                                           |  +**|
+|  |                                                           |     +**PV804938.1_Eulimnogammarus_marituji_C_Ya2_1_COI_EmaritujiLUy15_EmaC
+|  |                                     +---------------------|
+|  |                                     |                     |     +**PV804889.1_Eulimnogammarus_marituji_C_AmspA163_COI_EmaritujiLUy15_EmaC
+|  |                                     |                     |  +**|
+|  |                                     |                     |  |  +**PV804891.1_Eulimnogammarus_marituji_C_Amspa165_COI_EmaritujiLUy15_EmaC
+|  |                                     |                     +--|
+|  |                                     |                        +--PV804946.1_Eulimnogammarus_marituji_C_W247_COI_EmaritujiLUy15_EmaC
+|  |        +----------------------------|
+|  |        |                            |                         +**PV804902.1_Eulimnogammarus_marituji_W_EmaritL1_COI_EmaritujiL5_EmaW
+|  |        |                            |                      +**|
+|  |        |                            |                      |  +**PV804903.1_Eulimnogammarus_marituji_W_EmarBK_COI_EmaritujiL5_EmaW
+|  |        |                            |                   +**|
+|  |        |                            |                   |  |     +--PV804912.1_Eulimnogammarus_marituji_W_EmarL9_COI_EmaritujiL5_EmaW
+|  |        |                            |                   |  |  +**|
+|  |        |                            |                   |  |  |  +--PV804917.1_Eulimnogammarus_marituji_W_EmarL4_COI_EmaritujiL5_EmaW
+|  |        |                            |                   |  +**|
+|  |        |                            |                   |     |  +--PV804920.1_Eulimnogammarus_marituji_W_EmarL1_COI_EmaritujiL5_EmaW
+|  |        |                            |                   |     +**|
+|  |        |                            |                   |        +--PV804935.1_Eulimnogammarus_marituji_W_AmspY18_COI_EmaritujiL5_EmaW
+|  |        |                            |                +--|
+|  |        |                            |                |  +--PV804904.1_Eulimnogammarus_marituji_W_LorBK_COI_EmaritujiL5_EmaW
+|  |        |                            |             +--|
+|  |        |                            |             |  |  +**PV804928.1_Eulimnogammarus_marituji_W_AmspY10_COI_EmaritujiL5_EmaW
+|  |        |                            |             |  +**|
+|  |        |                            |             |     +--PV804929.1_Eulimnogammarus_marituji_W_AmspY11_COI_EmaritujiL5_EmaW
+|  |        |                            +-------------|
+|  |        |                                          +**PV804932.1_Eulimnogammarus_marituji_W_AmspY14_COI_EmaritujiL5_EmaW
+|  |     +**|
+|  |     |  +**PV804895.1_Eulimnogammarus_marituji_S_GRA4_COI_EmaritujiLAmspY20_EmaS
+|  |  +**|
+|  |  |  +**PV804931.1_Eulimnogammarus_marituji_S_AmspY13_COI_EmaritujiLAmspY20_EmaS
+|  +**|
+|     +--PV804887.1_Eulimnogammarus_marituji_S_AmspA15_COI_EmaritujiLAmspY20_EmaS
+|
+|     +**PV804927.1_Eulimnogammarus_marituji_S_AmspY9_COI_EmaritujiLAmspY20_EmaS
+|  +**|
+|  |  |  +**PV804933.1_Eulimnogammarus_marituji_S_AmspY15_COI_EmaritujiLAmspY20_EmaS
+|  |  +--|
+|  |     +**PV804937.1_Eulimnogammarus_marituji_S_AmspY20_COI_EmaritujiLAmspY20_EmaS
++**|
+   |  +**PV804934.1_Eulimnogammarus_marituji_S_AmspY16_COI_EmaritujiLAmspY20_EmaS
+   +**|
+      +**PV804936.1_Eulimnogammarus_marituji_S_AmspY19_COI_EmaritujiLAmspY20_EmaS
+
+Tree in newick format:
+
+(PV804880.1_Eulimnogammarus_marituji_S_AmspA1_COI_EmaritujiLAmspY20_EmaS:0.0000010000,(PV804881.1_Eulimnogammarus_marituji_S_AmspA2_COI_EmaritujiLAmspY20_EmaS:0.0000010000,((((((PV804886.1_Eulimnogammarus_marituji_C_AmspA14_COI_EmaritujiLUy15_EmaC:0.0019704577,(((((PV804888.1_Eulimnogammarus_marituji_C_AmspA97_COI_EmaritujiLUy15_EmaC:0.0019784569,(PV804894.1_Eulimnogammarus_marituji_C_GRA3_COI_EmaritujiLUy15_EmaC:0.0000010000,PV804899.1_Eulimnogammarus_marituji_C_BolR2_COI_EmaritujiLUy15_EmaC:0.0019800072):0.0000010000):0.0019757296,PV804921.1_Eulimnogammarus_marituji_C_Uy12_COI_EmaritujiLUy15_EmaC:0.0019757420):0.0000010000,((PV804924.1_Eulimnogammarus_marituji_C_Uy15_COI_EmaritujiLUy15_EmaC:0.0019688327,PV804926.1_Eulimnogammarus_marituji_C_Uy17_COI_EmaritujiLUy15_EmaC:0.0019730948):0.0000010000,PV804925.1_Eulimnogammarus_marituji_C_Uy16_COI_EmaritujiLUy15_EmaC:0.0019757710):0.0000010000):0.0011854272,PV804922.1_Eulimnogammarus_marituji_C_Uy13_COI_EmaritujiLUy15_EmaC:0.0019406104):0.0008412249,PV804938.1_Eulimnogammarus_marituji_C_Ya2_1_COI_EmaritujiLUy15_EmaC:0.0019774984):0.0000010000):0.0050211436,((PV804889.1_Eulimnogammarus_marituji_C_AmspA163_COI_EmaritujiLUy15_EmaC:0.0000010000,PV804891.1_Eulimnogammarus_marituji_C_Amspa165_COI_EmaritujiLUy15_EmaC:0.0000010000):0.0000010000,PV804946.1_Eulimnogammarus_marituji_C_W247_COI_EmaritujiLUy15_EmaC:0.0060079279):0.0073666360):0.0461632656,(((((PV804902.1_Eulimnogammarus_marituji_W_EmaritL1_COI_EmaritujiL5_EmaW:0.0000010000,PV804903.1_Eulimnogammarus_marituji_W_EmarBK_COI_EmaritujiL5_EmaW:0.0000010000):0.0000010000,((PV804912.1_Eulimnogammarus_marituji_W_EmarL9_COI_EmaritujiL5_EmaW:0.0020057060,PV804917.1_Eulimnogammarus_marituji_W_EmarL4_COI_EmaritujiL5_EmaW:0.0020129110):0.0000010000,(PV804920.1_Eulimnogammarus_marituji_W_EmarL1_COI_EmaritujiL5_EmaW:0.0040701702,PV804935.1_Eulimnogammarus_marituji_W_AmspY18_COI_EmaritujiL5_EmaW:0.0020188243):0.0000010000):0.0000010000):0.0000010000,PV804904.1_Eulimnogammarus_marituji_W_LorBK_COI_EmaritujiL5_EmaW:0.0020254370):0.0020100912,(PV804928.1_Eulimnogammarus_marituji_W_AmspY10_COI_EmaritujiL5_EmaW:0.0000010000,PV804929.1_Eulimnogammarus_marituji_W_AmspY11_COI_EmaritujiL5_EmaW:0.0020116950):0.0000010000):0.0020099972,PV804932.1_Eulimnogammarus_marituji_W_AmspY14_COI_EmaritujiL5_EmaW:0.0000010000):0.0286001930):0.0602784211,PV804895.1_Eulimnogammarus_marituji_S_GRA4_COI_EmaritujiLAmspY20_EmaS:0.0000010000):0.0019831040,PV804931.1_Eulimnogammarus_marituji_S_AmspY13_COI_EmaritujiLAmspY20_EmaS:0.0019875188):0.0000010000,PV804887.1_Eulimnogammarus_marituji_S_AmspA15_COI_EmaritujiLAmspY20_EmaS:0.0019997863):0.0000010000):0.0000010000,((PV804927.1_Eulimnogammarus_marituji_S_AmspY9_COI_EmaritujiLAmspY20_EmaS:0.0019802892,(PV804933.1_Eulimnogammarus_marituji_S_AmspY15_COI_EmaritujiLAmspY20_EmaS:0.0000010000,PV804937.1_Eulimnogammarus_marituji_S_AmspY20_COI_EmaritujiLAmspY20_EmaS:0.0000010000):0.0040127375):0.0000010000,(PV804934.1_Eulimnogammarus_marituji_S_AmspY16_COI_EmaritujiLAmspY20_EmaS:0.0000010000,PV804936.1_Eulimnogammarus_marituji_S_AmspY19_COI_EmaritujiLAmspY20_EmaS:0.0000010000):0.0019833292):0.0000010000);
+
+TIME STAMP
+----------
+
+Date and time: Tue Dec 16 21:13:24 2025
+Total CPU time used: 1.01144 seconds (0h:0m:1s)
+Total wall-clock time used: 1.14894 seconds (0h:0m:1s)
+

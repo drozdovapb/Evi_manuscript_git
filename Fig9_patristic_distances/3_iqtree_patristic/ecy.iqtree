@@ -1,0 +1,363 @@
+IQ-TREE 2.0.7 built Jan 21 2022
+
+Input file name: ../4_Ecy.fasta
+Type of analysis: ModelFinder + tree reconstruction
+Random seed number: 679199
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 160 sequences with 503 nucleotide sites
+Number of constant sites: 445 (= 88.4692% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 445 (= 88.4692% of all sites)
+Number of parsimony informative sites: 31
+Number of distinct site patterns: 62
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: HKY+F+I
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+HKY+F+I           -1316.583    2957.166 -  0.00807    3112.496 +   0.0983    3640.902 +    0.302
+HKY+F+R2          -1314.184    2954.368 -   0.0327    3112.079 +    0.121    3642.324 +    0.148
+TN+F+I            -1314.553    2955.106 -   0.0226    3112.817 +   0.0837    3643.062 +    0.102
+TN+F+R2           -1311.754    2951.508 +    0.137    3111.626 +    0.152    3643.684 +   0.0751
+HKY+F+I+G4        -1315.208    2956.416 -   0.0117    3114.127 -   0.0435    3644.373 +   0.0532
+TPM2+F+I          -1315.724    2957.448 -  0.00701    3115.159 -    0.026    3645.404 -   0.0318
+TPM2u+F+I         -1315.724    2957.448 -  0.00701    3115.159 -    0.026    3645.404 -   0.0318
+HKY+F+G4          -1318.854    2961.709 - 0.000832    3117.038 -   0.0101    3645.444 -   0.0311
+K3Pu+F+I          -1316.015    2958.030 -  0.00524    3115.741 -   0.0194    3645.986 -   0.0237
+TN+F+I+G4         -1313.088    2954.176 -    0.036    3114.294 -     0.04    3646.353 -   0.0198
+TPM2u+F+R2        -1313.198    2954.397 -   0.0322    3114.515 -   0.0358    3646.574 -   0.0177
+TPM2+F+R2         -1313.198    2954.397 -   0.0322    3114.515 -   0.0358    3646.574 -   0.0177
+TPM3+F+I          -1316.528    2959.056 -  0.00314    3116.767 -   0.0116    3647.012 -   0.0142
+TPM3u+F+I         -1316.528    2959.056 -  0.00314    3116.767 -   0.0116    3647.012 -   0.0142
+K3Pu+F+R2         -1313.659    2955.318 -   0.0203    3115.436 -   0.0226    3647.494 -   0.0112
+TIM2+F+I          -1313.695    2955.389 -   0.0196    3115.508 -   0.0218    3647.566 -   0.0108
+TN+F+G4           -1316.890    2959.780 -  0.00218    3117.491 -  0.00809    3647.736 -   0.0099
+TIM2+F+R2         -1310.744    2951.489 +    0.138    3114.040 -   0.0454    3647.886 -  0.00919
+TIM+F+I           -1313.984    2955.968 -   0.0147    3116.086 -   0.0163    3648.145 -  0.00807
+TPM3u+F+R2        -1314.151    2956.301 -   0.0124    3116.420 -   0.0138    3648.478 -  0.00683
+TPM3+F+R2         -1314.151    2956.301 -   0.0124    3116.420 -   0.0138    3648.478 -  0.00683
+TPM2u+F+I+G4      -1314.320    2956.640 -   0.0105    3116.758 -   0.0117    3648.816 -  0.00577
+TPM2+F+I+G4       -1314.320    2956.640 -   0.0105    3116.758 -   0.0117    3648.817 -  0.00577
+TIM+F+R2          -1311.238    2952.476 +   0.0842    3115.028 -   0.0277    3648.873 -  0.00561
+TIM3+F+I          -1314.502    2957.005 -  0.00875    3117.123 -  0.00972    3649.181 -  0.00481
+K3Pu+F+I+G4       -1314.629    2957.258 -   0.0077    3117.376 -  0.00856    3649.435 -  0.00423
+TIM3+F+R2         -1311.730    2953.460 +   0.0515    3116.012 -   0.0169    3649.857 -  0.00343
+TPM2+F+G4         -1318.002    2962.004 - 0.000718    3119.715 -  0.00266    3649.960 -  0.00326
+TPM2u+F+G4        -1318.002    2962.004 - 0.000718    3119.715 -  0.00266    3649.960 -  0.00326
+TPM3+F+I+G4       -1315.147    2958.294 -  0.00459    3118.412 -   0.0051    3650.470 -  0.00252
+TPM3u+F+I+G4      -1315.147    2958.294 -  0.00459    3118.412 -   0.0051    3650.470 -  0.00252
+K3Pu+F+G4         -1318.267    2962.535 - 0.000551    3120.246 -  0.00204    3650.491 -   0.0025
+TIM2+F+I+G4       -1312.203    2954.407 -   0.0321    3116.959 -   0.0106    3650.804 -  0.00213
+TIM+F+I+G4        -1312.510    2955.019 -   0.0236    3117.571 -  0.00777    3651.417 -  0.00157
+TPM3u+F+G4        -1318.766    2963.532 - 0.000335    3121.243 -  0.00124    3651.488 -  0.00152
+TPM3+F+G4         -1318.766    2963.532 - 0.000335    3121.243 -  0.00124    3651.488 -  0.00152
+TIM2+F+G4         -1316.050    2960.100 -  0.00186    3120.218 -  0.00207    3652.277 -  0.00102
+TIM3+F+I+G4       -1313.037    2956.075 -   0.0139    3118.627 -  0.00458    3652.472 - 0.000927
+TIM+F+G4          -1316.303    2960.607 -  0.00144    3120.725 -  0.00161    3652.783 - 0.000794
+TIM3+F+G4         -1316.810    2961.619 -  0.00087    3121.738 - 0.000967    3653.796 - 0.000478
+TVM+F+I           -1314.035    2958.069 -  0.00514    3120.621 -  0.00169    3654.466 - 0.000342
+TVM+F+R2          -1311.548    2955.097 -   0.0227    3120.109 -  0.00218    3655.715 - 0.000183
+GTR+F+I           -1312.007    2956.015 -   0.0143    3121.027 -  0.00138    3656.633 - 0.000116
+GTR+F+R2          -1309.114    2952.228 +   0.0953    3119.727 -  0.00264    3657.067 - 9.32e-05
+TVM+F+I+G4        -1312.626    2957.251 -  0.00773    3122.263 - 0.000744    3657.869 - 6.24e-05
+TVM+F+G4          -1316.257    2962.514 - 0.000556    3125.066 - 0.000183    3658.912 - 3.71e-05
+GTR+F+I+G4        -1310.524    2955.048 -   0.0233    3122.546 - 0.000646    3659.886 - 2.28e-05
+GTR+F+G4          -1314.314    2960.628 -  0.00143    3125.640 - 0.000138    3661.246 - 1.15e-05
+GTR+F+R3          -1309.115    2956.231 -   0.0129    3128.783 - 2.86e-05    3669.510 - 1.85e-07
+K2P+R2            -1337.432    2994.865 - 5.26e-11    3145.508 - 6.67e-09    3670.159 - 1.34e-07
+K2P+I             -1341.661    3001.321 - 2.08e-12    3149.660 - 8.36e-10    3672.395 - 4.37e-08
+TNe+R2            -1336.383    2994.766 - 5.52e-11    3147.740 - 2.18e-09    3674.281 -  1.7e-08
+K2P+I+G4          -1340.108    3000.216 - 3.62e-12    3150.860 - 4.59e-10    3675.511 - 9.21e-09
+K3P+R2            -1337.076    2996.152 - 2.76e-11    3149.126 - 1.09e-09    3675.668 - 8.52e-09
+TIM2e+R2          -1334.530    2993.061 -  1.3e-10    3148.390 - 1.58e-09    3676.796 - 4.84e-09
+TNe+I             -1340.930    3001.860 - 1.59e-12    3152.503 - 2.02e-10    3677.154 - 4.05e-09
+K3P+I             -1341.307    3002.614 - 1.09e-12    3153.258 - 1.38e-10    3677.909 - 2.78e-09
+K2P+G4            -1344.826    3007.653 - 8.78e-14    3155.991 - 3.53e-11    3678.726 - 1.85e-09
+TIMe+R2           -1336.027    2996.053 -  2.9e-11    3151.382 - 3.53e-10    3679.789 - 1.09e-09
+TNe+I+G4          -1339.228    3000.457 - 3.21e-12    3153.430 - 1.27e-10    3679.972 -  9.9e-10
+TIM3e+R2          -1336.170    2996.339 - 2.51e-11    3151.669 - 3.06e-10    3680.075 -  9.4e-10
+TIM2e+I           -1339.393    3000.785 - 2.72e-12    3153.759 - 1.08e-10    3680.300 -  8.4e-10
+K3P+I+G4          -1339.755    3001.509 -  1.9e-12    3154.483 -  7.5e-11    3681.024 - 5.85e-10
+TVMe+R2           -1333.833    2993.665 - 9.57e-11    3151.376 - 3.55e-10    3681.622 - 4.34e-10
+TIMe+I            -1340.577    3003.154 - 8.33e-13    3156.128 -  3.3e-11    3682.669 - 2.57e-10
+TIM2e+I+G4        -1337.607    2999.213 - 5.97e-12    3154.543 - 7.28e-11    3682.949 - 2.23e-10
+TIM3e+I           -1340.830    3003.659 - 6.47e-13    3156.633 - 2.56e-11    3683.174 -    2e-10
+TNe+G4            -1343.983    3007.966 - 7.51e-14    3158.610 - 9.53e-12    3683.261 - 1.91e-10
+K3P+G4            -1344.474    3008.948 -  4.6e-14    3159.591 - 5.83e-12    3684.242 - 1.17e-10
+TVMe+I            -1338.469    3000.937 - 2.52e-12    3156.266 - 3.07e-11    3684.673 - 9.44e-11
+TIMe+I+G4         -1338.874    3001.748 - 1.68e-12    3157.077 - 2.05e-11    3685.484 - 6.29e-11
+SYM+R2            -1332.760    2993.519 - 1.03e-10    3153.638 - 1.14e-10    3685.696 - 5.66e-11
+TIM3e+I+G4        -1339.117    3002.235 - 1.32e-12    3157.564 - 1.61e-11    3685.970 - 4.93e-11
+TIM2e+G4          -1342.441    3006.882 - 1.29e-13    3159.855 - 5.11e-12    3686.397 - 3.99e-11
+TVMe+I+G4         -1336.842    2999.685 - 4.72e-12    3157.396 - 1.75e-11    3687.641 - 2.14e-11
+TIMe+G4           -1343.631    3009.261 - 3.93e-14    3162.235 - 1.56e-12    3688.776 - 1.21e-11
+TIM3e+G4          -1343.924    3009.848 - 2.93e-14    3162.821 - 1.16e-12    3689.363 - 9.05e-12
+SYM+I             -1337.736    3001.472 - 1.93e-12    3159.183 - 7.15e-12    3689.428 - 8.76e-12
+TVMe+G4           -1341.658    3007.316 - 1.04e-13    3162.645 - 1.27e-12    3691.051 - 3.89e-12
+SYM+I+G4          -1335.922    2999.844 - 4.36e-12    3159.963 - 4.84e-12    3692.021 - 2.39e-12
+SYM+G4            -1340.785    3007.571 - 9.15e-14    3165.282 - 3.39e-13    3695.527 - 4.15e-13
+GTR+F             -1353.926    3037.853 - 2.43e-20    3200.405 -    8e-21    3734.250 - 1.62e-21
+F81+F+R2          -1373.436    3070.872 - 1.64e-27    3226.201 -    2e-26    3754.608 - 6.15e-26
+F81+F+I           -1376.754    3075.508 - 1.62e-28    3228.481 - 6.41e-27    3755.023 -    5e-26
+F81+F+I+G4        -1375.323    3074.645 - 2.49e-28    3229.975 - 3.04e-27    3758.381 - 9.32e-27
+F81+F+G4          -1379.483    3080.966 - 1.06e-29    3233.940 - 4.18e-28    3760.481 - 3.26e-27
+JC+R2             -1395.157    3108.314 - 1.22e-35    3256.652 - 4.89e-33    3779.388 - 2.56e-31
+JC+I              -1399.336    3114.672 - 5.07e-37    3260.730 - 6.37e-34    3781.525 - 8.78e-32
+JC+I+G4           -1397.787    3113.574 - 8.77e-37    3261.912 - 3.53e-34    3784.648 - 1.84e-32
+JC+G4             -1402.440    3120.881 - 2.27e-38    3266.939 - 2.85e-35    3787.734 - 3.94e-33
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+I
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 15.0140
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 15.0140
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2625
+  pi(C) = 0.1818
+  pi(G) = 0.183
+  pi(T) = 0.3727
+
+Rate matrix Q:
+
+  A   -0.8314   0.04579    0.6918   0.09386
+  C   0.06609    -1.521   0.04608     1.409
+  G    0.9922   0.04579    -1.132   0.09386
+  T   0.06609    0.6875   0.04608   -0.7996
+
+Model of rate heterogeneity: Invar
+Proportion of invariable sites: 0.8183
+
+ Category  Relative_rate  Proportion
+  0         0              0.8183
+  1         5.504          0.1817
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -1310.4860 (s.e. 81.8268)
+Unconstrained log-likelihood (without tree): -1007.8925
+Number of free parameters (#branches + #model parameters): 162
+Akaike information criterion (AIC) score: 2944.9721
+Corrected Akaike information criterion (AICc) score: 3100.3015
+Bayesian information criterion (BIC) score: 3628.7077
+
+Total tree length (sum of branch lengths): 0.1925
+Sum of internal branch lengths: 0.0560 (29.0987% of tree length)
+
+WARNING: 56 near-zero internal branches (<0.0020) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'GBCM1719019|Eulimnogammarus_cyaneus|COI5P|MK887579_KX341964_Ecy_' is drawn at root
+
++**GBCM1719019|Eulimnogammarus_cyaneus|COI5P|MK887579_KX341964_Ecy_
+|
+|     +--GBCM1719119|Eulimnogammarus_cyaneus|COI5P|MK887585_KX341964_Ecy_
+|  +**|
+|  |  +------GBCMA269410|Eulimnogammarus_cyaneus|COI5P|FJ756324_KX341964_Ecy_
++**|
+|  |                 +**GBCM1719319|Eulimnogammarus_cyaneus|COI5P|MK887580_KX341964_Ecy_
+|  |              +**|
+|  |              |  +**GBCM1723819|Eulimnogammarus_cyaneus|COI5P|MK887627_KX341964_Ecy_
+|  |           +**|
+|  |           |  +--GBCM1729919|Eulimnogammarus_cyaneus|COI5P|MK887692_KX341964_Ecy_
+|  |        +--|
+|  |        |  |                 +**GBCM1719819|Eulimnogammarus_cyaneus|COI5P|MK887592_KX341964_Ecy_
+|  |        |  |              +**|
+|  |        |  |              |  +**GBCM1730519|Eulimnogammarus_cyaneus|COI5P|MK887694_KX341964_Ecy_
+|  |        |  |           +--|
+|  |        |  |           |  |  +--GBCM1731319|Eulimnogammarus_cyaneus|COI5P|MK887697_KX341964_Ecy_
+|  |        |  |           |  +**|
+|  |        |  |           |     +--GBCM1731419|Eulimnogammarus_cyaneus|COI5P|MK887698_KX341964_Ecy_
+|  |        |  |        +--|
+|  |        |  |        |  |                 +--GBCM1722719|Eulimnogammarus_cyaneus|COI5P|MK887616_KX341964_Ecy_
+|  |        |  |        |  |              +**|
+|  |        |  |        |  |              |  |  +**GBCM1722819|Eulimnogammarus_cyaneus|COI5P|MK887623_KX341964_Ecy_
+|  |        |  |        |  |              |  +**|
+|  |        |  |        |  |              |     +**GBCM1722919|Eulimnogammarus_cyaneus|COI5P|MK887624_KX341964_Ecy_
+|  |        |  |        |  |           +--|
+|  |        |  |        |  |           |  +**GBCM1723319|Eulimnogammarus_cyaneus|COI5P|MK887619_KX341964_Ecy_
+|  |        |  |        |  |        +**|
+|  |        |  |        |  |        |  +------GBCM1721019|Eulimnogammarus_cyaneus|COI5P|MK887602_KX341964_Ecy_
+|  |        |  |        |  |     +**|
+|  |        |  |        |  |     |  |     +--GBCM1727619|Eulimnogammarus_cyaneus|COI5P|MK887663_KX341964_Ecy_
+|  |        |  |        |  |     |  |  +--|
+|  |        |  |        |  |     |  |  |  +------GBCM1733019|Eulimnogammarus_cyaneus|COI5P|MK887718_KX341964_Ecy_
+|  |        |  |        |  |     |  +**|
+|  |        |  |        |  |     |     +--GBCM1720519|Eulimnogammarus_cyaneus|COI5P|MK887589_KX341964_Ecy_
+|  |        |  |        |  |  +**|
+|  |        |  |        |  |  |  |  +**GBCM1728319|Eulimnogammarus_cyaneus|COI5P|MK887670_KX341964_Ecy_
+|  |        |  |        |  |  |  +**|
+|  |        |  |        |  |  |     +**GBCM1728419|Eulimnogammarus_cyaneus|COI5P|MK887673_KX341964_Ecy_
+|  |        |  |        |  +**|
+|  |        |  |        |     +--GBCM1725919|Eulimnogammarus_cyaneus|COI5P|MK887643_KX341964_Ecy_
+|  |        |  |     +**|
+|  |        |  |     |  +**GBCM1723919|Eulimnogammarus_cyaneus|COI5P|MK887628_KX341964_Ecy_
+|  |        |  |  +**|
+|  |        |  |  |  |                  +**GBCM1720119|Eulimnogammarus_cyaneus|COI5P|MK887595_KX341964_Ecy_
+|  |        |  |  |  |               +**|
+|  |        |  |  |  |               |  +**GBCM1724519|Eulimnogammarus_cyaneus|COI5P|MK887634_KX341964_Ecy_
+|  |        |  |  |  |            +**|
+|  |        |  |  |  |            |  +**GBCM1734119|Eulimnogammarus_cyaneus|COI5P|MK887728_KX341964_Ecy_
+|  |        |  |  |  |     +------|
+|  |        |  |  |  |     |      |  +**GBCM1728619|Eulimnogammarus_cyaneus|COI5P|MK887682_KX341964_Ecy_
+|  |        |  |  |  |     |      +**|
+|  |        |  |  |  |     |         +**GBCM1733519|Eulimnogammarus_cyaneus|COI5P|MK887724_KX341964_Ecy_
+|  |        |  |  |  |  +--|
+|  |        |  |  |  |  |  |     +**GBCM1726819|Eulimnogammarus_cyaneus|COI5P|MK887655_KX341964_Ecy_
+|  |        |  |  |  |  |  |  +**|
+|  |        |  |  |  |  |  |  |  +**GBCM1727819|Eulimnogammarus_cyaneus|COI5P|MK887665_KX341964_Ecy_
+|  |        |  |  |  |  |  +--|
+|  |        |  |  |  |  |     +**GBCM1726619|Eulimnogammarus_cyaneus|COI5P|MK887653_KX341964_Ecy_
+|  |        |  |  |  +**|
+|  |        |  |  |     |                   +**GBCM1720819|Eulimnogammarus_cyaneus|COI5P|MK887597_KX341964_Ecy_
+|  |        |  |  |     |                +**|
+|  |        |  |  |     |                |  +**GBCM1721619|Eulimnogammarus_cyaneus|COI5P|MK887605_KX341964_Ecy_
+|  |        |  |  |     |             +**|
+|  |        |  |  |     |             |  |         +**GBCM1724019|Eulimnogammarus_cyaneus|COI5P|MK887629_KX341964_Ecy_
+|  |        |  |  |     |             |  |  +------|
+|  |        |  |  |     |             |  |  |      +**GBCM1729519|Eulimnogammarus_cyaneus|COI5P|MK887688_KX341964_Ecy_
+|  |        |  |  |     |             |  +**|
+|  |        |  |  |     |             |     +--GBCM1720919|Eulimnogammarus_cyaneus|COI5P|MK887601_KX341964_Ecy_
+|  |        |  |  |     |  +----------|
+|  |        |  |  |     |  |          +--GBCM1730419|Eulimnogammarus_cyaneus|COI5P|MK887686_KX341964_Ecy_
+|  |        |  |  |     +**|
+|  |        |  |  |        |                  +**GBCM1721219|Eulimnogammarus_cyaneus|COI5P|MK887604_KX341964_Ecy_
+|  |        |  |  |        |               +**|
+|  |        |  |  |        |               |  |  +**GBCM1721519|Eulimnogammarus_cyaneus|COI5P|MK887600_KX341964_Ecy_
+|  |        |  |  |        |               |  +**|
+|  |        |  |  |        |               |     |                 +--GBCM1722319|Eulimnogammarus_cyaneus|COI5P|MK887609_KX341964_Ecy_
+|  |        |  |  |        |               |     |              +--|
+|  |        |  |  |        |               |     |              |  |  +**GBCM1721719|Eulimnogammarus_cyaneus|COI5P|MK887613_KX341964_Ecy_
+|  |        |  |  |        |               |     |              |  +**|
+|  |        |  |  |        |               |     |              |     +**GBCM1730219|Eulimnogammarus_cyaneus|COI5P|MK887684_KX341964_Ecy_
+|  |        |  |  |        |               |     |           +**|
+|  |        |  |  |        |               |     |           |  +--GBCM1726419|Eulimnogammarus_cyaneus|COI5P|MK887661_KX341964_Ecy_
+|  |        |  |  |        |               |     |        +**|
+|  |        |  |  |        |               |     |        |  |  +**GBCM1725619|Eulimnogammarus_cyaneus|COI5P|MK887648_KX341964_Ecy_
+|  |        |  |  |        |               |     |        |  +--|
+|  |        |  |  |        |               |     |        |     +**GBCM1726519|Eulimnogammarus_cyaneus|COI5P|MK887652_KX341964_Ecy_
+|  |        |  |  |        |               |     |     +**|
+|  |        |  |  |        |               |     |     |  +------GBCM1727219|Eulimnogammarus_cyaneus|COI5P|MK887659_KX341964_Ecy_
+|  |        |  |  |        |               |     |  +**|
+|  |        |  |  |        |               |     |  |  +**COAPP11412|Eulimnogammarus_cyaneus|COI5P_KX341964_Ecy_
+|  |        |  |  |        |               |     +**|
+|  |        |  |  |        |               |        +--GBCM1722119|Eulimnogammarus_cyaneus|COI5P|MK887607_KX341964_Ecy_
+|  |        |  |  |        |            +**|
+|  |        |  |  |        |            |  |     +**GBCM1725419|Eulimnogammarus_cyaneus|COI5P|MK887646_KX341964_Ecy_
+|  |        |  |  |        |            |  |  +**|
+|  |        |  |  |        |            |  |  |  |  +**GBCM1727119|Eulimnogammarus_cyaneus|COI5P|MK887658_KX341964_Ecy_
+|  |        |  |  |        |            |  |  |  +**|
+|  |        |  |  |        |            |  |  |     +**GBCM1726119|Eulimnogammarus_cyaneus|COI5P|MK887645_KX341964_Ecy_
+|  |        |  |  |        |            |  +**|
+|  |        |  |  |        |            |     |     +**GBCM1726019|Eulimnogammarus_cyaneus|COI5P|MK887644_KX341964_Ecy_
+|  |        |  |  |        |            |     |  +**|
+|  |        |  |  |        |            |     |  |  +-----------------GBCM1726319|Eulimnogammarus_cyaneus|COI5P|MK887660_KX341964_Ecy_
+|  |        |  |  |        |            |     +**|
+|  |        |  |  |        |            |        +--------------------------GBCM1725519|Eulimnogammarus_cyaneus|COI5P|MK887647_KX341964_Ecy_
+|  |        |  |  |        |         +**|
+|  |        |  |  |        |         |  |     +**GBCM1727019|Eulimnogammarus_cyaneus|COI5P|MK887657_KX341964_Ecy_
+|  |        |  |  |        |         |  |  +**|
+|  |        |  |  |        |         |  |  |  +**GBCM1725719|Eulimnogammarus_cyaneus|COI5P|MK887649_KX341964_Ecy_
+|  |        |  |  |        |         |  +**|
+|  |        |  |  |        |         |     |  +--GBCM1726919|Eulimnogammarus_cyaneus|COI5P|MK887656_KX341964_Ecy_
+|  |        |  |  |        |         |     +**|
+|  |        |  |  |        |         |        +----------GBCM1726219|Eulimnogammarus_cyaneus|COI5P|MK887651_KX341964_Ecy_
+|  |        |  |  |        |      +--|
+|  |        |  |  |        |      |  |      +**GBCM1733419|Eulimnogammarus_cyaneus|COI5P|MK887722_KX341964_Ecy_
+|  |        |  |  |        |      |  +------|
+|  |        |  |  |        |      |         +**GBCM1732819|Eulimnogammarus_cyaneus|COI5P|MK887716_KX341964_Ecy_
+|  |        |  |  |        +------|
+|  |        |  |  |               |  +**GBCM1726719|Eulimnogammarus_cyaneus|COI5P|MK887654_KX341964_Ecy_
+|  |        |  |  |               +**|
+|  |        |  |  |                  +--GBCM1733219|Eulimnogammarus_cyaneus|COI5P|MK887720_KX341964_Ecy_
+|  |        |  +--|
+|  |        |     |  +-------------GBCM1727419|Eulimnogammarus_cyaneus|COI5P|MK887671_KX341964_Ecy_
+|  |        |     +**|
+|  |        |        |  +**GBCM1719619|Eulimnogammarus_cyaneus|COI5P|MK887583_KX341964_Ecy_
+|  |        |        +**|
+|  |        |           +------GBCM1719919|Eulimnogammarus_cyaneus|COI5P|MK887593_KX341964_Ecy_
+|  |     +--|
+|  |     |  |        +**GBCM1720219|Eulimnogammarus_cyaneus|COI5P|MK887596_KX341964_Ecy_
+|  |     |  |     +**|
+|  |     |  |     |  +**GBCM1725819|Eulimnogammarus_cyaneus|COI5P|MK887650_KX341964_Ecy_
+|  |     |  |  +**|
+|  |     |  |  |  |              +**GBCM1722419|Eulimnogammarus_cyaneus|COI5P|MK887610_KX341964_Ecy_
+|  |     |  |  |  |           +**|
+|  |     |  |  |  |           |  +**GBCM1732719|Eulimnogammarus_cyaneus|COI5P|MK887723_KX341964_Ecy_
+|  |     |  |  |  |        +**|
+|  |     |  |  |  |        |  |  +------GBCM1730919|Eulimnogammarus_cyaneus|COI5P|MK887702_KX341964_Ecy_
+|  |     |  |  |  |        |  +--|
+|  |     |  |  |  |        |     +**GBCM1731719|Eulimnogammarus_cyaneus|COI5P|MK887706_KX341964_Ecy_
+|  |     |  |  |  |     +--|
+|  |     |  |  |  |     |  +--GBCM1732219|Eulimnogammarus_cyaneus|COI5P|MK887709_KX341964_Ecy_
+|  |     |  |  |  |  +**|
+|  |     |  |  |  |  |  |     +**GBCM1729119|Eulimnogammarus_cyaneus|COI5P|MK887679_KX341964_Ecy_
+|  |     |  |  |  |  |  |  +**|
+|  |     |  |  |  |  |  |  |  +**GBCM1732419|Eulimnogammarus_cyaneus|COI5P|MK887711_KX341964_Ecy_
+|  |     |  |  |  |  |  +--|
+|  |     |  |  |  |  |     +--GBCM1734019|Eulimnogammarus_cyaneus|COI5P|MK887727_KX341964_Ecy_
+|  |     |  |  |  +**|
+|  |     |  |  |     +--GBCM1729219|Eulimnogammarus_cyaneus|COI5P|MK887680_KX341964_Ecy_
+|  |     |  +**|
+|  |     |     |  +--GBCM1732319|Eulimnogammarus_cyaneus|COI5P|MK887710_KX341964_Ecy_
+|  |     |     +**|
+|  |     |        +--GBCM1728219|Eulimnogammarus_cyaneus|COI5P|MK887669_KX341964_Ecy_
+|  |  +--|
+|  |  |  +**GBCM1729019|Eulimnogammarus_cyaneus|COI5P|MK887678_KX341964_Ecy_
+|  +**|
+|     +**GBCM1723719|Eulimnogammarus_cyaneus|COI5P|MK887626_KX341964_Ecy_
+|
++**GBCM1719219|Eulimnogammarus_cyaneus|COI5P|MK887586_KX341964_Ecy_
+
+Tree in newick format:
+
+(GBCM1719019|Eulimnogammarus_cyaneus|COI5P|MK887579_KX341964_Ecy_:0.0000010000,((GBCM1719119|Eulimnogammarus_cyaneus|COI5P|MK887585_KX341964_Ecy_:0.0020019061,GBCMA269410|Eulimnogammarus_cyaneus|COI5P|FJ756324_KX341964_Ecy_:0.0040378792):0.0000010000,((((((GBCM1719319|Eulimnogammarus_cyaneus|COI5P|MK887580_KX341964_Ecy_:0.0000020562,GBCM1723819|Eulimnogammarus_cyaneus|COI5P|MK887627_KX341964_Ecy_:0.0000010000):0.0000010000,GBCM1729919|Eulimnogammarus_cyaneus|COI5P|MK887692_KX341964_Ecy_:0.0020087211):0.0000010000,((((((GBCM1719819|Eulimnogammarus_cyaneus|COI5P|MK887592_KX341964_Ecy_:0.0000023429,GBCM1730519|Eulimnogammarus_cyaneus|COI5P|MK887694_KX341964_Ecy_:0.0000010000):0.0000010000,(GBCM1731319|Eulimnogammarus_cyaneus|COI5P|MK887697_KX341964_Ecy_:0.0020236592,GBCM1731419|Eulimnogammarus_cyaneus|COI5P|MK887698_KX341964_Ecy_:0.0020188898):0.0000029883):0.0020314606,((((((GBCM1722719|Eulimnogammarus_cyaneus|COI5P|MK887616_KX341964_Ecy_:0.0019996213,(GBCM1722819|Eulimnogammarus_cyaneus|COI5P|MK887623_KX341964_Ecy_:0.0000010000,GBCM1722919|Eulimnogammarus_cyaneus|COI5P|MK887624_KX341964_Ecy_:0.0000010000):0.0000010000):0.0000010000,GBCM1723319|Eulimnogammarus_cyaneus|COI5P|MK887619_KX341964_Ecy_:0.0019817116):0.0019928273,GBCM1721019|Eulimnogammarus_cyaneus|COI5P|MK887602_KX341964_Ecy_:0.0040535599):0.0000029497,((GBCM1727619|Eulimnogammarus_cyaneus|COI5P|MK887663_KX341964_Ecy_:0.0020309854,GBCM1733019|Eulimnogammarus_cyaneus|COI5P|MK887718_KX341964_Ecy_:0.0040907940):0.0020307817,GBCM1720519|Eulimnogammarus_cyaneus|COI5P|MK887589_KX341964_Ecy_:0.0020225767):0.0000029946):0.0000027937,(GBCM1728319|Eulimnogammarus_cyaneus|COI5P|MK887670_KX341964_Ecy_:0.0000010000,GBCM1728419|Eulimnogammarus_cyaneus|COI5P|MK887673_KX341964_Ecy_:0.0000010000):0.0000010000):0.0000029874,GBCM1725919|Eulimnogammarus_cyaneus|COI5P|MK887643_KX341964_Ecy_:0.0020314220):0.0000020072):0.0019921051,GBCM1723919|Eulimnogammarus_cyaneus|COI5P|MK887628_KX341964_Ecy_:0.0019763156):0.0000024763,(((((GBCM1720119|Eulimnogammarus_cyaneus|COI5P|MK887595_KX341964_Ecy_:0.0000010000,GBCM1724519|Eulimnogammarus_cyaneus|COI5P|MK887634_KX341964_Ecy_:0.0000010000):0.0000026822,GBCM1734119|Eulimnogammarus_cyaneus|COI5P|MK887728_KX341964_Ecy_:0.0019672419):0.0000020650,(GBCM1728619|Eulimnogammarus_cyaneus|COI5P|MK887682_KX341964_Ecy_:0.0000010000,GBCM1733519|Eulimnogammarus_cyaneus|COI5P|MK887724_KX341964_Ecy_:0.0000010000):0.0019563479):0.0040028157,((GBCM1726819|Eulimnogammarus_cyaneus|COI5P|MK887655_KX341964_Ecy_:0.0000010000,GBCM1727819|Eulimnogammarus_cyaneus|COI5P|MK887665_KX341964_Ecy_:0.0000010000):0.0000010000,GBCM1726619|Eulimnogammarus_cyaneus|COI5P|MK887653_KX341964_Ecy_:0.0019718485):0.0019948934):0.0019994877,((((GBCM1720819|Eulimnogammarus_cyaneus|COI5P|MK887597_KX341964_Ecy_:0.0000022984,GBCM1721619|Eulimnogammarus_cyaneus|COI5P|MK887605_KX341964_Ecy_:0.0000010000):0.0000010000,((GBCM1724019|Eulimnogammarus_cyaneus|COI5P|MK887629_KX341964_Ecy_:0.0000010000,GBCM1729519|Eulimnogammarus_cyaneus|COI5P|MK887688_KX341964_Ecy_:0.0000025210):0.0040561675,GBCM1720919|Eulimnogammarus_cyaneus|COI5P|MK887601_KX341964_Ecy_:0.0020238544):0.0000020421):0.0000020281,GBCM1730419|Eulimnogammarus_cyaneus|COI5P|MK887686_KX341964_Ecy_:0.0020170022):0.0063026826,(((((GBCM1721219|Eulimnogammarus_cyaneus|COI5P|MK887604_KX341964_Ecy_:0.0000010000,(GBCM1721519|Eulimnogammarus_cyaneus|COI5P|MK887600_KX341964_Ecy_:0.0000010000,((((((GBCM1722319|Eulimnogammarus_cyaneus|COI5P|MK887609_KX341964_Ecy_:0.0020150564,(GBCM1721719|Eulimnogammarus_cyaneus|COI5P|MK887613_KX341964_Ecy_:0.0000020618,GBCM1730219|Eulimnogammarus_cyaneus|COI5P|MK887684_KX341964_Ecy_:0.0000020178):0.0000020262):0.0019988746,GBCM1726419|Eulimnogammarus_cyaneus|COI5P|MK887661_KX341964_Ecy_:0.0019988843):0.0000023222,(GBCM1725619|Eulimnogammarus_cyaneus|COI5P|MK887648_KX341964_Ecy_:0.0000025085,GBCM1726519|Eulimnogammarus_cyaneus|COI5P|MK887652_KX341964_Ecy_:0.0000029085):0.0019990390):0.0000029549,GBCM1727219|Eulimnogammarus_cyaneus|COI5P|MK887659_KX341964_Ecy_:0.0040196876):0.0019877956,COAPP11412|Eulimnogammarus_cyaneus|COI5P_KX341964_Ecy_:0.0019878011):0.0000010000,GBCM1722119|Eulimnogammarus_cyaneus|COI5P|MK887607_KX341964_Ecy_:0.0019991142):0.0000010000):0.0000010000):0.0000010000,((GBCM1725419|Eulimnogammarus_cyaneus|COI5P|MK887646_KX341964_Ecy_:0.0000022658,(GBCM1727119|Eulimnogammarus_cyaneus|COI5P|MK887658_KX341964_Ecy_:0.0000010000,GBCM1726119|Eulimnogammarus_cyaneus|COI5P|MK887645_KX341964_Ecy_:0.0019765254):0.0019699013):0.0019810736,((GBCM1726019|Eulimnogammarus_cyaneus|COI5P|MK887644_KX341964_Ecy_:0.0000028875,GBCM1726319|Eulimnogammarus_cyaneus|COI5P|MK887660_KX341964_Ecy_:0.0104096212):0.0000566841,GBCM1725519|Eulimnogammarus_cyaneus|COI5P|MK887647_KX341964_Ecy_:0.0151180768):0.0019437735):0.0000029017):0.0000010000,((GBCM1727019|Eulimnogammarus_cyaneus|COI5P|MK887657_KX341964_Ecy_:0.0019818557,GBCM1725719|Eulimnogammarus_cyaneus|COI5P|MK887649_KX341964_Ecy_:0.0000010000):0.0003736734,(GBCM1726919|Eulimnogammarus_cyaneus|COI5P|MK887656_KX341964_Ecy_:0.0019998255,GBCM1726219|Eulimnogammarus_cyaneus|COI5P|MK887651_KX341964_Ecy_:0.0061316159):0.0016231648):0.0019798166):0.0000029253,(GBCM1733419|Eulimnogammarus_cyaneus|COI5P|MK887722_KX341964_Ecy_:0.0000029410,GBCM1732819|Eulimnogammarus_cyaneus|COI5P|MK887716_KX341964_Ecy_:0.0000029371):0.0039964951):0.0019923743,(GBCM1726719|Eulimnogammarus_cyaneus|COI5P|MK887654_KX341964_Ecy_:0.0000010000,GBCM1733219|Eulimnogammarus_cyaneus|COI5P|MK887720_KX341964_Ecy_:0.0019971014):0.0000010000):0.0041444426):0.0019358823):0.0000024892):0.0000010000,(GBCM1727419|Eulimnogammarus_cyaneus|COI5P|MK887671_KX341964_Ecy_:0.0081161440,(GBCM1719619|Eulimnogammarus_cyaneus|COI5P|MK887583_KX341964_Ecy_:0.0000021980,GBCM1719919|Eulimnogammarus_cyaneus|COI5P|MK887593_KX341964_Ecy_:0.0040013388):0.0019815121):0.0000020802):0.0019926862):0.0019973780,(((GBCM1720219|Eulimnogammarus_cyaneus|COI5P|MK887596_KX341964_Ecy_:0.0000010000,GBCM1725819|Eulimnogammarus_cyaneus|COI5P|MK887650_KX341964_Ecy_:0.0000010000):0.0000010000,(((((GBCM1722419|Eulimnogammarus_cyaneus|COI5P|MK887610_KX341964_Ecy_:0.0000010000,GBCM1732719|Eulimnogammarus_cyaneus|COI5P|MK887723_KX341964_Ecy_:0.0000010000):0.0000024925,(GBCM1730919|Eulimnogammarus_cyaneus|COI5P|MK887702_KX341964_Ecy_:0.0040444438,GBCM1731719|Eulimnogammarus_cyaneus|COI5P|MK887706_KX341964_Ecy_:0.0000027548):0.0020064844):0.0000029606,GBCM1732219|Eulimnogammarus_cyaneus|COI5P|MK887709_KX341964_Ecy_:0.0020017584):0.0020017780,((GBCM1729119|Eulimnogammarus_cyaneus|COI5P|MK887679_KX341964_Ecy_:0.0000010000,GBCM1732419|Eulimnogammarus_cyaneus|COI5P|MK887711_KX341964_Ecy_:0.0000010000):0.0000010000,GBCM1734019|Eulimnogammarus_cyaneus|COI5P|MK887727_KX341964_Ecy_:0.0019905341):0.0019905471):0.0000010000,GBCM1729219|Eulimnogammarus_cyaneus|COI5P|MK887680_KX341964_Ecy_:0.0020249505):0.0000010000):0.0000010000,(GBCM1732319|Eulimnogammarus_cyaneus|COI5P|MK887710_KX341964_Ecy_:0.0020018694,GBCM1728219|Eulimnogammarus_cyaneus|COI5P|MK887669_KX341964_Ecy_:0.0019905748):0.0000029491):0.0000029543):0.0019907008,GBCM1729019|Eulimnogammarus_cyaneus|COI5P|MK887678_KX341964_Ecy_:0.0000029165):0.0019907022,GBCM1723719|Eulimnogammarus_cyaneus|COI5P|MK887626_KX341964_Ecy_:0.0019859771):0.0000029472):0.0000010000,GBCM1719219|Eulimnogammarus_cyaneus|COI5P|MK887586_KX341964_Ecy_:0.0000010000);
+
+TIME STAMP
+----------
+
+Date and time: Tue Dec 16 21:08:06 2025
+Total CPU time used: 6.983 seconds (0h:0m:6s)
+Total wall-clock time used: 7.71177 seconds (0h:0m:7s)
+
