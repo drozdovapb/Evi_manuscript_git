@@ -26,7 +26,7 @@ draw.split.network <- function(Nnet) {
     ## get fixed x:y ratio
     coord_fixed() + 
     ## add points
-    geom_point(data=tips.occur, aes(x=x, y=y, fill=species), shape=21, size=2) + 
+    geom_point(data=tips.occur, aes(x=x, y=y, fill=species), shape=21, size=2, stroke = .1) + 
     ## species names in italics and in the center
     theme(plot.title = element_text(face = "italic", hjust = 0.5), 
           legend.position = "none") ## remove legend, it doesn't really help much
@@ -56,7 +56,7 @@ pma
 
 pvi <- draw.split.network(Nnet.evi) + 
   ggtitle("E. vittatus") + 
-  scale_fill_manual(values = c("#D81B60", "#4477AA", "#F0E442"))
+  scale_fill_manual(values = c("#f6850c", "#4477AA", "#F0E442"))
 pvi
 
 pve <- draw.split.network(Nnet.eve) + 
@@ -145,6 +145,7 @@ plot_distances <- function(csv_filename, already_triangular=TRUE) {
   table_long$group <- paste(substr(table_long$first, 4,4), substr(table_long$second,4,4), sep = "\n")
   table_long$group[table_long$group == "S\nW"] <- "W\nS"
   table_long$group[table_long$group == "E\nW"] <- "W\nE"
+  table_long$group[table_long$group == "N\nW"] <- "W\nN"
   table_long$group[table_long$group == "S\nE"] <- "E\nS"
   table_long$group[table_long$group == "S\nC"] <- "C\nS"
   ## let's make sure we don't run the same comparisons twice
