@@ -16,8 +16,9 @@ Idea of the analysis: compare four studied _Eulimnogammarus_ species adequately 
     ~/lib/kentUtils/faFilter -minSize=550 0_Eulimno_COI_with_class.fasta 1_all_COI_more550.fasta
     # align
     mafft --auto 1_all_COI_more550.fasta >2_all_COI_more550.aln..fasta
-    # trim to the shortest
-    ~/lib/trimAl/source/trimal -nogaps -in 2_all_COI_more550.aln..fasta -out 3_all_COI_more550.trim.aln.fasta
+    # added P. monodon COI sequence 100-580 (AF217843), realigned with mafft in UGENE and trimmed all sequences to this length
+    ## NB: 
+
 
     # split    
     ~/lib/kentUtils/faFilter -name=*verrucosus* 3_all_COI_more550.trim.aln.fasta 4_Eve.fasta
@@ -28,9 +29,9 @@ Idea of the analysis: compare four studied _Eulimnogammarus_ species adequately 
     # statistics on the # of sequences
     grep -c \> 4_*fasta
     #4_Ecy.fasta:160
-    #4_Ema.fasta:64
-    #4_Eve.fasta:297
-    #4_Evi.fasta:146 ##removed 2 manually
+    #4_Ema.fasta:63 ## had to remove 2 sequences manually; were not long enough
+    #4_Eve.fasta:295 ## had to remove 2 sequences manually; were not long enough
+    #4_Evi.fasta:141 ## had to remove 7 sequences manually; were not long enough
     # clean up
     mv 1* 2_alignment/
     mv 2* 2_alignment/

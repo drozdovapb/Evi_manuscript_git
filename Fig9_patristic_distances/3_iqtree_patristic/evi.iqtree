@@ -2,7 +2,7 @@ IQ-TREE 2.0.7 built Jan 21 2022
 
 Input file name: ../4_Evi.fasta
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 687519
+Random seed number: 630704
 
 REFERENCES
 ----------
@@ -25,110 +25,110 @@ https://doi.org/10.1038/nmeth.4285
 SEQUENCE ALIGNMENT
 ------------------
 
-Input data: 146 sequences with 503 nucleotide sites
-Number of constant sites: 385 (= 76.5408% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 385 (= 76.5408% of all sites)
-Number of parsimony informative sites: 79
-Number of distinct site patterns: 115
+Input data: 141 sequences with 484 nucleotide sites
+Number of constant sites: 372 (= 76.8595% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 372 (= 76.8595% of all sites)
+Number of parsimony informative sites: 77
+Number of distinct site patterns: 110
 
 ModelFinder
 -----------
 
-Best-fit model according to BIC: HKY+F+G4
+Best-fit model according to BIC: HKY+F+I+G4
 
 List of models sorted by BIC scores: 
 
 Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
-HKY+F+G4          -2137.817    4635.633 -  0.00825    4837.994 +    0.107    5395.340 +    0.235
-HKY+F+I+G4        -2134.921    4631.842 +   0.0549    4837.089 +    0.168    5395.769 +    0.189
-K3Pu+F+G4         -2136.071    4634.141 -   0.0174    4839.387 +   0.0533    5398.068 +     0.06
-TPM3+F+G4         -2136.268    4634.536 -   0.0143    4839.782 -   0.0438    5398.463 -   0.0492
-TPM3u+F+G4        -2136.273    4634.546 -   0.0142    4839.792 -   0.0436    5398.473 -    0.049
-TPM2+F+G4         -2136.292    4634.584 -   0.0139    4839.831 -   0.0427    5398.511 -    0.048
-TPM2u+F+G4        -2136.292    4634.584 -   0.0139    4839.831 -   0.0427    5398.511 -    0.048
-K3Pu+F+I+G4       -2133.225    4630.450 +     0.11    4838.612 +   0.0786    5398.597 -    0.046
-HKY+F+R2          -2136.508    4635.016 -   0.0112    4840.262 -   0.0344    5398.943 -   0.0387
-TPM2u+F+I+G4      -2133.432    4630.864 +   0.0896    4839.026 +   0.0639    5399.011 -   0.0374
-TPM2+F+I+G4       -2133.432    4630.864 +   0.0896    4839.026 +   0.0639    5399.011 -   0.0374
-TPM3+F+I+G4       -2133.517    4631.033 +   0.0823    4839.196 +   0.0587    5399.181 -   0.0344
-TPM3u+F+I+G4      -2133.517    4631.035 +   0.0822    4839.197 +   0.0586    5399.182 -   0.0343
-HKY+F+I           -2140.869    4641.738 -  0.00039    4844.098 -  0.00506    5401.444 -   0.0111
-TN+F+G4           -2137.761    4637.521 -  0.00321    4842.768 -  0.00984    5401.448 -   0.0111
-TN+F+I+G4         -2134.851    4633.701 -   0.0217    4841.864 -   0.0155    5401.849 -  0.00905
-K3Pu+F+R2         -2134.901    4633.803 -   0.0206    4841.965 -   0.0147    5401.950 -  0.00861
-TPM2+F+R2         -2135.154    4634.308 -    0.016    4842.471 -   0.0114    5402.456 -  0.00668
-TPM2u+F+R2        -2135.154    4634.308 -    0.016    4842.471 -   0.0114    5402.456 -  0.00668
-TPM3+F+R2         -2135.356    4634.712 -   0.0131    4842.874 -  0.00933    5402.859 -  0.00546
-TPM3u+F+R2        -2135.357    4634.713 -   0.0131    4842.876 -  0.00932    5402.860 -  0.00546
-TIM+F+G4          -2136.016    4636.031 -  0.00676    4844.194 -  0.00482    5404.179 -  0.00282
-K3Pu+F+I          -2139.153    4640.307 - 0.000797    4845.553 -  0.00244    5404.233 -  0.00275
-TIM3+F+G4         -2136.216    4636.432 -  0.00554    4844.594 -  0.00395    5404.579 -  0.00231
-TIM2+F+G4         -2136.233    4636.466 -  0.00544    4844.629 -  0.00388    5404.614 -  0.00227
-TIM+F+I+G4        -2133.150    4632.301 -   0.0437    4843.411 -  0.00713    5404.669 -  0.00221
-TPM2u+F+I         -2139.403    4640.806 - 0.000621    4846.053 -   0.0019    5404.733 -  0.00214
-TPM2+F+I          -2139.403    4640.806 - 0.000621    4846.053 -   0.0019    5404.733 -  0.00214
-TPM3+F+I          -2139.428    4640.856 - 0.000606    4846.102 -  0.00186    5404.783 -  0.00209
-TPM3u+F+I         -2139.433    4640.866 - 0.000603    4846.112 -  0.00185    5404.793 -  0.00208
-TN+F+R2           -2136.456    4636.912 -  0.00435    4845.075 -   0.0031    5405.060 -  0.00182
-TIM2+F+I+G4       -2133.362    4632.723 -   0.0354    4843.833 -  0.00578    5405.091 -  0.00179
-TIM3+F+I+G4       -2133.437    4632.875 -   0.0328    4843.984 -  0.00535    5405.243 -  0.00166
-TVM+F+G4          -2134.370    4634.740 -   0.0129    4845.850 -  0.00211    5407.108 - 0.000653
-TN+F+I            -2140.755    4643.510 - 0.000161    4848.756 - 0.000493    5407.437 - 0.000554
-TVM+F+I+G4        -2131.633    4631.267 +   0.0732    4845.355 -   0.0027    5407.855 - 0.000449
-TIM+F+R2          -2134.853    4635.706 -  0.00796    4846.816 -   0.0013    5408.074 - 0.000403
-TIM2+F+R2         -2135.117    4636.234 -  0.00611    4847.344 - 0.000998    5408.602 - 0.000309
-TIM3+F+R2         -2135.307    4636.614 -  0.00505    4847.724 - 0.000825    5408.982 - 0.000256
-K2P+I+G4          -2151.290    4658.580 - 8.59e-08    4855.259 - 1.91e-05    5409.845 - 0.000166
-TIM+F+I           -2139.039    4642.078 - 0.000329    4850.241 - 0.000235    5410.225 - 0.000137
-K2P+G4            -2154.784    4663.569 - 7.09e-09    4857.452 - 6.37e-06    5410.613 - 0.000113
-TIM2+F+I          -2139.284    4642.569 - 0.000257    4850.731 - 0.000184    5410.716 - 0.000107
-TIM3+F+I          -2139.310    4642.620 - 0.000251    4850.783 - 0.000179    5410.768 - 0.000105
-K2P+R2            -2152.100    4660.201 - 3.82e-08    4856.880 - 8.48e-06    5411.466 - 7.39e-05
-TVM+F+R2          -2133.562    4635.123 -   0.0106    4849.211 - 0.000392    5411.712 - 6.53e-05
-GTR+F+G4          -2134.319    4636.638 -  0.00499    4850.726 - 0.000184    5413.227 - 3.06e-05
-TVM+F+I           -2137.581    4641.162 -  0.00052    4852.271 -  8.5e-05    5413.530 - 2.63e-05
-GTR+F+I+G4        -2131.564    4633.129 -   0.0289    4850.227 - 0.000236    5413.938 - 2.15e-05
-K3P+I+G4          -2150.477    4658.954 - 7.12e-08    4858.459 - 3.85e-06    5414.440 - 1.67e-05
-K3P+G4            -2153.972    4663.944 - 5.87e-09    4860.623 -  1.3e-06    5415.209 - 1.14e-05
-TNe+I+G4          -2151.260    4660.521 - 3.25e-08    4860.026 - 1.76e-06    5416.007 - 7.63e-06
-K3P+R2            -2151.275    4660.549 - 3.21e-08    4860.054 - 1.73e-06    5416.035 - 7.52e-06
-TNe+G4            -2154.738    4665.476 - 2.73e-09    4862.155 - 6.07e-07    5416.741 - 5.28e-06
-K2P+I             -2157.883    4669.767 -  3.2e-10    4863.650 - 2.87e-07    5416.811 -  5.1e-06
-TNe+R2            -2151.988    4661.976 - 1.57e-08    4861.480 -  8.5e-07    5417.461 - 3.69e-06
-GTR+F+R2          -2133.526    4637.051 -  0.00406    4854.149 - 3.32e-05    5417.861 - 3.02e-06
-GTR+F+I           -2137.489    4642.978 -  0.00021    4857.066 - 7.73e-06    5419.567 - 1.29e-06
-TIMe+I+G4         -2150.444    4660.887 - 2.71e-08    4863.248 - 3.51e-07    5420.594 -  7.7e-07
-TIM2e+I+G4        -2150.819    4661.639 - 1.86e-08    4863.999 - 2.41e-07    5421.345 - 5.29e-07
-TIMe+G4           -2153.932    4665.863 - 2.25e-09    4865.368 - 1.22e-07    5421.349 - 5.28e-07
-K3P+I             -2157.070    4670.140 - 2.65e-10    4866.819 - 5.89e-08    5421.405 - 5.13e-07
-TIM2e+G4          -2154.273    4666.547 -  1.6e-09    4866.051 - 8.65e-08    5422.032 - 3.75e-07
-TIMe+R2           -2151.174    4662.348 -  1.3e-08    4864.709 - 1.69e-07    5422.055 - 3.71e-07
-TIM3e+I+G4        -2151.227    4662.453 - 1.24e-08    4864.813 - 1.61e-07    5422.159 - 3.52e-07
-TIM2e+R2          -2151.521    4663.043 - 9.22e-09    4865.403 -  1.2e-07    5422.749 - 2.62e-07
-TIM3e+G4          -2154.695    4667.391 - 1.05e-09    4866.896 - 5.67e-08    5422.877 - 2.46e-07
-TNe+I             -2157.871    4671.743 - 1.19e-10    4868.422 - 2.64e-08    5423.008 -  2.3e-07
-TIM3e+R2          -2151.967    4663.933 - 5.91e-09    4866.294 - 7.66e-08    5423.640 - 1.68e-07
-TVMe+I+G4         -2150.459    4662.918 - 9.81e-09    4868.164 - 3.01e-08    5426.845 - 3.38e-08
-TVMe+G4           -2153.919    4667.839 - 8.38e-10    4870.199 - 1.09e-08    5427.545 - 2.38e-08
-TIMe+I            -2157.056    4672.113 - 9.89e-11    4871.617 - 5.35e-09    5427.598 - 2.32e-08
-TIM2e+I           -2157.388    4672.776 -  7.1e-11    4872.281 - 3.84e-09    5428.262 - 1.66e-08
-TVMe+R2           -2151.182    4664.363 - 4.76e-09    4869.609 - 1.46e-08    5428.290 - 1.64e-08
-GTR+F+R3          -2132.785    4639.570 -  0.00115    4862.783 - 4.43e-07    5428.820 - 1.26e-08
-TIM3e+I           -2157.786    4673.572 - 4.77e-11    4873.077 - 2.58e-09    5429.058 - 1.12e-08
-SYM+I+G4          -2150.410    4664.819 - 3.79e-09    4872.982 -  2.7e-09    5432.967 - 1.58e-09
-SYM+G4            -2153.867    4669.734 - 3.25e-10    4874.980 - 9.96e-10    5433.660 - 1.12e-09
-TVMe+I            -2156.980    4673.959 - 3.93e-11    4876.319 -  5.1e-10    5433.665 - 1.12e-09
-SYM+R2            -2151.053    4666.106 - 1.99e-09    4874.269 - 1.42e-09    5434.254 - 8.32e-10
-SYM+I             -2156.959    4675.918 - 1.48e-11    4881.164 - 4.52e-11    5439.844 - 5.08e-11
-JC+I+G4           -2249.500    4852.999 -  5.2e-50    5046.882 - 4.68e-47    5600.044 -  8.3e-46
-JC+G4             -2252.818    4857.636 - 5.12e-51    5048.753 - 1.84e-47    5600.460 - 6.74e-46
-F81+F+G4          -2243.860    4845.720 - 1.98e-48    5045.225 - 1.07e-46    5601.206 - 4.65e-46
-F81+F+I+G4        -2240.769    4841.538 -  1.6e-47    5043.898 - 2.08e-46    5601.244 - 4.56e-46
-JC+R2             -2250.323    4854.646 - 2.28e-50    5048.529 - 2.05e-47    5601.690 - 3.65e-46
-F81+F+R2          -2241.944    4843.889 - 4.95e-48    5046.249 - 6.42e-47    5603.595 - 1.41e-46
-JC+I              -2255.839    4863.677 -  2.5e-52    5054.794 - 8.95e-49    5606.501 - 3.29e-47
-F81+F+I           -2246.671    4851.341 - 1.19e-49    5050.846 - 6.45e-48    5606.827 -  2.8e-47
-GTR+F             -2242.154    4850.307 -    2e-49    5061.417 - 3.26e-50    5622.675 - 1.01e-50
+HKY+F+I+G4        -2037.574    4425.149 -    0.039    4625.149 +    0.156    5157.014 +    0.205
+TPM3+F+I+G4       -2034.929    4421.857 +    0.202    4624.802 +    0.186    5157.904 +    0.131
+TPM3u+F+I+G4      -2034.938    4421.875 +    0.201    4624.820 +    0.184    5157.922 +     0.13
+HKY+F+G4          -2041.252    4430.503 -  0.00268    4627.590 -    0.046    5158.186 +    0.114
+TPM3+F+G4         -2038.446    4426.891 -   0.0163    4626.891 +   0.0653    5158.756 +   0.0857
+TPM3u+F+G4        -2038.446    4426.891 -   0.0163    4626.891 +   0.0653    5158.756 +   0.0857
+K3Pu+F+I+G4       -2036.043    4424.085 +   0.0664    4627.030 +   0.0609    5160.132 -   0.0431
+HKY+F+R2          -2039.465    4428.929 -   0.0059    4628.929 -   0.0236    5160.794 -   0.0309
+K3Pu+F+G4         -2039.695    4429.390 -  0.00468    4629.390 -   0.0187    5161.255 -   0.0246
+TPM2+F+I+G4       -2036.965    4425.930 -   0.0264    4628.875 -   0.0242    5161.977 -   0.0171
+TPM2u+F+I+G4      -2036.965    4425.930 -   0.0264    4628.875 -   0.0242    5161.977 -   0.0171
+TPM3+F+R2         -2037.092    4426.185 -   0.0233    4629.129 -   0.0213    5162.232 -   0.0151
+TPM3u+F+R2        -2037.092    4426.185 -   0.0233    4629.129 -   0.0213    5162.232 -   0.0151
+TN+F+I+G4         -2037.474    4426.948 -   0.0159    4629.893 -   0.0146    5162.995 -   0.0103
+TPM2u+F+G4        -2040.628    4431.256 -  0.00184    4631.256 -  0.00736    5163.121 -  0.00966
+TPM2+F+G4         -2040.628    4431.256 -  0.00184    4631.256 -  0.00736    5163.121 -  0.00966
+TIM3+F+I+G4       -2034.857    4423.715 +     0.08    4629.636 -   0.0165    5163.944 -   0.0064
+K3Pu+F+R2         -2037.998    4427.997 -   0.0094    4630.941 -  0.00862    5164.044 -  0.00609
+TN+F+G4           -2041.109    4432.217 -  0.00114    4632.217 -  0.00455    5164.082 -  0.00598
+HKY+F+I           -2044.359    4436.718 -  0.00012    4633.805 -  0.00206    5164.401 -   0.0051
+TIM3+F+G4         -2038.308    4428.617 -  0.00689    4631.561 -  0.00632    5164.664 -  0.00447
+K2P+I+G4          -2051.039    4446.077 - 1.11e-06    4637.434 - 0.000335    5165.396 -   0.0031
+TPM3+F+I          -2041.798    4433.597 - 0.000571    4633.597 -  0.00228    5165.462 -    0.003
+TPM3u+F+I         -2041.798    4433.597 - 0.000571    4633.597 -  0.00228    5165.462 -    0.003
+TPM2+F+R2         -2038.938    4429.876 -  0.00367    4632.820 -  0.00337    5165.923 -  0.00238
+TPM2u+F+R2        -2038.938    4429.876 -  0.00367    4632.820 -  0.00337    5165.923 -  0.00238
+TIM+F+I+G4        -2035.977    4425.954 -   0.0261    4631.875 -   0.0054    5166.183 -  0.00209
+TN+F+R2           -2039.425    4430.850 -  0.00226    4633.795 -  0.00207    5166.897 -  0.00146
+TIM+F+G4          -2039.550    4431.100 -  0.00199    4634.045 -  0.00183    5167.147 -  0.00129
+K3Pu+F+I          -2042.828    4435.657 - 0.000204    4635.657 - 0.000815    5167.521 -  0.00107
+K2P+G4            -2055.211    4452.422 - 4.67e-08    4640.960 - 5.75e-05    5167.558 -  0.00105
+TVM+F+I+G4        -2033.661    4423.322 +   0.0973    4632.254 -  0.00447    5167.734 - 0.000963
+TIM2+F+I+G4       -2036.903    4427.806 -   0.0103    4633.728 -  0.00214    5168.035 - 0.000828
+K2P+R2            -2052.429    4448.858 - 2.77e-07    4640.214 - 8.35e-05    5168.176 - 0.000772
+TIM3+F+R2         -2037.045    4428.090 -  0.00897    4634.012 -  0.00186    5168.319 - 0.000718
+TVM+F+G4          -2037.141    4428.282 -  0.00815    4634.203 -  0.00169    5168.511 - 0.000653
+TIM2+F+G4         -2040.485    4432.971 - 0.000782    4635.915 - 0.000717    5169.018 - 0.000507
+TPM2+F+I          -2043.766    4437.532 - 7.99e-05    4637.532 - 0.000319    5169.397 - 0.000419
+TPM2u+F+I         -2043.766    4437.532 - 7.99e-05    4637.532 - 0.000319    5169.397 - 0.000419
+TN+F+I            -2044.066    4438.133 - 5.92e-05    4638.133 - 0.000236    5169.997 -  0.00031
+K3P+I+G4          -2050.257    4446.514 - 8.95e-07    4640.721 - 6.48e-05    5170.015 - 0.000308
+TIM+F+R2          -2037.961    4429.921 -  0.00359    4635.843 - 0.000743    5170.150 - 0.000288
+TIM3+F+I          -2041.489    4434.978 - 0.000286    4637.923 - 0.000263    5171.025 - 0.000186
+TNe+I+G4          -2051.054    4448.109 - 4.03e-07    4642.315 - 2.92e-05    5171.609 - 0.000139
+TIM2+F+R2         -2038.900    4431.801 -   0.0014    4637.722 -  0.00029    5172.030 - 0.000112
+TVM+F+R2          -2035.822    4427.644 -   0.0112    4636.575 - 0.000515    5172.055 - 0.000111
+K3P+G4            -2054.404    4452.809 - 3.85e-08    4644.166 - 1.16e-05    5172.127 - 0.000107
+K3P+R2            -2051.631    4449.263 - 2.27e-07    4643.469 - 1.64e-05    5172.763 - 7.79e-05
+TIM+F+I           -2042.526    4437.051 - 0.000102    4639.996 - 9.31e-05    5173.098 - 6.59e-05
+K2P+I             -2058.012    4458.024 - 2.84e-09    4646.562 - 3.49e-06    5173.160 - 6.38e-05
+TNe+G4            -2055.208    4454.417 - 1.72e-08    4645.774 - 5.18e-06    5173.735 - 4.79e-05
+GTR+F+I+G4        -2033.591    4425.181 -   0.0384    4637.155 - 0.000385    5173.775 -  4.7e-05
+TNe+R2            -2052.363    4450.725 - 1.09e-07    4644.932 -  7.9e-06    5174.226 - 3.75e-05
+GTR+F+G4          -2037.005    4430.010 -  0.00343    4638.941 - 0.000158    5174.421 -  3.4e-05
+TIM2+F+I          -2043.474    4438.948 - 3.94e-05    4641.892 - 3.61e-05    5174.995 - 2.55e-05
+TVM+F+I           -2040.536    4435.073 - 0.000273    4640.994 - 5.65e-05    5175.302 - 2.19e-05
+TIMe+I+G4         -2050.286    4448.571 -  3.2e-07    4645.659 - 5.49e-06    5176.254 - 1.36e-05
+TIM3e+I+G4        -2050.701    4449.401 - 2.11e-07    4646.489 - 3.62e-06    5177.084 - 8.97e-06
+K3P+I             -2057.200    4458.399 - 2.35e-09    4649.756 - 7.07e-07    5177.718 - 6.54e-06
+TIM2e+I+G4        -2051.030    4450.061 - 1.52e-07    4647.148 - 2.61e-06    5177.743 - 6.45e-06
+GTR+F+R2          -2035.771    4429.542 -  0.00434    4641.516 - 4.36e-05    5178.136 - 5.31e-06
+TIMe+G4           -2054.402    4454.805 - 1.42e-08    4649.011 - 1.03e-06    5178.305 - 4.87e-06
+TIMe+R2           -2051.567    4451.134 - 8.89e-08    4648.221 - 1.52e-06    5178.817 - 3.77e-06
+TIM3e+G4          -2054.738    4455.476 - 1.01e-08    4649.682 - 7.34e-07    5178.977 - 3.48e-06
+TNe+I             -2058.008    4460.016 - 1.05e-09    4651.373 - 3.15e-07    5179.335 - 2.91e-06
+TIM3e+R2          -2052.014    4452.028 - 5.69e-08    4649.115 - 9.75e-07    5179.710 - 2.41e-06
+TIM2e+G4          -2055.137    4456.275 -  6.8e-09    4650.481 - 4.92e-07    5179.776 - 2.34e-06
+TIM2e+R2          -2052.290    4452.581 - 4.31e-08    4649.668 - 7.39e-07    5180.263 - 1.83e-06
+GTR+F+I           -2040.234    4436.469 - 0.000136    4645.400 - 6.25e-06    5180.880 - 1.35e-06
+TVMe+I+G4         -2050.032    4450.065 - 1.52e-07    4650.065 - 6.06e-07    5181.929 - 7.96e-07
+TVMe+G4           -2054.052    4456.103 - 7.41e-09    4653.190 - 1.27e-07    5183.786 - 3.15e-07
+TIMe+I            -2057.196    4460.392 - 8.68e-10    4654.598 - 6.28e-08    5183.893 - 2.98e-07
+TIM3e+I           -2057.494    4460.989 - 6.44e-10    4655.195 - 4.66e-08    5184.489 - 2.21e-07
+TVMe+R2           -2051.368    4452.735 - 3.99e-08    4652.735 -  1.6e-07    5184.600 - 2.09e-07
+TIM2e+I           -2057.934    4461.868 - 4.15e-10    4656.075 -    3e-08    5185.369 - 1.43e-07
+SYM+I+G4          -2050.050    4452.101 - 5.48e-08    4655.045 - 5.03e-08    5188.148 - 3.55e-08
+GTR+F+R3          -2035.097    4432.194 -  0.00115    4650.353 - 5.25e-07    5189.152 - 2.15e-08
+TVMe+I            -2056.810    4461.619 -  4.7e-10    4658.707 - 8.06e-09    5189.302 - 1.99e-08
+SYM+G4            -2054.050    4458.100 - 2.73e-09    4658.100 - 1.09e-08    5189.965 - 1.43e-08
+SYM+R2            -2051.307    4454.614 - 1.56e-08    4657.558 - 1.43e-08    5190.661 - 1.01e-08
+SYM+I             -2056.806    4463.611 - 1.74e-10    4663.611 - 6.94e-10    5195.476 - 9.11e-10
+JC+I+G4           -2151.301    4644.601 - 8.67e-50    4833.139 - 1.07e-46    5359.738 - 1.95e-45
+JC+G4             -2155.230    4650.461 - 4.63e-51    4836.212 -  2.3e-47    5361.415 - 8.43e-46
+JC+R2             -2152.851    4647.701 - 1.84e-50    4836.240 - 2.27e-47    5362.838 - 4.14e-46
+F81+F+I+G4        -2144.760    4637.521 - 2.99e-48    4834.608 - 5.12e-47    5365.204 - 1.27e-46
+F81+F+G4          -2148.398    4642.796 - 2.14e-49    4837.002 - 1.55e-47    5366.296 - 7.35e-47
+JC+I              -2157.872    4655.743 -  3.3e-52    4841.494 - 1.64e-48    5366.698 - 6.01e-47
+F81+F+R2          -2146.530    4641.060 - 5.09e-49    4838.148 - 8.73e-48    5368.743 - 2.16e-47
+F81+F+I           -2150.910    4647.820 - 1.73e-50    4842.026 - 1.26e-48    5371.321 - 5.96e-48
+GTR+F             -2144.646    4643.293 - 1.67e-49    4849.214 - 3.45e-50    5383.522 - 1.34e-50
 
 AIC, w-AIC   : Akaike information criterion scores and weights.
 AICc, w-AICc : Corrected AIC scores and weights.
@@ -140,245 +140,241 @@ Minus signs denote significant exclusion.
 SUBSTITUTION PROCESS
 --------------------
 
-Model of substitution: HKY+F+G4
+Model of substitution: HKY+F+I+G4
 
 Rate parameter R:
 
   A-C: 1.0000
-  A-G: 8.5318
+  A-G: 8.2571
   A-T: 1.0000
   C-G: 1.0000
-  C-T: 8.5318
+  C-T: 8.2571
   G-T: 1.0000
 
 State frequencies: (empirical counts from alignment)
 
-  pi(A) = 0.2599
-  pi(C) = 0.1897
-  pi(G) = 0.1975
-  pi(T) = 0.353
+  pi(A) = 0.261
+  pi(C) = 0.1895
+  pi(G) = 0.1978
+  pi(T) = 0.3516
 
 Rate matrix Q:
 
-  A   -0.8858   0.07544      0.67    0.1404
-  C    0.1033     -1.38   0.07853     1.198
-  G    0.8817   0.07544    -1.098    0.1404
-  T    0.1033    0.6436   0.07853   -0.8255
+  A   -0.8877   0.07735    0.6668    0.1435
+  C    0.1065    -1.372   0.08076     1.185
+  G    0.8798   0.07735    -1.101    0.1435
+  T    0.1065    0.6387   0.08076    -0.826
 
-Model of rate heterogeneity: Gamma with 4 categories
-Gamma shape alpha: 0.16
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.5723
+Gamma shape alpha: 0.8159
 
  Category  Relative_rate  Proportion
-  1         9.44e-05       0.25
-  2         0.01433        0.25
-  3         0.2717         0.25
-  4         3.714          0.25
+  0         0              0.5723
+  1         0.2313         0.1069
+  2         0.9668         0.1069
+  3         2.248          0.1069
+  4         5.907          0.1069
 Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -2133.6875 (s.e. 124.7386)
-Unconstrained log-likelihood (without tree): -1347.2618
-Number of free parameters (#branches + #model parameters): 180
-Akaike information criterion (AIC) score: 4627.3751
-Corrected Akaike information criterion (AICc) score: 4829.7353
-Bayesian information criterion (BIC) score: 5387.0813
+Log-likelihood of the tree: -2027.3835 (s.e. 122.2527)
+Unconstrained log-likelihood (without tree): -1283.8773
+Number of free parameters (#branches + #model parameters): 175
+Akaike information criterion (AIC) score: 4404.7670
+Corrected Akaike information criterion (AICc) score: 4604.7670
+Bayesian information criterion (BIC) score: 5136.6319
 
-Total tree length (sum of branch lengths): 0.5552
-Sum of internal branch lengths: 0.2700 (48.6325% of tree length)
+Total tree length (sum of branch lengths): 0.5423
+Sum of internal branch lengths: 0.2697 (49.7417% of tree length)
 
-WARNING: 46 near-zero internal branches (<0.0020) should be treated with caution
+WARNING: 48 near-zero internal branches (<0.0021) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
 NOTE: Tree is UNROOTED although outgroup taxon 'Eulimnogammarus_vittatus_BolR_1_SRR3467061Naumenko_EviW' is drawn at root
 
 +**Eulimnogammarus_vittatus_BolR_1_SRR3467061Naumenko_EviW
 |
-|  +--Eulimnogammarus_vittatus_BolR_2_SRR3467061Naumenko_EviW
-+**|
-|  |     +**Eulimnogammarus_vittatus_BG_SRR3467061Naumenko_EviW
-|  |  +**|
-|  |  |  |     +--Eulimnogammarus_vittatus_Konn_12_SRR3467061Naumenko_EviW
-|  |  |  |  +--|
-|  |  |  |  |  +--Eulimnogammarus_vittatus_GB_4_SRR3467061Naumenko_EviW
-|  |  |  +**|
-|  |  |     +--Eulimnogammarus_vittatus_EviL80_SRR3467061Naumenko_EviW
-|  +**|
-|     |     +--Eulimnogammarus_vittatus_GB_5_SRR3467061Naumenko_EviW
-|     |  +--|
-|     |  |  +**MK887745_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y05_SRR3467061Naumenko_EviW
+|        +--Eulimnogammarus_vittatus_BolR_2_SRR3467061Naumenko_EviW
 |     +**|
-|        +**MK887744_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y04_SRR3467061Naumenko_EviW
+|     |  +--MK887743_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y03_SRR3467061Naumenko_EviW
+|  +**|
+|  |  +**Eulimnogammarus_vittatus_BG_SRR3467061Naumenko_EviW
++**|
+|  |     +--Eulimnogammarus_vittatus_GB_5_SRR3467061Naumenko_EviW
+|  |  +--|
+|  |  |  +**MK887745_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y05_SRR3467061Naumenko_EviW
+|  +**|
+|     +**MK887744_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y04_SRR3467061Naumenko_EviW
 |
-|                                                                                +**Eulimnogammarus_vittatus_Ya1_EviUr1_EviN
-|                                                                             +**|
-|                                                                             |  |  +**Eulimnogammarus_vittatus_Ya2_EviUr1_EviN
-|                                                                             |  +**|
-|                                                                             |     |           +**Eulimnogammarus_vittatus_EviA99_EviUr1_EviN
-|                                                                             |     |        +**|
-|                                                                             |     |        |  +**Eulimnogammarus_vittatus_EviA101_EviUr1_EviN
-|                                                                             |     |     +--|
-|                                                                             |     |     |  +--Eulimnogammarus_vittatus_UB_4_EviUr1_EviN
-|                                                                             |     |  +**|
-|                                                                             |     |  |  |  +---Eulimnogammarus_vittatus_155_1_EviUr1_EviN
-|                                                                             |     |  |  +--|
-|                                                                             |     |  |     +--Eulimnogammarus_vittatus_158_2_EviUr1_EviN
-|                                                                             |     +**|
-|                                                                             |        |  +--Eulimnogammarus_vittatus_Ankh_2_EviUr1_EviN
-|                                                                             |        +**|
-|                                                                             |           +--Eulimnogammarus_vittatus_Uz1_2_EviUr1_EviN
-|                                                                          +**|
-|                                                                          |  +--Eulimnogammarus_vittatus_EviA107_EviUr1_EviN
-|                                                                       +--|
-|                                                                       |  |                    +**Eulimnogammarus_vittatus_Ya4_EviUr1_EviN
-|                                                                       |  |                 +--|
-|                                                                       |  |                 |  +**Eulimnogammarus_vittatus_Ya6_EviUr1_EviN
-|                                                                       |  |              +**|
-|                                                                       |  |              |  +---Eulimnogammarus_vittatus_G_5_EviUr1_EviN
-|                                                                       |  |           +**|
-|                                                                       |  |           |  |  +--Eulimnogammarus_vittatus_G_3_EviUr1_EviN
-|                                                                       |  |           |  +**|
-|                                                                       |  |           |     +----Eulimnogammarus_vittatus_G_4_EviUr1_EviN
-|                                                                       |  |        +**|
-|                                                                       |  |        |  +**Eulimnogammarus_vittatus_G_2_EviUr1_EviN
-|                                                                       |  |     +**|
-|                                                                       |  |     |  +**Eulimnogammarus_vittatus_UB_1_EviUr1_EviN
-|                                                                       |  |  +--|
-|                                                                       |  |  |  +--Eulimnogammarus_vittatus_UB_3_EviUr1_EviN
-|                                                                       |  +--|
-|                                                                       |     +--Eulimnogammarus_vittatus_G_1_EviUr1_EviN
-|                                                                    +**|
-|                                                                    |  |           +**Eulimnogammarus_vittatus_Ya7_EviUr1_EviN
-|                                                                    |  |        +**|
-|                                                                    |  |        |  +**Eulimnogammarus_vittatus_AmspA45_EviUr1_EviN
-|                                                                    |  |     +**|
-|                                                                    |  |     |  |  +--Eulimnogammarus_vittatus_Kur_40_EviUr1_EviN
-|                                                                    |  |     |  +**|
-|                                                                    |  |     |     +--Eulimnogammarus_vittatus_Kur_42_EviUr1_EviN
-|                                                                    |  |  +--|
-|                                                                    |  |  |  +--Eulimnogammarus_vittatus_Uy7_9_EviUr1_EviN
-|                                                                    |  +--|
-|                                                                    |     +**Eulimnogammarus_vittatus_EviA45_EviUr1_EviN
-|                                                               +----|
-|                                                               |    +--Eulimnogammarus_vittatus_158_1_EviUr1_EviN
-|                                               +---------------|
-|                                               |               |                                      +--Eulimnogammarus_vittatus_EviPB83_NC025564111537_EviS
-|                                               |               |                                   +**|
-|                                               |               |                                   |  +--Eulimnogammarus_vittatus_kbjd100_3_NC025564111537_EviS
-|                                               |               |                                +--|
-|                                               |               |                                |  |     +--Eulimnogammarus_vittatus_EviPB87_NC025564111537_EviS
-|                                               |               |                                |  |  +--|
-|                                               |               |                                |  |  |  +--Eulimnogammarus_vittatus_kbjd100_1_NC025564111537_EviS
-|                                               |               |                                |  +**|
-|                                               |               |                                |     +--Eulimnogammarus_vittatus_kbjd100_2_NC025564111537_EviS
-|                                               |               |                             +**|
-|                                               |               |                             |  |              +**Eulimnogammarus_vittatus_Evi_Baikalsk_B38_NC025564111537_EviS
-|                                               |               |                             |  |           +--|
-|                                               |               |                             |  |           |  +**MK887740_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B38_NC025564111537_EviS
-|                                               |               |                             |  |        +--|
-|                                               |               |                             |  |        |  |     +**Eulimnogammarus_vittatus_SR_5_NC025564111537_EviS
-|                                               |               |                             |  |        |  |  +**|
-|                                               |               |                             |  |        |  |  |  +**Eulimnogammarus_vittatus_Vy_2_NC025564111537_EviS
-|                                               |               |                             |  |        |  +--|
-|                                               |               |                             |  |        |     +--Eulimnogammarus_vittatus_Vy_7_NC025564111537_EviS
-|                                               |               |                             |  |     +**|
-|                                               |               |                             |  |     |  |     +**Eulimnogammarus_vittatus_Evi_Baikalsk_B37_NC025564111537_EviS
-|                                               |               |                             |  |     |  |  +--|
-|                                               |               |                             |  |     |  |  |  +**MK887737_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B33_NC025564111537_EviS
-|                                               |               |                             |  |     |  +--|
-|                                               |               |                             |  |     |     +--Eulimnogammarus_vittatus_SR_7_NC025564111537_EviS
-|                                               |               |                             |  |  +**|
-|                                               |               |                             |  |  |  +**MK887734_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B26_NC025564111537_EviS
-|                                               |               |                             |  +--|
-|                                               |               |                             |     |     +--Eulimnogammarus_vittatus_SR_1_NC025564111537_EviS
-|                                               |               |                             |     |  +**|
-|                                               |               |                             |     |  |  |           +**Eulimnogammarus_vittatus_SR_2_NC025564111537_EviS
-|                                               |               |                             |     |  |  |        +**|
-|                                               |               |                             |     |  |  |        |  +**Eulimnogammarus_vittatus_SR_3_NC025564111537_EviS
-|                                               |               |                             |     |  |  |     +--|
-|                                               |               |                             |     |  |  |     |  +--MK887735_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B27_NC025564111537_EviS
-|                                               |               |                             |     |  |  |  +**|
-|                                               |               |                             |     |  |  |  |  +--Eulimnogammarus_vittatus_Vy_8_NC025564111537_EviS
-|                                               |               |                             |     |  |  +**|
-|                                               |               |                             |     |  |     +**MK887736_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B28_NC025564111537_EviS
-|                                               |               |                             |     +--|
-|                                               |               |                             |        |  +--Eulimnogammarus_vittatus_Vy_4_NC025564111537_EviS
-|                                               |               |                             |        +--|
-|                                               |               |                             |           +--Eulimnogammarus_vittatus_Vy_6_NC025564111537_EviS
-|                                               |               |                          +--|
-|                                               |               |                          |  +--Eulimnogammarus_vittatus_EviPB84_NC025564111537_EviS
-|                                               |               +--------------------------|
-|                                               |                                          |  +**Eulimnogammarus_vittatus_EviPB86_NC025564111537_EviS
-|                                               |                                          +**|
-|                                               |                                             +--Eulimnogammarus_vittatus_kbjd100_4_NC025564111537_EviS
-|                                            +--|
-|                                            |  +**Eulimnogammarus_vittatus_UB_6_SRR3467061Naumenko_EviW
-|                                         +--|
-|                                         |  |                  +**Eulimnogammarus_vittatus_Ya8_SRR3467061Naumenko_EviW
-|                                         |  |               +--|
-|                                         |  |               |  |  +--Eulimnogammarus_vittatus_Uz1_3_SRR3467061Naumenko_EviW
-|                                         |  |               |  +--|
-|                                         |  |               |     |  +--Eulimnogammarus_vittatus_Uz2_1_SRR3467061Naumenko_EviW
-|                                         |  |               |     +**|
-|                                         |  |               |        |  +--Eulimnogammarus_vittatus_Uz2_3_SRR3467061Naumenko_EviW
-|                                         |  |               |        +--|
-|                                         |  |               |           +--Eulimnogammarus_vittatus_Uz2_4_SRR3467061Naumenko_EviW
-|                                         |  |            +--|
-|                                         |  |            |  +--Eulimnogammarus_vittatus_Uz1_1_SRR3467061Naumenko_EviW
-|                                         |  |         +--|
-|                                         |  |         |  +**Eulimnogammarus_vittatus_Uz3_2_SRR3467061Naumenko_EviW
-|                                         |  +---------|
-|                                         |            +----Eulimnogammarus_vittatus_Uz3_1_SRR3467061Naumenko_EviW
-|                                      +--|
-|                                      |  |  +--Eulimnogammarus_vittatus_Konn_6_SRR3467061Naumenko_EviW
-|                                      |  +--|
-|                                      |     +--Eulimnogammarus_vittatus_GB_3_SRR3467061Naumenko_EviW
-|                                   +**|
-|                                   |  +--Eulimnogammarus_vittatus_Y_28_SRR3467061Naumenko_EviW
-|                                +**|
-|                                |  +--Eulimnogammarus_vittatus_Konn_14_SRR3467061Naumenko_EviW
-|                             +**|
-|                             |  |  +--Eulimnogammarus_vittatus_Konn_4_SRR3467061Naumenko_EviW
-|                             |  +**|
-|                             |     +--Eulimnogammarus_vittatus_AmspA64_SRR3467061Naumenko_EviW
-|                          +**|
-|                          |  +**Eulimnogammarus_vittatus_AmspA80_SRR3467061Naumenko_EviW
-|                       +**|
-|                       |  +--Eulimnogammarus_vittatus_AmspA63_SRR3467061Naumenko_EviW
+|                                                         +**Eulimnogammarus_vittatus_Ya1_EviUr1_EviN
+|                                                      +**|
+|                                                      |  +**Eulimnogammarus_vittatus_Ya2_EviUr1_EviN
+|                                                   +**|
+|                                                   |  |              +**Eulimnogammarus_vittatus_Ya4_EviUr1_EviN
+|                                                   |  |           +--|
+|                                                   |  |           |  +**Eulimnogammarus_vittatus_Ya6_EviUr1_EviN
+|                                                   |  |        +--|
+|                                                   |  |        |  |        +**Eulimnogammarus_vittatus_G_2_EviUr1_EviN
+|                                                   |  |        |  |     +**|
+|                                                   |  |        |  |     |  +**Eulimnogammarus_vittatus_UB_1_EviUr1_EviN
+|                                                   |  |        |  |  +**|
+|                                                   |  |        |  |  |  |  +--Eulimnogammarus_vittatus_G_5_EviUr1_EviN
+|                                                   |  |        |  |  |  +**|
+|                                                   |  |        |  |  |     +--Eulimnogammarus_vittatus_UB_2_EviUr1_EviN
+|                                                   |  |        |  +**|
+|                                                   |  |        |     |  +---Eulimnogammarus_vittatus_G_4_EviUr1_EviN
+|                                                   |  |        |     +**|
+|                                                   |  |        |        +--Eulimnogammarus_vittatus_UB_3_EviUr1_EviN
+|                                                   |  |     +--|
+|                                                   |  |     |  +--Eulimnogammarus_vittatus_G_1_EviUr1_EviN
+|                                                   |  |  +**|
+|                                                   |  |  |  +--Eulimnogammarus_vittatus_EviA107_EviUr1_EviN
+|                                                   |  +**|
+|                                                   |     |              +**Eulimnogammarus_vittatus_Ya7_EviUr1_EviN
+|                                                   |     |           +**|
+|                                                   |     |           |  +**Eulimnogammarus_vittatus_AmspA45_EviUr1_EviN
+|                                                   |     |        +**|
+|                                                   |     |        |  +--Eulimnogammarus_vittatus_Kur_42_EviUr1_EviN
+|                                                   |     |     +--|
+|                                                   |     |     |  +--Eulimnogammarus_vittatus_Kur_40_EviUr1_EviN
+|                                                   |     |  +--|
+|                                                   |     |  |  |  +**Eulimnogammarus_vittatus_EviA45_EviUr1_EviN
+|                                                   |     |  |  +--|
+|                                                   |     |  |     |                                   +--Eulimnogammarus_vittatus_EviPB83_NC025564111537_EviS
+|                                                   |     |  |     |                                +**|
+|                                                   |     |  |     |                                |  +--Eulimnogammarus_vittatus_kbjd100_3_NC025564111537_EviS
+|                                                   |     |  |     |                             +**|
+|                                                   |     |  |     |                             |  +--Eulimnogammarus_vittatus_kbjd100_2_NC025564111537_EviS
+|                                                   |     |  |     |                          +--|
+|                                                   |     |  |     |                          |  |  +--Eulimnogammarus_vittatus_EviPB87_NC025564111537_EviS
+|                                                   |     |  |     |                          |  +--|
+|                                                   |     |  |     |                          |     +--Eulimnogammarus_vittatus_kbjd100_1_NC025564111537_EviS
+|                                                   |     |  |     +--------------------------|
+|                                                   |     |  |                                |        +--Eulimnogammarus_vittatus_EviPB84_NC025564111537_EviS
+|                                                   |     |  |                                |     +**|
+|                                                   |     |  |                                |     |  +--Eulimnogammarus_vittatus_kbjd100_4_NC025564111537_EviS
+|                                                   |     |  |                                |  +**|
+|                                                   |     |  |                                |  |  +**Eulimnogammarus_vittatus_EviPB86_NC025564111537_EviS
+|                                                   |     |  |                                +**|
+|                                                   |     |  |                                   |                       +**Eulimnogammarus_vittatus_Evi_Baikalsk_B38_NC025564111537_EviS
+|                                                   |     |  |                                   |                    +--|
+|                                                   |     |  |                                   |                    |  +**MK887740_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B38_NC025564111537_EviS
+|                                                   |     |  |                                   |                 +--|
+|                                                   |     |  |                                   |                 |  |     +**Eulimnogammarus_vittatus_SR_5_NC025564111537_EviS
+|                                                   |     |  |                                   |                 |  |  +**|
+|                                                   |     |  |                                   |                 |  |  |  +**Eulimnogammarus_vittatus_Vy_2_NC025564111537_EviS
+|                                                   |     |  |                                   |                 |  +--|
+|                                                   |     |  |                                   |                 |     +--Eulimnogammarus_vittatus_Vy_7_NC025564111537_EviS
+|                                                   |     |  |                                   |              +--|
+|                                                   |     |  |                                   |              |  +--Eulimnogammarus_vittatus_Vy_4_NC025564111537_EviS
+|                                                   |     |  |                                   |           +**|
+|                                                   |     |  |                                   |           |  +--Eulimnogammarus_vittatus_Vy_6_NC025564111537_EviS
+|                                                   |     |  |                                   |        +**|
+|                                                   |     |  |                                   |        |  |  +**MK887734_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B26_NC025564111537_EviS
+|                                                   |     |  |                                   |        |  +**|
+|                                                   |     |  |                                   |        |     +**MK887736_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B28_NC025564111537_EviS
+|                                                   |     |  |                                   |     +**|
+|                                                   |     |  |                                   |     |  +--Eulimnogammarus_vittatus_SR_1_NC025564111537_EviS
+|                                                   |     |  |                                   |  +**|
+|                                                   |     |  |                                   |  |  |     +**Eulimnogammarus_vittatus_Evi_Baikalsk_B37_NC025564111537_EviS
+|                                                   |     |  |                                   |  |  |  +--|
+|                                                   |     |  |                                   |  |  |  |  +**MK887737_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B33_NC025564111537_EviS
+|                                                   |     |  |                                   |  |  +**|
+|                                                   |     |  |                                   |  |     |     +**Eulimnogammarus_vittatus_SR_2_NC025564111537_EviS
+|                                                   |     |  |                                   |  |     |  +**|
+|                                                   |     |  |                                   |  |     |  |  +**Eulimnogammarus_vittatus_SR_3_NC025564111537_EviS
+|                                                   |     |  |                                   |  |     +--|
+|                                                   |     |  |                                   |  |        +--MK887735_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B27_NC025564111537_EviS
+|                                                   |     |  |                                   +--|
+|                                                   |     |  |                                      +--Eulimnogammarus_vittatus_Vy_8_NC025564111537_EviS
+|                                                   |     +**|
+|                                                   |        +--Eulimnogammarus_vittatus_Ankh_2_EviUr1_EviN
+|                                                +**|
+|                                                |  |     +--Eulimnogammarus_vittatus_155_1_EviUr1_EviN
+|                                                |  |  +--|
+|                                                |  |  |  +--Eulimnogammarus_vittatus_158_1_EviUr1_EviN
+|                                                |  +**|
+|                                                |     +--Eulimnogammarus_vittatus_158_2_EviUr1_EviN
+|                                             +--|
+|                                             |  |     +**Eulimnogammarus_vittatus_EviA99_EviUr1_EviN
+|                                             |  |  +**|
+|                                             |  |  |  +**Eulimnogammarus_vittatus_EviA101_EviUr1_EviN
+|                                             |  +--|
+|                                             |     +--Eulimnogammarus_vittatus_UB_4_EviUr1_EviN
+|                           +-----------------|
+|                           |                 +**Eulimnogammarus_vittatus_Uz1_2_EviUr1_EviN
+|                       +---|
+|                       |   +**Eulimnogammarus_vittatus_UB_6_SRR3467061Naumenko_EviW
 |                    +--|
-|                    |  +--Eulimnogammarus_vittatus_Konn_9_SRR3467061Naumenko_EviW
+|                    |  |                     +**Eulimnogammarus_vittatus_Ya8_SRR3467061Naumenko_EviW
+|                    |  |                  +--|
+|                    |  |                  |  |     +--Eulimnogammarus_vittatus_Uz1_3_SRR3467061Naumenko_EviW
+|                    |  |                  |  |  +**|
+|                    |  |                  |  |  |  +--Eulimnogammarus_vittatus_Uz2_1_SRR3467061Naumenko_EviW
+|                    |  |                  |  +--|
+|                    |  |                  |     |  +--Eulimnogammarus_vittatus_Uz2_3_SRR3467061Naumenko_EviW
+|                    |  |                  |     +--|
+|                    |  |                  |        +--Eulimnogammarus_vittatus_Uz2_4_SRR3467061Naumenko_EviW
+|                    |  |               +--|
+|                    |  |               |  +--Eulimnogammarus_vittatus_Uz1_1_SRR3467061Naumenko_EviW
+|                    |  |            +--|
+|                    |  |            |  +**Eulimnogammarus_vittatus_Uz3_2_SRR3467061Naumenko_EviW
+|                    |  |     +------|
+|                    |  |     |      +----Eulimnogammarus_vittatus_Uz3_1_SRR3467061Naumenko_EviW
+|                    |  |  +--|
+|                    |  |  |  +**Eulimnogammarus_vittatus_Konn_6_SRR3467061Naumenko_EviW
+|                    |  +**|
+|                    |     +--Eulimnogammarus_vittatus_GB_3_SRR3467061Naumenko_EviW
 |                 +**|
-|                 |  |  +--Eulimnogammarus_vittatus_Konn_1_SRR3467061Naumenko_EviW
-|                 |  +--|
-|                 |     |     +--Eulimnogammarus_vittatus_Konn_7_SRR3467061Naumenko_EviW
-|                 |     |  +**|
-|                 |     |  |  +--Eulimnogammarus_vittatus_GB_1_SRR3467061Naumenko_EviW
-|                 |     +--|
-|                 |        +--Eulimnogammarus_vittatus_Konn_13_SRR3467061Naumenko_EviW
+|                 |  +--Eulimnogammarus_vittatus_Konn_9_SRR3467061Naumenko_EviW
 |              +**|
-|              |  +**Eulimnogammarus_vittatus_Konn_5_SRR3467061Naumenko_EviW
-|           +--|
-|           |  +--Eulimnogammarus_vittatus_Konn_10_SRR3467061Naumenko_EviW
-|        +--|
-|        |  +**Eulimnogammarus_vittatus_AmspA62_SRR3467061Naumenko_EviW
-|     +**|
-|     |  +--Eulimnogammarus_vittatus_Konn_15_SRR3467061Naumenko_EviW
+|              |  |              +--Eulimnogammarus_vittatus_Konn_1_SRR3467061Naumenko_EviW
+|              |  |           +--|
+|              |  |           |  |     +--Eulimnogammarus_vittatus_Konn_7_SRR3467061Naumenko_EviW
+|              |  |           |  |  +**|
+|              |  |           |  |  |  +--Eulimnogammarus_vittatus_GB_1_SRR3467061Naumenko_EviW
+|              |  |           |  +--|
+|              |  |           |     +--Eulimnogammarus_vittatus_Konn_13_SRR3467061Naumenko_EviW
+|              |  |        +**|
+|              |  |        |  +--Eulimnogammarus_vittatus_Konn_10_SRR3467061Naumenko_EviW
+|              |  |     +--|
+|              |  |     |  +**Eulimnogammarus_vittatus_Konn_5_SRR3467061Naumenko_EviW
+|              |  |  +**|
+|              |  |  |  +--Eulimnogammarus_vittatus_Konn_4_SRR3467061Naumenko_EviW
+|              |  +**|
+|              |     +--Eulimnogammarus_vittatus_AmspA64_SRR3467061Naumenko_EviW
+|           +**|
+|           |  +**Eulimnogammarus_vittatus_AmspA80_SRR3467061Naumenko_EviW
+|        +**|
+|        |  |  +--Eulimnogammarus_vittatus_Konn_14_SRR3467061Naumenko_EviW
+|        |  +**|
+|        |     +--Eulimnogammarus_vittatus_AmspA63_SRR3467061Naumenko_EviW
+|     +--|
+|     |  +--Eulimnogammarus_vittatus_Y_28_SRR3467061Naumenko_EviW
 |  +**|
-|  |  +--MK887750_Eulimnogammarus_vittatus_voucher_Evi_Bolshie_Koty_K19_SRR3467061Naumenko_EviW
+|  |  +--MK887741_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y01_SRR3467061Naumenko_EviW
 +**|
-   |  +--MK887741_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y01_SRR3467061Naumenko_EviW
+   |        +--Eulimnogammarus_vittatus_Konn_12_SRR3467061Naumenko_EviW
+   |     +--|
+   |     |  +--Eulimnogammarus_vittatus_GB_4_SRR3467061Naumenko_EviW
+   |  +**|
+   |  |  +--Eulimnogammarus_vittatus_EviL80_SRR3467061Naumenko_EviW
    +**|
-      +--MK887743_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y03_SRR3467061Naumenko_EviW
+      |  +--Eulimnogammarus_vittatus_Konn_15_SRR3467061Naumenko_EviW
+      +**|
+         +--MK887750_Eulimnogammarus_vittatus_voucher_Evi_Bolshie_Koty_K19_SRR3467061Naumenko_EviW
 
 Tree in newick format:
 
-(Eulimnogammarus_vittatus_BolR_1_SRR3467061Naumenko_EviW:0.0000010000,(Eulimnogammarus_vittatus_BolR_2_SRR3467061Naumenko_EviW:0.0043790215,((Eulimnogammarus_vittatus_BG_SRR3467061Naumenko_EviW:0.0000010000,((Eulimnogammarus_vittatus_Konn_12_SRR3467061Naumenko_EviW:0.0021644468,Eulimnogammarus_vittatus_GB_4_SRR3467061Naumenko_EviW:0.0021794991):0.0021898688,Eulimnogammarus_vittatus_EviL80_SRR3467061Naumenko_EviW:0.0043730774):0.0000023223):0.0000020313,((Eulimnogammarus_vittatus_GB_5_SRR3467061Naumenko_EviW:0.0021539617,MK887745_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y05_SRR3467061Naumenko_EviW:0.0000010000):0.0021134981,MK887744_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y04_SRR3467061Naumenko_EviW:0.0012171497):0.0009947890):0.0000010000):0.0000010000,((((((((((((((((((((((Eulimnogammarus_vittatus_Ya1_EviUr1_EviN:0.0000010000,(Eulimnogammarus_vittatus_Ya2_EviUr1_EviN:0.0000010000,((((Eulimnogammarus_vittatus_EviA99_EviUr1_EviN:0.0000010000,Eulimnogammarus_vittatus_EviA101_EviUr1_EviN:0.0000010000):0.0000010000,Eulimnogammarus_vittatus_UB_4_EviUr1_EviN:0.0022359527):0.0067747339,(Eulimnogammarus_vittatus_155_1_EviUr1_EviN:0.0114816057,Eulimnogammarus_vittatus_158_2_EviUr1_EviN:0.0045493158):0.0021832554):0.0000010000,(Eulimnogammarus_vittatus_Ankh_2_EviUr1_EviN:0.0022194269,Eulimnogammarus_vittatus_Uz1_2_EviUr1_EviN:0.0068045832):0.0000010000):0.0000010000):0.0000010000):0.0000010000,Eulimnogammarus_vittatus_EviA107_EviUr1_EviN:0.0022356907):0.0000024186,(((((((Eulimnogammarus_vittatus_Ya4_EviUr1_EviN:0.0000010000,Eulimnogammarus_vittatus_Ya6_EviUr1_EviN:0.0000010000):0.0044368718,Eulimnogammarus_vittatus_G_5_EviUr1_EviN:0.0113836441):0.0000020846,(Eulimnogammarus_vittatus_G_3_EviUr1_EviN:0.0022187772,Eulimnogammarus_vittatus_G_4_EviUr1_EviN:0.0138715055):0.0000020454):0.0000010000,Eulimnogammarus_vittatus_G_2_EviUr1_EviN:0.0000010000):0.0000029447,Eulimnogammarus_vittatus_UB_1_EviUr1_EviN:0.0000020626):0.0000020860,Eulimnogammarus_vittatus_UB_3_EviUr1_EviN:0.0022084527):0.0022148507,Eulimnogammarus_vittatus_G_1_EviUr1_EviN:0.0022281980):0.0022440209):0.0023208554,((((Eulimnogammarus_vittatus_Ya7_EviUr1_EviN:0.0000010000,Eulimnogammarus_vittatus_AmspA45_EviUr1_EviN:0.0000010000):0.0000010000,(Eulimnogammarus_vittatus_Kur_40_EviUr1_EviN:0.0022086923,Eulimnogammarus_vittatus_Kur_42_EviUr1_EviN:0.0022176284):0.0000010000):0.0000024641,Eulimnogammarus_vittatus_Uy7_9_EviUr1_EviN:0.0090315597):0.0044722015,Eulimnogammarus_vittatus_EviA45_EviUr1_EviN:0.0000022946):0.0044402120):0.0000026242,Eulimnogammarus_vittatus_158_1_EviUr1_EviN:0.0090328482):0.0156808972,(((((Eulimnogammarus_vittatus_EviPB83_NC025564111537_EviS:0.0042671062,Eulimnogammarus_vittatus_kbjd100_3_NC025564111537_EviS:0.0021174029):0.0000026459,((Eulimnogammarus_vittatus_EviPB87_NC025564111537_EviS:0.0043657743,Eulimnogammarus_vittatus_kbjd100_1_NC025564111537_EviS:0.0042549370):0.0043004107,Eulimnogammarus_vittatus_kbjd100_2_NC025564111537_EviS:0.0021200497):0.0000020462):0.0021204503,(((((Eulimnogammarus_vittatus_Evi_Baikalsk_B38_NC025564111537_EviS:0.0000010000,MK887740_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B38_NC025564111537_EviS:0.0000010000):0.0021773713,((Eulimnogammarus_vittatus_SR_5_NC025564111537_EviS:0.0000010000,Eulimnogammarus_vittatus_Vy_2_NC025564111537_EviS:0.0000010000):0.0000020433,Eulimnogammarus_vittatus_Vy_7_NC025564111537_EviS:0.0042831536):0.0021275139):0.0042786655,((Eulimnogammarus_vittatus_Evi_Baikalsk_B37_NC025564111537_EviS:0.0000020879,MK887737_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B33_NC025564111537_EviS:0.0000026419):0.0021405562,Eulimnogammarus_vittatus_SR_7_NC025564111537_EviS:0.0021695288):0.0021180610):0.0000020342,MK887734_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B26_NC025564111537_EviS:0.0000022262):0.0000020527,((Eulimnogammarus_vittatus_SR_1_NC025564111537_EviS:0.0021332593,((((Eulimnogammarus_vittatus_SR_2_NC025564111537_EviS:0.0000010000,Eulimnogammarus_vittatus_SR_3_NC025564111537_EviS:0.0000010000):0.0000020119,MK887735_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B27_NC025564111537_EviS:0.0086022981):0.0021132121,Eulimnogammarus_vittatus_Vy_8_NC025564111537_EviS:0.0021203042):0.0000020321,MK887736_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B28_NC025564111537_EviS:0.0000010000):0.0000010000):0.0000029771,(Eulimnogammarus_vittatus_Vy_4_NC025564111537_EviS:0.0087601327,Eulimnogammarus_vittatus_Vy_6_NC025564111537_EviS:0.0044062407):0.0020531477):0.0021195924):0.0021198596):0.0000029906,Eulimnogammarus_vittatus_EviPB84_NC025564111537_EviS:0.0021173202):0.0021199378,(Eulimnogammarus_vittatus_EviPB86_NC025564111537_EviS:0.0000010000,Eulimnogammarus_vittatus_kbjd100_4_NC025564111537_EviS:0.0042790268):0.0000020687):0.0737350872):0.0443206219,Eulimnogammarus_vittatus_UB_6_SRR3467061Naumenko_EviW:0.0000026045):0.0102917576,((((Eulimnogammarus_vittatus_Ya8_SRR3467061Naumenko_EviW:0.0000020795,(Eulimnogammarus_vittatus_Uz1_3_SRR3467061Naumenko_EviW:0.0065965631,(Eulimnogammarus_vittatus_Uz2_1_SRR3467061Naumenko_EviW:0.0088437555,(Eulimnogammarus_vittatus_Uz2_3_SRR3467061Naumenko_EviW:0.0067142491,Eulimnogammarus_vittatus_Uz2_4_SRR3467061Naumenko_EviW:0.0066589933):0.0021548659):0.0000010000):0.0021744253):0.0043594988,Eulimnogammarus_vittatus_Uz1_1_SRR3467061Naumenko_EviW:0.0022093037):0.0066227796,Eulimnogammarus_vittatus_Uz3_2_SRR3467061Naumenko_EviW:0.0000023793):0.0065215063,Eulimnogammarus_vittatus_Uz3_1_SRR3467061Naumenko_EviW:0.0140436973):0.0272393965):0.0039311265,(Eulimnogammarus_vittatus_Konn_6_SRR3467061Naumenko_EviW:0.0044988843,Eulimnogammarus_vittatus_GB_3_SRR3467061Naumenko_EviW:0.0090576754):0.0021769761):0.0021671682,Eulimnogammarus_vittatus_Y_28_SRR3467061Naumenko_EviW:0.0065448220):0.0000025363,Eulimnogammarus_vittatus_Konn_14_SRR3467061Naumenko_EviW:0.0088400220):0.0000021395,(Eulimnogammarus_vittatus_Konn_4_SRR3467061Naumenko_EviW:0.0021696577,Eulimnogammarus_vittatus_AmspA64_SRR3467061Naumenko_EviW:0.0021700707):0.0000010000):0.0000010000,Eulimnogammarus_vittatus_AmspA80_SRR3467061Naumenko_EviW:0.0000010000):0.0000022050,Eulimnogammarus_vittatus_AmspA63_SRR3467061Naumenko_EviW:0.0021696138):0.0000010000,Eulimnogammarus_vittatus_Konn_9_SRR3467061Naumenko_EviW:0.0066055583):0.0021662940,(Eulimnogammarus_vittatus_Konn_1_SRR3467061Naumenko_EviW:0.0043940731,((Eulimnogammarus_vittatus_Konn_7_SRR3467061Naumenko_EviW:0.0044369686,Eulimnogammarus_vittatus_GB_1_SRR3467061Naumenko_EviW:0.0044007917):0.0000010000,Eulimnogammarus_vittatus_Konn_13_SRR3467061Naumenko_EviW:0.0066258758):0.0022681179):0.0043699609):0.0000026949,Eulimnogammarus_vittatus_Konn_5_SRR3467061Naumenko_EviW:0.0000010000):0.0000010000,Eulimnogammarus_vittatus_Konn_10_SRR3467061Naumenko_EviW:0.0021596846):0.0021720164,Eulimnogammarus_vittatus_AmspA62_SRR3467061Naumenko_EviW:0.0000020135):0.0021616283,Eulimnogammarus_vittatus_Konn_15_SRR3467061Naumenko_EviW:0.0043629518):0.0000010000,MK887750_Eulimnogammarus_vittatus_voucher_Evi_Bolshie_Koty_K19_SRR3467061Naumenko_EviW:0.0021627995):0.0000010000,(MK887741_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y01_SRR3467061Naumenko_EviW:0.0021647316,MK887743_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y03_SRR3467061Naumenko_EviW:0.0021616512):0.0000010000):0.0000010000);
+(Eulimnogammarus_vittatus_BolR_1_SRR3467061Naumenko_EviW:0.0000010090,(((Eulimnogammarus_vittatus_BolR_2_SRR3467061Naumenko_EviW:0.0043070875,MK887743_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y03_SRR3467061Naumenko_EviW:0.0021237778):0.0000010091,Eulimnogammarus_vittatus_BG_SRR3467061Naumenko_EviW:0.0000010090):0.0000020137,((Eulimnogammarus_vittatus_GB_5_SRR3467061Naumenko_EviW:0.0021105841,MK887745_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y05_SRR3467061Naumenko_EviW:0.0000022870):0.0020798336,MK887744_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y04_SRR3467061Naumenko_EviW:0.0011022218):0.0010838538):0.0000010091,((((((((((((((Eulimnogammarus_vittatus_Ya1_EviUr1_EviN:0.0000010090,Eulimnogammarus_vittatus_Ya2_EviUr1_EviN:0.0000010090):0.0000021218,(((((Eulimnogammarus_vittatus_Ya4_EviUr1_EviN:0.0000021016,Eulimnogammarus_vittatus_Ya6_EviUr1_EviN:0.0000029966):0.0043764674,(((Eulimnogammarus_vittatus_G_2_EviUr1_EviN:0.0000010090,Eulimnogammarus_vittatus_UB_1_EviUr1_EviN:0.0000010090):0.0000024045,(Eulimnogammarus_vittatus_G_5_EviUr1_EviN:0.0112621198,Eulimnogammarus_vittatus_UB_2_EviUr1_EviN:0.0021700779):0.0000010091):0.0000022354,(Eulimnogammarus_vittatus_G_4_EviUr1_EviN:0.0137371858,Eulimnogammarus_vittatus_UB_3_EviUr1_EviN:0.0021746841):0.0000010091):0.0000021135):0.0021939937,Eulimnogammarus_vittatus_G_1_EviUr1_EviN:0.0021881942):0.0022087090,Eulimnogammarus_vittatus_EviA107_EviUr1_EviN:0.0022046208):0.0000026168,(((((Eulimnogammarus_vittatus_Ya7_EviUr1_EviN:0.0000010090,Eulimnogammarus_vittatus_AmspA45_EviUr1_EviN:0.0000010090):0.0000010091,Eulimnogammarus_vittatus_Kur_42_EviUr1_EviN:0.0021822692):0.0000020787,Eulimnogammarus_vittatus_Kur_40_EviUr1_EviN:0.0021722062):0.0021929492,(Eulimnogammarus_vittatus_EviA45_EviUr1_EviN:0.0016422905,((((Eulimnogammarus_vittatus_EviPB83_NC025564111537_EviS:0.0042083349,Eulimnogammarus_vittatus_kbjd100_3_NC025564111537_EviS:0.0020811538):0.0000020618,Eulimnogammarus_vittatus_kbjd100_2_NC025564111537_EviS:0.0020859134):0.0000026564,(Eulimnogammarus_vittatus_EviPB87_NC025564111537_EviS:0.0043276921,Eulimnogammarus_vittatus_kbjd100_1_NC025564111537_EviS:0.0041798556):0.0042613965):0.0020846393,(((Eulimnogammarus_vittatus_EviPB84_NC025564111537_EviS:0.0020815890,Eulimnogammarus_vittatus_kbjd100_4_NC025564111537_EviS:0.0042024695):0.0000027462,Eulimnogammarus_vittatus_EviPB86_NC025564111537_EviS:0.0000010090):0.0000020215,((((((((Eulimnogammarus_vittatus_Evi_Baikalsk_B38_NC025564111537_EviS:0.0000010090,MK887740_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B38_NC025564111537_EviS:0.0000010090):0.0021492723,((Eulimnogammarus_vittatus_SR_5_NC025564111537_EviS:0.0000010090,Eulimnogammarus_vittatus_Vy_2_NC025564111537_EviS:0.0000010090):0.0000028804,Eulimnogammarus_vittatus_Vy_7_NC025564111537_EviS:0.0042298712):0.0021030985):0.0021568350,Eulimnogammarus_vittatus_Vy_4_NC025564111537_EviS:0.0087648810):0.0020665742,Eulimnogammarus_vittatus_Vy_6_NC025564111537_EviS:0.0063635587):0.0000021528,(MK887734_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B26_NC025564111537_EviS:0.0000010090,MK887736_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B28_NC025564111537_EviS:0.0000010090):0.0000028948):0.0000021354,Eulimnogammarus_vittatus_SR_1_NC025564111537_EviS:0.0021074586):0.0000028731,((Eulimnogammarus_vittatus_Evi_Baikalsk_B37_NC025564111537_EviS:0.0000021296,MK887737_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B33_NC025564111537_EviS:0.0000023277):0.0042025551,((Eulimnogammarus_vittatus_SR_2_NC025564111537_EviS:0.0000010090,Eulimnogammarus_vittatus_SR_3_NC025564111537_EviS:0.0000010090):0.0000029932,MK887735_Eulimnogammarus_vittatus_voucher_Evi_Baikalsk_B27_NC025564111537_EviS:0.0063303837):0.0020797512):0.0000021290):0.0000027645,Eulimnogammarus_vittatus_Vy_8_NC025564111537_EviS:0.0020865842):0.0020836500):0.0000020572):0.0858581832):0.0028447853):0.0043984219,Eulimnogammarus_vittatus_Ankh_2_EviUr1_EviN:0.0021885403):0.0000020887):0.0000021265):0.0000021053,((Eulimnogammarus_vittatus_155_1_EviUr1_EviN:0.0090109006,Eulimnogammarus_vittatus_158_1_EviUr1_EviN:0.0091967266):0.0021405508,Eulimnogammarus_vittatus_158_2_EviUr1_EviN:0.0089574627):0.0000028279):0.0000020356,((Eulimnogammarus_vittatus_EviA99_EviUr1_EviN:0.0000010090,Eulimnogammarus_vittatus_EviA101_EviUr1_EviN:0.0000010090):0.0000022097,Eulimnogammarus_vittatus_UB_4_EviUr1_EviN:0.0021971780):0.0089794119):0.0067078954,Eulimnogammarus_vittatus_Uz1_2_EviUr1_EviN:0.0000028430):0.0568655486,Eulimnogammarus_vittatus_UB_6_SRR3467061Naumenko_EviW:0.0000023178):0.0137067104,((((((Eulimnogammarus_vittatus_Ya8_SRR3467061Naumenko_EviW:0.0000022865,((Eulimnogammarus_vittatus_Uz1_3_SRR3467061Naumenko_EviW:0.0065694611,Eulimnogammarus_vittatus_Uz2_1_SRR3467061Naumenko_EviW:0.0088417993):0.0000010091,(Eulimnogammarus_vittatus_Uz2_3_SRR3467061Naumenko_EviW:0.0044502401,Eulimnogammarus_vittatus_Uz2_4_SRR3467061Naumenko_EviW:0.0065994500):0.0021650021):0.0021600664):0.0043390032,Eulimnogammarus_vittatus_Uz1_1_SRR3467061Naumenko_EviW:0.0022072640):0.0066057200,Eulimnogammarus_vittatus_Uz3_2_SRR3467061Naumenko_EviW:0.0000027106):0.0064249619,Eulimnogammarus_vittatus_Uz3_1_SRR3467061Naumenko_EviW:0.0167647118):0.0225783643,Eulimnogammarus_vittatus_Konn_6_SRR3467061Naumenko_EviW:0.0000020850):0.0021670037,Eulimnogammarus_vittatus_GB_3_SRR3467061Naumenko_EviW:0.0087851130):0.0000023493):0.0021359649,Eulimnogammarus_vittatus_Konn_9_SRR3467061Naumenko_EviW:0.0065228498):0.0000020476,(((((Eulimnogammarus_vittatus_Konn_1_SRR3467061Naumenko_EviW:0.0043170476,((Eulimnogammarus_vittatus_Konn_7_SRR3467061Naumenko_EviW:0.0066032794,Eulimnogammarus_vittatus_GB_1_SRR3467061Naumenko_EviW:0.0043298319):0.0000021390,Eulimnogammarus_vittatus_Konn_13_SRR3467061Naumenko_EviW:0.0065128986):0.0022411232):0.0043041712,Eulimnogammarus_vittatus_Konn_10_SRR3467061Naumenko_EviW:0.0021192865):0.0000021041,Eulimnogammarus_vittatus_Konn_5_SRR3467061Naumenko_EviW:0.0000010090):0.0021286627,Eulimnogammarus_vittatus_Konn_4_SRR3467061Naumenko_EviW:0.0021336411):0.0000020624,Eulimnogammarus_vittatus_AmspA64_SRR3467061Naumenko_EviW:0.0021343185):0.0000020970):0.0000022556,Eulimnogammarus_vittatus_AmspA80_SRR3467061Naumenko_EviW:0.0000010090):0.0000020529,(Eulimnogammarus_vittatus_Konn_14_SRR3467061Naumenko_EviW:0.0109461805,Eulimnogammarus_vittatus_AmspA63_SRR3467061Naumenko_EviW:0.0021325781):0.0000021298):0.0000023756,Eulimnogammarus_vittatus_Y_28_SRR3467061Naumenko_EviW:0.0086655670):0.0021465745,MK887741_Eulimnogammarus_vittatus_voucher_Evi_Listvyanka_Y01_SRR3467061Naumenko_EviW:0.0021282344):0.0000021673,(((Eulimnogammarus_vittatus_Konn_12_SRR3467061Naumenko_EviW:0.0021180963,Eulimnogammarus_vittatus_GB_4_SRR3467061Naumenko_EviW:0.0021567776):0.0021568459,Eulimnogammarus_vittatus_EviL80_SRR3467061Naumenko_EviW:0.0043065188):0.0000022510,(Eulimnogammarus_vittatus_Konn_15_SRR3467061Naumenko_EviW:0.0042921799,MK887750_Eulimnogammarus_vittatus_voucher_Evi_Bolshie_Koty_K19_SRR3467061Naumenko_EviW:0.0021268652):0.0000021412):0.0000010091):0.0000010091);
 
 TIME STAMP
 ----------
 
-Date and time: Tue Dec 16 21:18:13 2025
-Total CPU time used: 16.632 seconds (0h:0m:16s)
-Total wall-clock time used: 17.6213 seconds (0h:0m:17s)
+Date and time: Wed Mar  4 16:35:59 2026
+Total CPU time used: 65.2209 seconds (0h:1m:5s)
+Total wall-clock time used: 69.2032 seconds (0h:1m:9s)
 

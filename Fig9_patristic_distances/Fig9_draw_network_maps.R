@@ -146,6 +146,7 @@ plot_distances <- function(csv_filename, already_triangular=TRUE) {
   table_long$group[table_long$group == "S\nW"] <- "W\nS"
   table_long$group[table_long$group == "E\nW"] <- "W\nE"
   table_long$group[table_long$group == "N\nW"] <- "W\nN"
+  table_long$group[table_long$group == "N\nS"] <- "S\nN"
   table_long$group[table_long$group == "S\nE"] <- "E\nS"
   table_long$group[table_long$group == "S\nC"] <- "C\nS"
   ## let's make sure we don't run the same comparisons twice
@@ -179,16 +180,16 @@ plot_distances <- function(csv_filename, already_triangular=TRUE) {
 ## K2P distance (Kimura 2-parameter; calculated with MEGA)
 ## and p distance (uncorrected; calculated with MEGA)
 ## Ecy
-k2pdist.cy <- plot_distances("3_mega/Ecy_k2p.txt") + ggtitle("K2P Ecy")
+k2pdist.cy <- plot_distances("3_mega/Ecy_K2P.txt") + ggtitle("K2P Ecy")
 pdist.cy <- plot_distances("3_mega/Ecy_p.txt") + ggtitle("P Ecy")
 ## Ema
-k2pdist.ma <- plot_distances("3_mega/Ema_k2p.txt") + ggtitle("K2P Ema")
+k2pdist.ma <- plot_distances("3_mega/Ema_K2P.txt") + ggtitle("K2P Ema")
 pdist.ma <- plot_distances("3_mega/Ema_p.txt") + ggtitle("P Ema")
 ## Evi
-k2pdist.vi <- plot_distances("3_mega/Evi_k2p.txt") + ggtitle("K2P Evi")
+k2pdist.vi <- plot_distances("3_mega/Evi_K2P.txt") + ggtitle("K2P Evi")
 pdist.vi <- plot_distances("3_mega/Evi_p.txt") + ggtitle("P Evi")
 ## Eve
-k2pdist.ve <- plot_distances("3_mega/Eve_k2p.txt") + ggtitle("K2P Eve")
+k2pdist.ve <- plot_distances("3_mega/Eve_K2P.txt") + ggtitle("K2P Eve")
 pdist.ve <- plot_distances("3_mega/Eve_p.txt") + ggtitle("P Eve")
 
 ## patristic distances with iqtree, then patristic
@@ -222,6 +223,11 @@ ppatr_scaled
 
 ## combine with networks
 plot_grid(pnetworks, ppatr_scaled, nrow=2, rel_heights = c(2, 1.2), labels = "AUTO")
+
+## tried with ggarrange, no difference
+#ggpubr::ggarrange(pnetworks, ppatr_scaled, nrow=2, 
+#                  heights = c(2, 1.2), labels = "AUTO")
+
 ## and save Fig. 9
 ggsave("Fig9_Eu_sp_networks_patristic.png", bg = "white",
        width=24, height=18, units="cm", res=600, device=png)
