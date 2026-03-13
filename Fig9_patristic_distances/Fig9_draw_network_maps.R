@@ -99,7 +99,8 @@ update_limits <- function(this.plot) {
     xlim(get.avgx(this.plot)-ourwidth/2, get.avgx(this.plot)+ourwidth/2) + 
     ylim(get.avgy(this.plot)-ourheight/2, get.avgy(this.plot)+ourheight/2) 
   this.plot + geom_treescale(offset = 0.002, width = 0.01, 
-                             x = get.avgx(this.plot), y=get.avgy(this.plot)-ourheight/2)
+                             x = get.avgx(this.plot), 
+                             y=get.avgy(this.plot)-ourheight/2.2)
 }
 
 ## apply function and update plot limits
@@ -107,6 +108,11 @@ pcy2 <- update_limits(pcy)
 pma2 <- update_limits(pma)
 pvi2 <- update_limits(pvi)
 pve2 <- update_limits(pve)
+
+ggsave(filename = "pcy.png", plot = pcy2, dev=png, res=600)
+ggsave(filename = "pma.png", plot = pma2, dev=png, res=600)
+ggsave(filename = "pvi.png", plot = pvi2, dev=png, res=600)
+ggsave(filename = "pve.png", plot = pve2, dev=png, res=600)
 
 ## combine plots with proper margins => equal scales
 pnetworks <- plot_grid(pcy2, pma2, pvi2, pve2, nrow = 1) ##labels=LETTERS[1:4]
@@ -242,6 +248,6 @@ ppdist <- plot_grid(pdist.cy, pdist.ma, pdist.vi, pdist.ve,
 pk2pdist <- plot_grid(k2pdist.cy, k2pdist.ma, k2pdist.vi, k2pdist.ve, 
                       rel_widths = c(0.5, 1, 1,1), nrow=1)
 plot_grid(ppatr, ppdist, pk2pdist, nrow=3, labels="AUTO")
-ggsave("FigSX_Eu_sp_distances.png", bg = "white",
+ggsave("FigS2_Eu_sp_distances.png", bg = "white",
        width=24, height=18, units="cm", res=600, device=png)
 

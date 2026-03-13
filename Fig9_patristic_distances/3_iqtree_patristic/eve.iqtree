@@ -2,7 +2,7 @@ IQ-TREE 2.0.7 built Jan 21 2022
 
 Input file name: ../4_Eve.fasta
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 60795
+Random seed number: 576843
 
 REFERENCES
 ----------
@@ -25,89 +25,89 @@ https://doi.org/10.1038/nmeth.4285
 SEQUENCE ALIGNMENT
 ------------------
 
-Input data: 295 sequences with 484 nucleotide sites
-Number of constant sites: 363 (= 75% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 363 (= 75% of all sites)
-Number of parsimony informative sites: 97
-Number of distinct site patterns: 121
+Input data: 375 sequences with 484 nucleotide sites
+Number of constant sites: 355 (= 73.3471% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 355 (= 73.3471% of all sites)
+Number of parsimony informative sites: 99
+Number of distinct site patterns: 130
 
 ModelFinder
 -----------
 
-Best-fit model according to BIC: TN+F+G4
+Best-fit model according to BIC: HKY+F+G4
 
 List of models sorted by BIC scores: 
 
 Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
-TN+F+G4           -2138.837    4851.675 +    0.208    5695.103 -   0.0465    6051.933 +    0.303
-HKY+F+G4          -2142.088    4856.177 -   0.0219    5689.496 +    0.767    6052.253 +    0.258
-TN+F+I            -2139.210    4852.420 +    0.144    5695.849 -    0.032    6052.679 +    0.209
-HKY+F+I           -2143.934    4859.869 -  0.00346    5693.188 +    0.121    6055.945 -   0.0408
-TIM2+F+G4         -2138.388    4852.776 +     0.12    5706.438 - 0.000161    6057.217 -   0.0216
-TPM2u+F+G4        -2141.563    4857.126 -   0.0137    5700.554 -  0.00305    6057.384 -   0.0199
-TPM2+F+G4         -2141.563    4857.126 -   0.0137    5700.554 -  0.00305    6057.384 -   0.0199
-TIM+F+G4          -2138.766    4853.532 +   0.0823    5707.194 -  0.00011    6057.973 -   0.0148
-TIM2+F+I          -2138.774    4853.548 +   0.0817    5707.210 - 0.000109    6057.989 -   0.0147
-TIM3+F+G4         -2138.793    4853.585 +   0.0802    5707.247 - 0.000107    6058.026 -   0.0144
-K3Pu+F+G4         -2142.009    4858.018 -  0.00874    5701.447 -  0.00195    6058.277 -   0.0127
-TPM3u+F+G4        -2142.039    4858.078 -  0.00848    5701.506 -  0.00189    6058.336 -   0.0123
-TPM3+F+G4         -2142.039    4858.078 -  0.00848    5701.506 -  0.00189    6058.336 -   0.0123
-TIM+F+I           -2139.137    4854.273 +   0.0568    5707.935 - 7.61e-05    6058.714 -   0.0102
-TIM3+F+I          -2139.179    4854.358 +   0.0545    5708.020 - 7.29e-05    6058.799 -  0.00979
-HKY+F+I+G4        -2142.444    4858.888 -  0.00566    5702.317 -  0.00126    6059.147 -  0.00823
-TPM2u+F+I         -2143.412    4860.823 -  0.00215    5704.252 -  0.00048    6061.082 -  0.00313
-TPM2+F+I          -2143.412    4860.823 -  0.00215    5704.252 -  0.00048    6061.082 -  0.00313
-TN+F+I+G4         -2140.536    4857.073 -    0.014    5710.734 - 1.88e-05    6061.513 -  0.00252
-K3Pu+F+I          -2143.851    4861.703 -  0.00138    5705.131 - 0.000309    6061.961 -  0.00202
-TPM3+F+I          -2143.912    4861.824 -   0.0013    5705.253 - 0.000291    6062.083 -   0.0019
-TPM3u+F+I         -2143.912    4861.824 -   0.0013    5705.253 - 0.000291    6062.083 -   0.0019
-TPM2u+F+I+G4      -2141.873    4859.746 -  0.00368    5713.408 - 4.93e-06    6064.187 - 0.000662
-TPM2+F+I+G4       -2141.873    4859.746 -  0.00368    5713.408 - 4.93e-06    6064.187 - 0.000662
-K3Pu+F+I+G4       -2142.356    4860.713 -  0.00227    5714.374 - 3.04e-06    6065.153 - 0.000408
-TPM3+F+I+G4       -2142.408    4860.817 -  0.00216    5714.478 - 2.89e-06    6065.257 - 0.000388
-TPM3u+F+I+G4      -2142.408    4860.817 -  0.00216    5714.478 - 2.89e-06    6065.257 - 0.000388
-TIM2+F+I+G4       -2140.010    4858.020 -  0.00873    5722.040 - 6.58e-08    6066.642 - 0.000194
-TIM+F+I+G4        -2140.456    4858.912 -  0.00559    5722.932 - 4.21e-08    6067.534 - 0.000124
-TIM3+F+I+G4       -2140.500    4859.000 -  0.00535    5723.021 - 4.03e-08    6067.623 - 0.000119
-GTR+F+G4          -2138.346    4856.691 -    0.017    5731.199 - 6.75e-10    6069.496 - 4.66e-05
-TVM+F+G4          -2141.511    4861.022 -  0.00195    5725.043 - 1.47e-08    6069.645 - 4.32e-05
-GTR+F+I           -2138.741    4857.482 -   0.0114    5731.990 - 4.55e-10    6070.287 - 3.14e-05
-TVM+F+I           -2143.388    4864.776 - 0.000298    5728.796 - 2.24e-09    6073.398 - 6.62e-06
-TVM+F+I+G4        -2141.839    4863.679 - 0.000516    5738.187 - 2.05e-11    6076.484 - 1.42e-06
-K2P+G4            -2163.935    4893.871 - 1.43e-10    5697.591 -   0.0134    6077.401 - 8.95e-07
-GTR+F+I+G4        -2139.975    4861.950 -  0.00122    5747.075 - 2.41e-13    6078.937 - 4.15e-07
-TNe+G4            -2161.829    4891.658 - 4.33e-10    5705.126 -  0.00031    6079.370 - 3.34e-07
-TNe+I             -2162.258    4892.516 - 2.82e-10    5705.983 - 0.000202    6080.228 - 2.18e-07
-K2P+I             -2165.375    4896.751 - 3.39e-11    5700.471 -  0.00318    6080.281 - 2.12e-07
-TIM2e+G4          -2160.516    4891.032 - 5.92e-10    5714.365 - 3.05e-06    6082.926 - 5.65e-08
-K3P+G4            -2163.617    4895.233 - 7.25e-11    5708.701 - 5.19e-05    6082.945 - 5.59e-08
-K2P+I+G4          -2164.039    4896.079 - 4.75e-11    5709.546 -  3.4e-05    6083.791 - 3.66e-08
-TIM2e+I           -2160.990    4891.980 - 3.69e-10    5715.314 -  1.9e-06    6083.875 - 3.51e-08
-TIM3e+G4          -2161.375    4892.749 - 2.51e-10    5716.083 - 1.29e-06    6084.644 - 2.39e-08
-TIMe+G4           -2161.514    4893.028 - 2.18e-10    5716.361 - 1.13e-06    6084.922 - 2.08e-08
-TIM3e+I           -2161.882    4893.763 - 1.51e-10    5717.096 - 7.79e-07    6085.657 - 1.44e-08
-TIMe+I            -2161.958    4893.917 -  1.4e-10    5717.250 - 7.22e-07    6085.811 - 1.33e-08
-K3P+I             -2165.075    4898.151 - 1.69e-11    5711.618 - 1.21e-05    6085.863 -  1.3e-08
-TNe+I+G4          -2162.954    4895.908 - 5.17e-11    5719.242 - 2.67e-07    6087.803 - 4.93e-09
-K3P+I+G4          -2163.700    4897.400 - 2.45e-11    5720.734 - 1.26e-07    6089.295 - 2.34e-09
-GTR+F+R2          -2145.961    4873.922 - 3.08e-06    5759.047 - 6.06e-16    6090.909 - 1.04e-09
-TIM2e+I+G4        -2161.549    4895.097 - 7.76e-11    5728.417 - 2.71e-09    6091.174 - 9.14e-10
-TVMe+G4           -2161.960    4895.920 - 5.14e-11    5729.240 -  1.8e-09    6091.996 - 6.06e-10
-TIM3e+I+G4        -2162.349    4896.699 - 3.48e-11    5730.019 - 1.22e-09    6092.775 -  4.1e-10
-TIMe+I+G4         -2162.620    4897.240 - 2.66e-11    5730.560 -  9.3e-10    6093.316 - 3.13e-10
-GTR+F+R3          -2141.444    4868.887 - 3.81e-05    5775.645 - 1.51e-19    6094.238 - 1.97e-10
-SYM+G4            -2160.011    4894.021 - 1.33e-10    5737.450 - 2.97e-11    6094.280 - 1.93e-10
-TVMe+I            -2163.535    4899.069 - 1.07e-11    5732.389 - 3.72e-10    6095.145 - 1.25e-10
-SYM+I             -2160.575    4895.151 - 7.55e-11    5738.580 - 1.69e-11    6095.409 -  1.1e-10
-TVMe+I+G4         -2161.888    4897.776 - 2.03e-11    5741.205 - 4.54e-12    6098.035 - 2.96e-11
-SYM+I+G4          -2160.896    4897.791 - 2.02e-11    5751.453 -  2.7e-14    6102.232 - 3.63e-12
-GTR+F             -2249.771    5077.542 - 1.87e-50    5941.562 - 1.41e-55    6286.164 - 4.16e-52
-F81+F+G4          -2274.584    5119.169 - 1.71e-59    5942.502 - 8.82e-56    6311.063 - 1.63e-57
-F81+F+I           -2275.312    5120.624 - 8.27e-60    5943.957 - 4.26e-56    6312.518 - 7.88e-58
-JC+G4             -2287.056    5138.113 - 1.32e-63    5932.202 - 1.52e-53    6317.461 - 6.66e-59
-F81+F+I+G4        -2275.585    5123.170 - 2.32e-60    5956.489 -  8.1e-59    6319.246 - 2.73e-59
-JC+I              -2288.292    5140.583 - 3.83e-64    5934.673 - 4.42e-54    6319.931 - 1.94e-59
-JC+I+G4           -2287.460    5140.921 - 3.24e-64    5944.641 - 3.03e-56    6324.451 - 2.02e-60
+HKY+F+G4          -2382.715    5437.429 +   0.0761    6978.001 - 0.000949    6842.610 +    0.556
+TN+F+G4           -2380.780    5435.560 +    0.194    6995.917 - 1.22e-07    6844.923 +    0.175
+TPM3+F+G4         -2382.326    5438.653 -   0.0413    6999.009 -  2.6e-08    6848.015 -   0.0373
+TPM3u+F+G4        -2382.329    5438.657 -   0.0412    6999.014 -  2.6e-08    6848.020 -   0.0372
+TPM2u+F+G4        -2382.416    5438.833 -   0.0377    6999.189 - 2.38e-08    6848.196 -   0.0341
+TPM2+F+G4         -2382.416    5438.833 -   0.0377    6999.189 - 2.38e-08    6848.196 -   0.0341
+K3Pu+F+G4         -2382.510    5439.020 -   0.0343    6999.376 - 2.17e-08    6848.382 -    0.031
+HKY+F+I+G4        -2382.724    5439.447 -   0.0277    6999.803 - 1.75e-08    6848.810 -   0.0251
+TN+F+I            -2383.075    5440.151 -   0.0195    7000.507 - 1.23e-08    6849.513 -   0.0176
+TIM3+F+G4         -2380.434    5436.869 +    0.101    7017.310 - 2.76e-12    6850.413 -   0.0112
+TIM2+F+G4         -2380.510    5437.020 +   0.0933    7017.461 - 2.56e-12    6850.564 -   0.0104
+TIM+F+G4          -2380.577    5437.155 +   0.0872    7017.596 - 2.39e-12    6850.699 -  0.00974
+HKY+F+I           -2387.443    5446.886 - 0.000672    6987.457 - 8.39e-06    6852.066 -  0.00492
+TN+F+I+G4         -2381.712    5439.425 -    0.028    7019.866 - 7.69e-13    6852.969 -  0.00313
+TPM2u+F+I+G4      -2382.340    5440.680 -    0.015    7021.122 - 4.11e-13    6854.225 -  0.00167
+TPM2+F+I+G4       -2382.340    5440.680 -    0.015    7021.122 - 4.11e-13    6854.225 -  0.00167
+TPM3u+F+I+G4      -2382.358    5440.717 -   0.0147    7021.158 - 4.03e-13    6854.261 -  0.00164
+TPM3+F+I+G4       -2382.358    5440.717 -   0.0147    7021.158 - 4.03e-13    6854.262 -  0.00164
+K3Pu+F+I+G4       -2382.513    5441.026 -   0.0126    7021.467 - 3.45e-13    6854.571 -  0.00141
+TIM+F+I           -2382.847    5441.694 -  0.00902    7022.135 - 2.47e-13    6855.238 -  0.00101
+TIM2+F+I          -2382.847    5441.695 -  0.00901    7022.136 - 2.47e-13    6855.239 -  0.00101
+TIM3+F+I          -2382.870    5441.740 -  0.00881    7022.181 - 2.42e-13    6855.285 - 0.000984
+TPM2u+F+I         -2387.173    5448.347 - 0.000324    7008.703 - 2.04e-10    6857.709 - 0.000293
+TPM2+F+I          -2387.173    5448.347 - 0.000324    7008.703 - 2.04e-10    6857.709 - 0.000293
+K3Pu+F+I          -2387.204    5448.407 - 0.000314    7008.763 - 1.98e-10    6857.770 - 0.000284
+TPM3u+F+I         -2387.251    5448.502 -   0.0003    7008.858 - 1.89e-10    6857.865 - 0.000271
+TPM3+F+I          -2387.251    5448.503 -   0.0003    7008.859 - 1.89e-10    6857.865 - 0.000271
+TIM2+F+I+G4       -2381.342    5440.685 -   0.0149    7041.518 - 1.53e-17    6858.411 - 0.000206
+TIM3+F+I+G4       -2381.367    5440.733 -   0.0146    7041.566 - 1.49e-17    6858.460 - 0.000201
+TIM+F+I+G4        -2381.502    5441.004 -   0.0127    7041.837 -  1.3e-17    6858.731 - 0.000176
+TVM+F+G4          -2381.875    5441.749 -  0.00877    7042.582 - 8.98e-18    6859.476 - 0.000121
+GTR+F+G4          -2380.002    5440.004 -    0.021    7061.542 - 6.86e-22    6861.913 - 3.58e-05
+TVM+F+I+G4        -2381.830    5443.660 -  0.00337    7065.198 -  1.1e-22    6865.569 - 5.75e-06
+GTR+F+I           -2382.463    5444.926 -  0.00179    7066.465 - 5.85e-23    6866.835 - 3.05e-06
+TVM+F+I           -2386.799    5451.599 - 6.37e-05    7052.432 - 6.52e-20    6869.326 - 8.79e-07
+GTR+F+I+G4        -2380.853    5443.705 -   0.0033    7086.269 - 2.93e-27    6869.796 - 6.95e-07
+K2P+G4            -2407.602    5481.203 - 2.37e-11    6964.163 +    0.959    6873.838 - 9.21e-08
+TNe+G4            -2406.576    5481.151 - 2.44e-11    6983.031 - 7.67e-05    6877.968 - 1.17e-08
+K3P+G4            -2406.989    5481.978 - 1.61e-11    6983.857 - 5.07e-05    6878.794 - 7.72e-09
+K2P+I+G4          -2407.385    5482.771 - 1.08e-11    6984.650 - 3.41e-05    6879.587 -  5.2e-09
+K2P+I             -2410.779    5487.558 -  9.9e-13    6970.518 -     0.04    6880.193 - 3.84e-09
+GTR+F+R2          -2386.076    5454.152 - 1.78e-05    7096.715 - 1.58e-29    6880.243 - 3.74e-09
+TNe+I             -2408.452    5484.905 - 3.73e-12    6986.784 - 1.17e-05    6881.721 - 1.79e-09
+TIM2e+G4          -2405.578    5481.156 - 2.43e-11    7002.238 - 5.18e-09    6882.155 - 1.44e-09
+TIMe+G4           -2405.972    5481.944 - 1.64e-11    7003.025 - 3.49e-09    6882.942 - 9.71e-10
+TIM3e+G4          -2406.408    5482.817 - 1.06e-11    7003.898 - 2.26e-09    6883.815 - 6.27e-10
+GTR+F+R3          -2381.941    5449.882 -  0.00015    7135.482 - 6.03e-38    6884.337 - 4.83e-10
+K3P+I+G4          -2406.764    5483.529 - 7.43e-12    7004.610 - 1.58e-09    6884.527 -  4.4e-10
+TNe+I+G4          -2406.990    5483.979 - 5.93e-12    7005.060 - 1.26e-09    6884.978 - 3.51e-10
+K3P+I             -2410.170    5488.340 -  6.7e-13    6990.220 - 2.11e-06    6885.157 - 3.21e-10
+TIM2e+I           -2407.553    5485.105 - 3.38e-12    7006.186 - 7.19e-10    6886.103 -    2e-10
+TIMe+I            -2407.850    5485.700 - 2.51e-12    7006.781 - 5.34e-10    6886.699 - 1.48e-10
+TIM3e+I           -2408.321    5486.641 - 1.57e-12    7007.722 - 3.34e-10    6887.640 - 9.27e-11
+TIM2e+I+G4        -2405.847    5483.694 - 6.84e-12    7024.266 - 8.53e-14    6888.875 -    5e-11
+TVMe+G4           -2406.083    5484.166 -  5.4e-12    7024.737 - 6.73e-14    6889.347 - 3.95e-11
+TIMe+I+G4         -2406.376    5484.752 - 4.03e-12    7025.323 - 5.03e-14    6889.932 - 2.95e-11
+TIM3e+I+G4        -2406.775    5485.551 -  2.7e-12    7026.122 - 3.37e-14    6890.731 - 1.98e-11
+SYM+G4            -2405.108    5484.216 - 5.27e-12    7044.573 - 3.32e-18    6893.579 - 4.76e-12
+TVMe+I+G4         -2405.713    5485.427 - 2.87e-12    7045.783 - 1.81e-18    6894.789 -  2.6e-12
+TVMe+I            -2409.361    5490.722 - 2.04e-13    7031.293 - 2.54e-15    6895.902 - 1.49e-12
+SYM+I             -2407.110    5488.221 - 7.11e-13    7048.577 - 4.48e-19    6897.583 - 6.42e-13
+SYM+I+G4          -2405.339    5486.677 - 1.54e-12    7067.119 - 4.22e-23    6900.222 - 1.72e-13
+GTR+F             -2512.969    5703.938 - 1.02e-59    7304.772 - 1.05e-74    7121.665 - 1.41e-61
+F81+F+G4          -2538.881    5747.762 - 3.11e-69    7268.843 - 6.63e-67    7148.761 - 1.84e-67
+F81+F+I           -2541.331    5752.662 - 2.69e-70    7273.744 - 5.72e-68    7153.661 - 1.59e-68
+F81+F+I+G4        -2539.493    5750.986 - 6.21e-70    7291.558 - 7.74e-72    7156.167 - 4.54e-69
+JC+G4             -2554.012    5772.025 - 1.68e-74    7236.342 - 7.57e-60    7160.477 - 5.26e-70
+JC+I              -2556.907    5777.813 - 9.28e-76    7242.131 - 4.19e-61    7166.266 - 2.91e-71
+JC+I+G4           -2554.152    5774.303 - 5.37e-75    7257.263 - 2.17e-64    7166.938 - 2.08e-71
 
 AIC, w-AIC   : Akaike information criterion scores and weights.
 AICc, w-AICc : Corrected AIC scores and weights.
@@ -119,351 +119,401 @@ Minus signs denote significant exclusion.
 SUBSTITUTION PROCESS
 --------------------
 
-Model of substitution: TN+F+G4
+Model of substitution: HKY+F+G4
 
 Rate parameter R:
 
   A-C: 1.0000
-  A-G: 14.3455
+  A-G: 10.8687
   A-T: 1.0000
   C-G: 1.0000
-  C-T: 8.9463
+  C-T: 10.8687
   G-T: 1.0000
 
 State frequencies: (empirical counts from alignment)
 
-  pi(A) = 0.2579
-  pi(C) = 0.1862
+  pi(A) = 0.2569
+  pi(C) = 0.187
   pi(G) = 0.1974
-  pi(T) = 0.3584
+  pi(T) = 0.3587
 
 Rate matrix Q:
 
-  A    -1.072   0.05909    0.8988    0.1137
-  C   0.08185    -1.162   0.06265     1.018
-  G     1.174   0.05909    -1.347    0.1137
-  T   0.08185    0.5286   0.06265   -0.6731
+  A   -0.8805   0.06119     0.702    0.1174
+  C   0.08406    -1.424   0.06459     1.275
+  G    0.9137   0.06119    -1.092    0.1174
+  T   0.08406    0.6651   0.06459   -0.8137
 
 Model of rate heterogeneity: Gamma with 4 categories
-Gamma shape alpha: 0.1461
+Gamma shape alpha: 0.1688
 
  Category  Relative_rate  Proportion
-  1         4.141e-05      0.25
-  2         0.009512       0.25
-  3         0.2299         0.25
-  4         3.761          0.25
+  1         0.0001483      0.25
+  2         0.01794        0.25
+  3         0.2976         0.25
+  4         3.684          0.25
 Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -2128.6940 (s.e. 119.7301)
-Unconstrained log-likelihood (without tree): -1338.0106
-Number of free parameters (#branches + #model parameters): 287
-Akaike information criterion (AIC) score: 4831.3881
-Corrected Akaike information criterion (AICc) score: 5674.8167
-Bayesian information criterion (BIC) score: 6031.6465
+Log-likelihood of the tree: -2367.5414 (s.e. 136.7163)
+Unconstrained log-likelihood (without tree): -1384.1439
+Number of free parameters (#branches + #model parameters): 336
+Akaike information criterion (AIC) score: 5407.0828
+Corrected Akaike information criterion (AICc) score: 6947.6542
+Bayesian information criterion (BIC) score: 6812.2633
 
-Total tree length (sum of branch lengths): 0.6296
-Sum of internal branch lengths: 0.3850 (61.1519% of tree length)
+Total tree length (sum of branch lengths): 0.7001
+Sum of internal branch lengths: 0.3821 (54.5705% of tree length)
 
-WARNING: 92 near-zero internal branches (<0.0021) should be treated with caution
+WARNING: 111 near-zero internal branches (<0.0021) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
-NOTE: Tree is UNROOTED although outgroup taxon 'Eulimnogammarus_verrucosus_EveW_COI_KF690638_Naumenko_EveW' is drawn at root
+NOTE: Tree is UNROOTED although outgroup taxon 'PQ557398_Eulimnogammarus_verrucosus_isolate_1017_S-UB_EvePB2_EveS' is drawn at root
 
-+**Eulimnogammarus_verrucosus_EveW_COI_KF690638_Naumenko_EveW
++**PQ557398_Eulimnogammarus_verrucosus_isolate_1017_S-UB_EvePB2_EveS
 |
-|                                                                                               +--Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA001_SA_COI_EvePB2_EveS
-|                                                                                            +**|
-|                                                                                            |  +**Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA178_SA_COI_EvePB2_EveS
-|                                                                                         +--|
-|                                                                                         |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA166_SA_COI_EvePB2_EveS
-|                                                                                      +**|
-|                                                                                      |  |           +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA026_SA_COI_EvePB2_EveS
-|                                                                                      |  |        +**|
-|                                                                                      |  |        |  +**Eulimnogammarus_verrucosus_IBISU211117_Angara_GL_EveA099_SA_COI_EvePB2_EveS
-|                                                                                      |  |     +--|
-|                                                                                      |  |     |  +--Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA105_SA_COI_EvePB2_EveS
-|                                                                                      |  |  +**|
-|                                                                                      |  |  |  |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA036_SA_COI_EvePB2_EveS
-|                                                                                      |  |  |  +--|
-|                                                                                      |  |  |     +**Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA151_SA_COI_EvePB2_EveS
-|                                                                                      |  +**|
-|                                                                                      |     |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA037_SA_COI_EvePB2_EveS
-|                                                                                      |     +**|
-|                                                                                      |        +**Eulimnogammarus_verrucosus_IBISU211117_Angara_GL_EveA065_SA_COI_EvePB2_EveS
-|                                                                                   +--|
-|                                                                                   |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA163_SA_COI_EvePB2_EveS
-|                                                                                +--|
-|                                                                                |  |                          +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA005_SA_COI_EvePB2_EveS
-|                                                                                |  |                       +**|
-|                                                                                |  |                       |  +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA027_SA_COI_EvePB2_EveS
-|                                                                                |  |                    +--|
-|                                                                                |  |                    |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA164_SA_COI_EvePB2_EveS
-|                                                                                |  |                 +**|
-|                                                                                |  |                 |  +--Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA024_SA_COI_EvePB2_EveS
-|                                                                                |  |              +**|
-|                                                                                |  |              |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA171_SA_COI_EvePB2_EveS
-|                                                                                |  |           +**|
-|                                                                                |  |           |  |     +--Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA034_SA_COI_EvePB2_EveS
-|                                                                                |  |           |  |  +--|
-|                                                                                |  |           |  |  |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA035_SA_COI_EvePB2_EveS
-|                                                                                |  |           |  +**|
-|                                                                                |  |           |     +--Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA063_SA_COI_EvePB2_EveS
-|                                                                                |  |        +**|
-|                                                                                |  |        |  +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA025_SA_COI_EvePB2_EveS
-|                                                                                |  |     +**|
-|                                                                                |  |     |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA032_SA_COI_EvePB2_EveS
-|                                                                                |  |  +--|
-|                                                                                |  |  |  +--Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA112_SA_COI_EvePB2_EveS
-|                                                                                |  +**|
-|                                                                                |     |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA062_SA_COI_EvePB2_EveS
-|                                                                                |     +--|
-|                                                                                |        +**Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA150_SA_COI_EvePB2_EveS
-|                                                                             +**|
-|                                                                             |  |     +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA002_SA_COI_EvePB2_EveS
-|                                                                             |  |  +**|
-|                                                                             |  |  |  |     +--Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA004_SA_COI_EvePB2_EveS
-|                                                                             |  |  |  |  +**|
-|                                                                             |  |  |  |  |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA157_SA_COI_EvePB2_EveS
-|                                                                             |  |  |  +**|
-|                                                                             |  |  |     +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA177_SA_COI_EvePB2_EveS
-|                                                                             |  +**|
-|                                                                             |     +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA006_SA_COI_EvePB2_EveS
-|                                                                          +--|
-|                                                                          |  |  +--Eulimnogammarus_verrucosus_IBISU211111_Angara_BR_EveA028_SA_COI_EvePB2_EveS
-|                                                                          |  +**|
-|                                                                          |     +--Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA107_SA_COI_EvePB2_EveS
-|                                                                       +**|
-|                                                                       |  +--GBCM1755619|Eulimnogammarus_verrucosus|COI5P|MK887450_EvePB2_EveS
-|                                                                    +**|
-|                                                                    |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA200_SA_COI_EvePB2_EveS
-|                                                                 +**|
-|                                                                 |  |  +--GBCM1755819|Eulimnogammarus_verrucosus|COI5P|MK887452_EvePB2_EveS
-|                                                                 |  +**|
-|                                                                 |     +--GBCM1756519|Eulimnogammarus_verrucosus|COI5P|MK887447_EvePB2_EveS
-|                                                              +**|
-|                                                              |  +**GBCM1756119|Eulimnogammarus_verrucosus|COI5P|MK887443_EvePB2_EveS
-|                                                           +**|
-|                                                           |  +**GBCM1755919|Eulimnogammarus_verrucosus|COI5P|MK887453_EvePB2_EveS
-|                                                        +**|
-|                                                        |  |  +--GBCM1756219|Eulimnogammarus_verrucosus|COI5P|MK887444_EvePB2_EveS
-|                                                        |  +**|
-|                                                        |     +--GBCM1755519|Eulimnogammarus_verrucosus|COI5P|MK887449_EvePB2_EveS
-|                                                     +--|
-|                                                     |  |        +**Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA156_SA_COI_EvePB2_EveS
-|                                                     |  |     +**|
-|                                                     |  |     |  +**GBCM1747819|Eulimnogammarus_verrucosus|COI5P|MK887369_EvePB2_EveS
-|                                                     |  |  +--|
-|                                                     |  |  |  +--GBCM1748119|Eulimnogammarus_verrucosus|COI5P|MK887372_EvePB2_EveS
-|                                                     |  +--|
-|                                                     |     +--GBCM1762519|Eulimnogammarus_verrucosus|COI5P|MK887514_EvePB2_EveS
-|                                                  +--|
-|                                                  |  |        +**Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA154_SA_COI_EvePB2_EveS
-|                                                  |  |     +**|
-|                                                  |  |     |  +**GBCM1747619|Eulimnogammarus_verrucosus|COI5P|MK887367_EvePB2_EveS
-|                                                  |  |  +**|
-|                                                  |  |  |  +--GBCM1748519|Eulimnogammarus_verrucosus|COI5P|MK887366_EvePB2_EveS
-|                                                  |  +--|
-|                                                  |     +--GBCM1747919|Eulimnogammarus_verrucosus|COI5P|MK887370_EvePB2_EveS
-|                                               +**|
-|                                               |  |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA038_SA_COI_EvePB2_EveS
-|                                               |  +**|
-|                                               |     +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA061_SA_COI_EvePB2_EveS
-|                                            +--|
-|                                            |  +--Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA104_SA_COI_EvePB2_EveS
-|                          +-----------------|
-|                          |                 +--Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA108_SA_COI_EvePB2_EveS
-|     +--------------------|
-|     |                    |                          +--GBCM1753919|Eulimnogammarus_verrucosus|COI5P|MK887427_EveUB20181_EveE
-|     |                    |                       +--|
-|     |                    |                       |  |                        +**GBCM1754219|Eulimnogammarus_verrucosus|COI5P|MK887430_EveUB20181_EveE
-|     |                    |                       |  |                     +--|
-|     |                    |                       |  |                     |  +--GBCM1754319|Eulimnogammarus_verrucosus|COI5P|MK887431_EveUB20181_EveE
-|     |                    |                       |  |                  +--|
-|     |                    |                       |  |                  |  |                 +--GBCM1766319|Eulimnogammarus_verrucosus|COI5P|MK887549_EveUB20181_EveE
-|     |                    |                       |  |                  |  |              +**|
-|     |                    |                       |  |                  |  |              |  |  +--GBCM1765719|Eulimnogammarus_verrucosus|COI5P|MK887545_EveUB20181_EveE
-|     |                    |                       |  |                  |  |              |  +--|
-|     |                    |                       |  |                  |  |              |     +--GBCM1767219|Eulimnogammarus_verrucosus|COI5P|MK887560_EveUB20181_EveE
-|     |                    |                       |  |                  |  |           +**|
-|     |                    |                       |  |                  |  |           |  |  +--GBCM1765919|Eulimnogammarus_verrucosus|COI5P|MK887555_EveUB20181_EveE
-|     |                    |                       |  |                  |  |           |  +**|
-|     |                    |                       |  |                  |  |           |     +--GBCM1766619|Eulimnogammarus_verrucosus|COI5P|MK887552_EveUB20181_EveE
-|     |                    |                       |  |                  |  |        +**|
-|     |                    |                       |  |                  |  |        |  +**GBCM1765819|Eulimnogammarus_verrucosus|COI5P|MK887554_EveUB20181_EveE
-|     |                    |                       |  |                  |  |     +**|
-|     |                    |                       |  |                  |  |     |  +**GBCM1766519|Eulimnogammarus_verrucosus|COI5P|MK887551_EveUB20181_EveE
-|     |                    |                       |  |                  |  |  +**|
-|     |                    |                       |  |                  |  |  |  |     +--GBCMA269310|Eulimnogammarus_verrucosus|COI5P|FJ756325_EveUB20181_EveE
-|     |                    |                       |  |                  |  |  |  |  +**|
-|     |                    |                       |  |                  |  |  |  |  |  +--GBCM1754019|Eulimnogammarus_verrucosus|COI5P|MK887428_EveUB20181_EveE
-|     |                    |                       |  |                  |  |  |  +**|
-|     |                    |                       |  |                  |  |  |     |  +--GBCM1766119|Eulimnogammarus_verrucosus|COI5P|MK887547_EveUB20181_EveE
-|     |                    |                       |  |                  |  |  |     +--|
-|     |                    |                       |  |                  |  |  |        +--GBCM1767319|Eulimnogammarus_verrucosus|COI5P|MK887561_EveUB20181_EveE
-|     |                    |                       |  |                  |  +**|
-|     |                    |                       |  |                  |     |  +--GBCM1767119|Eulimnogammarus_verrucosus|COI5P|MK887559_EveUB20181_EveE
-|     |                    |                       |  |                  |     +**|
-|     |                    |                       |  |                  |        +--GBCM1767419|Eulimnogammarus_verrucosus|COI5P|MK887562_EveUB20181_EveE
-|     |                    |                       |  |               +**|
-|     |                    |                       |  |               |  +--GBCM1766019|Eulimnogammarus_verrucosus|COI5P|MK887546_EveUB20181_EveE
-|     |                    |                       |  |            +**|
-|     |                    |                       |  |            |  |  +**GBCM1754419|Eulimnogammarus_verrucosus|COI5P|MK887432_EveUB20181_EveE
-|     |                    |                       |  |            |  +**|
-|     |                    |                       |  |            |     +**GBCM1766719|Eulimnogammarus_verrucosus|COI5P|MK887553_EveUB20181_EveE
-|     |                    |                       |  |         +**|
-|     |                    |                       |  |         |  +--GBCM1766419|Eulimnogammarus_verrucosus|COI5P|MK887550_EveUB20181_EveE
-|     |                    |                       |  |      +--|
-|     |                    |                       |  |      |  +--GBCM1767619|Eulimnogammarus_verrucosus|COI5P|MK887564_EveUB20181_EveE
-|     |                    |                       |  +------|
-|     |                    |                       |         +**GBCM1766219|Eulimnogammarus_verrucosus|COI5P|MK887548_EveUB20181_EveE
-|     |                    +-----------------------|
-|     |                                            +**GBCM1754119|Eulimnogammarus_verrucosus|COI5P|MK887429_EveUB20181_EveE
-|  +--|
-|  |  |  +**Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA238_SA_COI_Naumenko_EveW
-|  |  +**|
-|  |     +**GBCM1749719|Eulimnogammarus_verrucosus|COI5P|MK887397_Naumenko_EveW
-+**|
-|  |        +**GBCM1750119|Eulimnogammarus_verrucosus|COI5P|MK887401_Naumenko_EveW
-|  |     +**|
-|  |     |  +**GBCM1767819|Eulimnogammarus_verrucosus|COI5P|MK887570_Naumenko_EveW
-|  |  +--|
-|  |  |  +--GBCM1752319|Eulimnogammarus_verrucosus|COI5P|MK887405_Naumenko_EveW
-|  +**|
-|     +--GBCM1768519|Eulimnogammarus_verrucosus|COI5P|MK887569_Naumenko_EveW
-|
-|                          +**Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA211_SA_COI_Naumenko_EveW
-|                       +**|
-|                       |  +**Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA232_SA_COI_Naumenko_EveW
+|                       +**PQ557399_Eulimnogammarus_verrucosus_isolate_1018_S-UB_EvePB2_EveS
 |                    +**|
-|                    |  |     +--Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA233_SA_COI_Naumenko_EveW
-|                    |  |  +**|
-|                    |  |  |  +--GBCM1751419|Eulimnogammarus_verrucosus|COI5P|MK887402_Naumenko_EveW
-|                    |  +**|
-|                    |     |  +--Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA237_SA_COI_Naumenko_EveW
-|                    |     +**|
-|                    |        |  +--GBCM1757019|Eulimnogammarus_verrucosus|COI5P|MK887460_Naumenko_EveW
-|                    |        +**|
-|                    |           +--GBCM1751919|Eulimnogammarus_verrucosus|COI5P|MK887414_Naumenko_EveW
+|                    |  +**PQ557401_Eulimnogammarus_verrucosus_isolate_1300_S-Irk_EvePB2_EveS
 |                 +**|
-|                 |  |                       +**GBCM1748819|Eulimnogammarus_verrucosus|COI5P|MK887384_Naumenko_EveW
-|                 |  |                    +**|
-|                 |  |                    |  |        +--GBCM1762219|Eulimnogammarus_verrucosus|COI5P|MK887510_Naumenko_EveW
-|                 |  |                    |  |     +--|
-|                 |  |                    |  |     |  |  +**GBCM1765119|Eulimnogammarus_verrucosus|COI5P|MK887537_Naumenko_EveW
-|                 |  |                    |  |     |  +**|
-|                 |  |                    |  |     |     +**GBCM1765019|Eulimnogammarus_verrucosus|COI5P|MK887536_Naumenko_EveW
-|                 |  |                    |  |  +**|
-|                 |  |                    |  |  |  |  +**GBCM1763419|Eulimnogammarus_verrucosus|COI5P|MK887528_Naumenko_EveW
-|                 |  |                    |  |  |  +--|
-|                 |  |                    |  |  |     +**GBCM1764319|Eulimnogammarus_verrucosus|COI5P|MK887524_Naumenko_EveW
-|                 |  |                    |  +**|
-|                 |  |                    |     |  +--GBCM1768819|Eulimnogammarus_verrucosus|COI5P|MK887576_Naumenko_EveW
-|                 |  |                    |     +**|
-|                 |  |                    |        +--GBCM1769019|Eulimnogammarus_verrucosus|COI5P|MK887578_Naumenko_EveW
-|                 |  |                 +**|
-|                 |  |                 |  |  +**GBCM1749019|Eulimnogammarus_verrucosus|COI5P|MK887376_Naumenko_EveW
-|                 |  |                 |  +**|
-|                 |  |                 |     |           +**GBCM1749319|Eulimnogammarus_verrucosus|COI5P|MK887379_Naumenko_EveW
-|                 |  |                 |     |        +--|
-|                 |  |                 |     |        |  +**GBCM1749519|Eulimnogammarus_verrucosus|COI5P|MK887381_Naumenko_EveW
-|                 |  |                 |     |     +**|
-|                 |  |                 |     |     |  +--GBCM1749419|Eulimnogammarus_verrucosus|COI5P|MK887380_Naumenko_EveW
-|                 |  |                 |     |  +**|
-|                 |  |                 |     |  |  |     +**GBCM1765219|Eulimnogammarus_verrucosus|COI5P|MK887538_Naumenko_EveW
-|                 |  |                 |     |  |  |  +--|
-|                 |  |                 |     |  |  |  |  +**GBCM1764519|Eulimnogammarus_verrucosus|COI5P|MK887526_Naumenko_EveW
-|                 |  |                 |     |  |  +**|
-|                 |  |                 |     |  |     +--GBCM1748619|Eulimnogammarus_verrucosus|COI5P|MK887374_Naumenko_EveW
-|                 |  |                 |     +**|
-|                 |  |                 |        |     +--GBCM1765319|Eulimnogammarus_verrucosus|COI5P|MK887539_Naumenko_EveW
-|                 |  |                 |        |  +**|
-|                 |  |                 |        |  |  +--GBCM1754619|Eulimnogammarus_verrucosus|COI5P|MK887442_Naumenko_EveW
-|                 |  |                 |        +**|
-|                 |  |                 |           +--GBCM1764619|Eulimnogammarus_verrucosus|COI5P|MK887534_Naumenko_EveW
-|                 |  |              +**|
-|                 |  |              |  +--GBCM1754719|Eulimnogammarus_verrucosus|COI5P|MK887434_Naumenko_EveW
-|                 |  |           +--|
-|                 |  |           |  +--GBCM1765419|Eulimnogammarus_verrucosus|COI5P|MK887540_Naumenko_EveW
-|                 |  |        +--|
-|                 |  |        |  |  +**GBCM1760919|Eulimnogammarus_verrucosus|COI5P|MK887496_Naumenko_EveW
-|                 |  |        |  +**|
-|                 |  |        |     +**GBCM1761019|Eulimnogammarus_verrucosus|COI5P|MK887497_Naumenko_EveW
-|                 |  |     +--|
-|                 |  |     |  |     +**GBCM1753119|Eulimnogammarus_verrucosus|COI5P|MK887422_Naumenko_EveW
-|                 |  |     |  |  +**|
-|                 |  |     |  |  |  +**GBCM1753819|Eulimnogammarus_verrucosus|COI5P|MK887418_Naumenko_EveW
-|                 |  |     |  +--|
-|                 |  |     |     |              +**GBCM1757919|Eulimnogammarus_verrucosus|COI5P|MK887470_Naumenko_EveW
-|                 |  |     |     |           +**|
-|                 |  |     |     |           |  |     +--GBCM1758519|Eulimnogammarus_verrucosus|COI5P|MK887473_Naumenko_EveW
-|                 |  |     |     |           |  |  +**|
-|                 |  |     |     |           |  |  |  +--GBCM1759819|Eulimnogammarus_verrucosus|COI5P|MK887481_Naumenko_EveW
-|                 |  |     |     |           |  +**|
-|                 |  |     |     |           |     +--GBCM1766819|Eulimnogammarus_verrucosus|COI5P|MK887556_Naumenko_EveW
-|                 |  |     |     |        +**|
-|                 |  |     |     |        |  +**GBCM1759419|Eulimnogammarus_verrucosus|COI5P|MK887477_Naumenko_EveW
-|                 |  |     |     |     +**|
-|                 |  |     |     |     |  |     +**GBCM1759319|Eulimnogammarus_verrucosus|COI5P|MK887476_Naumenko_EveW
-|                 |  |     |     |     |  |  +--|
-|                 |  |     |     |     |  |  |  +**GBCM1757819|Eulimnogammarus_verrucosus|COI5P|MK887466_Naumenko_EveW
-|                 |  |     |     |     |  +**|
-|                 |  |     |     |     |     +--GBCM1759719|Eulimnogammarus_verrucosus|COI5P|MK887480_Naumenko_EveW
-|                 |  |     |     |  +--|
-|                 |  |     |     |  |  |     +**GBCM1758119|Eulimnogammarus_verrucosus|COI5P|MK887472_Naumenko_EveW
-|                 |  |     |     |  |  |  +**|
-|                 |  |     |     |  |  |  |  +**GBCM1758919|Eulimnogammarus_verrucosus|COI5P|MK887485_Naumenko_EveW
-|                 |  |     |     |  |  +--|
-|                 |  |     |     |  |     |  +**GBCM1760019|Eulimnogammarus_verrucosus|COI5P|MK887491_Naumenko_EveW
-|                 |  |     |     |  |     +--|
-|                 |  |     |     |  |        +--GBCM1760419|Eulimnogammarus_verrucosus|COI5P|MK887488_Naumenko_EveW
-|                 |  |     |     +--|
-|                 |  |     |        +**GBCM1753019|Eulimnogammarus_verrucosus|COI5P|MK887421_Naumenko_EveW
+|                 |  |     +--Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA024_SA_COI_EvePB2_EveS
 |                 |  |  +**|
-|                 |  |  |  |  +**GBCM1756919|Eulimnogammarus_verrucosus|COI5P|MK887459_Naumenko_EveW
-|                 |  |  |  +--|
-|                 |  |  |     +**GBCM1757319|Eulimnogammarus_verrucosus|COI5P|MK887463_Naumenko_EveW
+|                 |  |  |  +--Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA063_SA_COI_EvePB2_EveS
 |                 |  +**|
-|                 |     |     +**GBCM1757619|Eulimnogammarus_verrucosus|COI5P|MK887455_Naumenko_EveW
-|                 |     |  +**|
-|                 |     |  |  +--GBCM1750919|Eulimnogammarus_verrucosus|COI5P|MK887386_Naumenko_EveW
-|                 |     +--|
-|                 |        +--GBCM1757119|Eulimnogammarus_verrucosus|COI5P|MK887461_Naumenko_EveW
+|                 |     +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA171_SA_COI_EvePB2_EveS
 |              +**|
-|              |  |  +--GBCM1749919|Eulimnogammarus_verrucosus|COI5P|MK887399_Naumenko_EveW
-|              |  +--|
-|              |     +**GBCM1752419|Eulimnogammarus_verrucosus|COI5P|MK887406_Naumenko_EveW
+|              |  |        +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA005_SA_COI_EvePB2_EveS
+|              |  |     +**|
+|              |  |     |  +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA027_SA_COI_EvePB2_EveS
+|              |  |  +--|
+|              |  |  |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA164_SA_COI_EvePB2_EveS
+|              |  +**|
+|              |     +--Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA112_SA_COI_EvePB2_EveS
 |           +--|
-|           |  +--GBCM1767719|Eulimnogammarus_verrucosus|COI5P|MK887565_Naumenko_EveW
-|        +**|
-|        |  +--GBCM1750419|Eulimnogammarus_verrucosus|COI5P|MK887392_Naumenko_EveW
+|           |  |  +--Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA034_SA_COI_EvePB2_EveS
+|           |  +--|
+|           |     +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA035_SA_COI_EvePB2_EveS
+|        +--|
+|        |  |           +**PQ557402_Eulimnogammarus_verrucosus_isolate_1361_S-Irk_EvePB2_EveS
+|        |  |        +**|
+|        |  |        |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA037_SA_COI_EvePB2_EveS
+|        |  |     +**|
+|        |  |     |  |           +**Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA026_SA_COI_EvePB2_EveS
+|        |  |     |  |        +**|
+|        |  |     |  |        |  +**Eulimnogammarus_verrucosus_IBISU211117_Angara_GL_EveA099_SA_COI_EvePB2_EveS
+|        |  |     |  |     +--|
+|        |  |     |  |     |  +--Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA105_SA_COI_EvePB2_EveS
+|        |  |     |  |  +**|
+|        |  |     |  |  |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA163_SA_COI_EvePB2_EveS
+|        |  |     |  +**|
+|        |  |     |     |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA036_SA_COI_EvePB2_EveS
+|        |  |     |     +--|
+|        |  |     |        +**Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA151_SA_COI_EvePB2_EveS
+|        |  |  +--|
+|        |  |  |  |     +--Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA001_SA_COI_EvePB2_EveS
+|        |  |  |  |  +**|
+|        |  |  |  |  |  +**Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA178_SA_COI_EvePB2_EveS
+|        |  |  |  +--|
+|        |  |  |     +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA166_SA_COI_EvePB2_EveS
+|        |  +**|
+|        |     |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA062_SA_COI_EvePB2_EveS
+|        |     +--|
+|        |        +**Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA150_SA_COI_EvePB2_EveS
 |     +**|
-|     |  |  +--Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA239_SA_COI_Naumenko_EveW
+|     |  |                                         +**PQ557403_Eulimnogammarus_verrucosus_isolate_1234_S-1_EvePB2_EveS
+|     |  |                                      +**|
+|     |  |                                      |  +--GBCM1748519|Eulimnogammarus_verrucosus|COI5P|MK887366_EvePB2_EveS
+|     |  |                                   +**|
+|     |  |                                   |  |  +**PQ557406_Eulimnogammarus_verrucosus_isolate_853_S-1_EvePB2_EveS
+|     |  |                                   |  +**|
+|     |  |                                   |     +--PQ557408_Eulimnogammarus_verrucosus_isolate_1200_S-2_EvePB2_EveS
+|     |  |                                +--|
+|     |  |                                |  +--GBCM1747919|Eulimnogammarus_verrucosus|COI5P|MK887370_EvePB2_EveS
+|     |  |                             +--|
+|     |  |                             |  +**PQ557407_Eulimnogammarus_verrucosus_isolate_949_S-2_EvePB2_EveS
+|     |  |                          +**|
+|     |  |                          |  +**PQ557416_Eulimnogammarus_verrucosus_isolate_1312_S-5_EvePB2_EveS
+|     |  |                       +--|
+|     |  |                       |  |                                                    +**PQ557420_Eulimnogammarus_verrucosus_isolate_1019_W-7_Naumenko_EveW
+|     |  |                       |  |                                                 +**|
+|     |  |                       |  |                                                 |  |  +**Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA213_SA_COI_Naumenko_EveW
+|     |  |                       |  |                                                 |  +--|
+|     |  |                       |  |                                                 |     +**GBCM1751819|Eulimnogammarus_verrucosus|COI5P|MK887413_Naumenko_EveW
+|     |  |                       |  |                                              +**|
+|     |  |                       |  |                                              |  |  +**PQ557422_Eulimnogammarus_verrucosus_isolate_1233_W-7_Naumenko_EveW
+|     |  |                       |  |                                              |  +**|
+|     |  |                       |  |                                              |     |                                   +**PQ557424_Eulimnogammarus_verrucosus_isolate_774_W-9_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                +**|
+|     |  |                       |  |                                              |     |                                |  |                          +**PQ557425_Eulimnogammarus_verrucosus_isolate_1273_W-10_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |                       +**|
+|     |  |                       |  |                                              |     |                                |  |                       |  +**PQ557426_Eulimnogammarus_verrucosus_isolate_1275_W-10_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |                    +**|
+|     |  |                       |  |                                              |     |                                |  |                    |  |     +**PQ557444_Eulimnogammarus_verrucosus_isolate_783_W-19__Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |                    |  |  +**|
+|     |  |                       |  |                                              |     |                                |  |                    |  |  |  +**GBCM1758119|Eulimnogammarus_verrucosus|COI5P|MK887472_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |                    |  +--|
+|     |  |                       |  |                                              |     |                                |  |                    |     |  +**GBCM1760019|Eulimnogammarus_verrucosus|COI5P|MK887491_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |                    |     +--|
+|     |  |                       |  |                                              |     |                                |  |                    |        +--GBCM1760419|Eulimnogammarus_verrucosus|COI5P|MK887488_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |                 +**|
+|     |  |                       |  |                                              |     |                                |  |                 |  +--GBCM1759719|Eulimnogammarus_verrucosus|COI5P|MK887480_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |              +**|
+|     |  |                       |  |                                              |     |                                |  |              |  +--GBCM1758519|Eulimnogammarus_verrucosus|COI5P|MK887473_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |           +**|
+|     |  |                       |  |                                              |     |                                |  |           |  |  +--PQ557445_Eulimnogammarus_verrucosus_isolate_784_W-19__Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |           |  +**|
+|     |  |                       |  |                                              |     |                                |  |           |     +--GBCM1759819|Eulimnogammarus_verrucosus|COI5P|MK887481_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |        +**|
+|     |  |                       |  |                                              |     |                                |  |        |  +--GBCM1766819|Eulimnogammarus_verrucosus|COI5P|MK887556_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |     +--|
+|     |  |                       |  |                                              |     |                                |  |     |  |  +**GBCM1759319|Eulimnogammarus_verrucosus|COI5P|MK887476_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |     |  +--|
+|     |  |                       |  |                                              |     |                                |  |     |     +**GBCM1757819|Eulimnogammarus_verrucosus|COI5P|MK887466_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |              +**PQ557432_Eulimnogammarus_verrucosus_isolate_1292_W-15_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |           +**PQ557434_Eulimnogammarus_verrucosus_isolate_1294_W-15_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  |           +**GBCM1749319|Eulimnogammarus_verrucosus|COI5P|MK887379_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  |        +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  |        |  +**GBCM1749519|Eulimnogammarus_verrucosus|COI5P|MK887381_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  |     +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  |     |  +--GBCM1765319|Eulimnogammarus_verrucosus|COI5P|MK887539_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  |  +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  |  |  +--GBCM1748619|Eulimnogammarus_verrucosus|COI5P|MK887374_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |  +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |     |     +**GBCM1765219|Eulimnogammarus_verrucosus|COI5P|MK887538_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |     |  +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |     |  |  +**GBCM1764519|Eulimnogammarus_verrucosus|COI5P|MK887526_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |     +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |        |        +--GBCM1754719|Eulimnogammarus_verrucosus|COI5P|MK887434_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |  |     +**PQ557440_Eulimnogammarus_verrucosus_isolate_940_W-19_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |  |  +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |  |  |  +**PQ557441_Eulimnogammarus_verrucosus_isolate_1227_W-19_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |  +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     |     +--GBCM1749419|Eulimnogammarus_verrucosus|COI5P|MK887380_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     |  +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     |  |  |  +--GBCM1762219|Eulimnogammarus_verrucosus|COI5P|MK887510_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     |  |  +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     |  |     |  +**GBCM1765119|Eulimnogammarus_verrucosus|COI5P|MK887537_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     |  |     +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     |  |        +**GBCM1765019|Eulimnogammarus_verrucosus|COI5P|MK887536_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |     +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |     |        +--GBCM1754619|Eulimnogammarus_verrucosus|COI5P|MK887442_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |  +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |  |  |  +**PQ557435_Eulimnogammarus_verrucosus_isolate_1161_W-18_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |  |  +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  |  |     +--GBCM1769019|Eulimnogammarus_verrucosus|COI5P|MK887578_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |  +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |     |  +--PQ557438_Eulimnogammarus_verrucosus_isolate_890_W-18a_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |     +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |        |     +--GBCM1765419|Eulimnogammarus_verrucosus|COI5P|MK887540_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |        |  +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |        |  |  +--GBCM1768819|Eulimnogammarus_verrucosus|COI5P|MK887576_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |           |        +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |           |           +--GBCM1764619|Eulimnogammarus_verrucosus|COI5P|MK887534_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |        +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |        |  +**PQ557433_Eulimnogammarus_verrucosus_isolate_1293_W-15_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |     +**|
+|     |  |                       |  |                                              |     |                                |  |  |  |     |  +**PQ557454_Eulimnogammarus_verrucosus_isolate_1285_W-30__Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  |  +--|
+|     |  |                       |  |                                              |     |                                |  |  |  |  |  +**PQ557470_Eulimnogammarus_verrucosus_isolate_1196_w-39__Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  |  |  +--|
+|     |  |                       |  |                                              |     |                                |  |  |     +**GBCM1753019|Eulimnogammarus_verrucosus|COI5P|MK887421_Naumenko_EveW
+|     |  |                       |  |                                              |     |                                |  +--|
+|     |  |                       |  |                                              |     |                                |     +**GBCM1757019|Eulimnogammarus_verrucosus|COI5P|MK887460_Naumenko_EveW
+|     |  |                       |  |                                              |     |                             +**|
+|     |  |                       |  |                                              |     |                             |  +--GBCM1751919|Eulimnogammarus_verrucosus|COI5P|MK887414_Naumenko_EveW
+|     |  |                       |  |                                              |     |                          +**|
+|     |  |                       |  |                                              |     |                          |  |     +**GBCM1756919|Eulimnogammarus_verrucosus|COI5P|MK887459_Naumenko_EveW
+|     |  |                       |  |                                              |     |                          |  |  +--|
+|     |  |                       |  |                                              |     |                          |  |  |  +**GBCM1757319|Eulimnogammarus_verrucosus|COI5P|MK887463_Naumenko_EveW
+|     |  |                       |  |                                              |     |                          |  +**|
+|     |  |                       |  |                                              |     |                          |     +--GBCM1767719|Eulimnogammarus_verrucosus|COI5P|MK887565_Naumenko_EveW
+|     |  |                       |  |                                              |     |                       +**|
+|     |  |                       |  |                                              |     |                       |  +--Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA233_SA_COI_Naumenko_EveW
+|     |  |                       |  |                                              |     |                    +**|
+|     |  |                       |  |                                              |     |                    |  +--Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA237_SA_COI_Naumenko_EveW
+|     |  |                       |  |                                              |     |                 +**|
+|     |  |                       |  |                                              |     |                 |  |  +--GBCM1749919|Eulimnogammarus_verrucosus|COI5P|MK887399_Naumenko_EveW
+|     |  |                       |  |                                              |     |                 |  +--|
+|     |  |                       |  |                                              |     |                 |     +**GBCM1752419|Eulimnogammarus_verrucosus|COI5P|MK887406_Naumenko_EveW
+|     |  |                       |  |                                              |     |              +**|
+|     |  |                       |  |                                              |     |              |  +--GBCM1751419|Eulimnogammarus_verrucosus|COI5P|MK887402_Naumenko_EveW
+|     |  |                       |  |                                              |     |           +--|
+|     |  |                       |  |                                              |     |           |  |  +**Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA211_SA_COI_Naumenko_EveW
+|     |  |                       |  |                                              |     |           |  +**|
+|     |  |                       |  |                                              |     |           |     |     +**GBCM1757619|Eulimnogammarus_verrucosus|COI5P|MK887455_Naumenko_EveW
+|     |  |                       |  |                                              |     |           |     |  +**|
+|     |  |                       |  |                                              |     |           |     |  |  +--GBCM1750919|Eulimnogammarus_verrucosus|COI5P|MK887386_Naumenko_EveW
+|     |  |                       |  |                                              |     |           |     +--|
+|     |  |                       |  |                                              |     |           |        +--GBCM1757119|Eulimnogammarus_verrucosus|COI5P|MK887461_Naumenko_EveW
+|     |  |                       |  |                                              |     |        +**|
+|     |  |                       |  |                                              |     |        |  |  +--Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA239_SA_COI_Naumenko_EveW
+|     |  |                       |  |                                              |     |        |  +**|
+|     |  |                       |  |                                              |     |        |     +--GBCM1750219|Eulimnogammarus_verrucosus|COI5P|MK887396_Naumenko_EveW
+|     |  |                       |  |                                              |     |     +**|
+|     |  |                       |  |                                              |     |     |  |        +**Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA216_SA_COI_Naumenko_EveW
+|     |  |                       |  |                                              |     |     |  |     +--|
+|     |  |                       |  |                                              |     |     |  |     |  +--GBCM1768219|Eulimnogammarus_verrucosus|COI5P|MK887566_Naumenko_EveW
+|     |  |                       |  |                                              |     |     |  |  +**|
+|     |  |                       |  |                                              |     |     |  |  |  |  +**Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA238_SA_COI_Naumenko_EveW
+|     |  |                       |  |                                              |     |     |  |  |  +--|
+|     |  |                       |  |                                              |     |     |  |  |     +**GBCM1749719|Eulimnogammarus_verrucosus|COI5P|MK887397_Naumenko_EveW
+|     |  |                       |  |                                              |     |     |  +**|
+|     |  |                       |  |                                              |     |     |     +--GBCM1757719|Eulimnogammarus_verrucosus|COI5P|MK887456_Naumenko_EveW
+|     |  |                       |  |                                              |     |  +**|
+|     |  |                       |  |                                              |     |  |  +--GBCM1768519|Eulimnogammarus_verrucosus|COI5P|MK887569_Naumenko_EveW
+|     |  |                       |  |                                              |     +**|
+|     |  |                       |  |                                              |        +--GBCM1750419|Eulimnogammarus_verrucosus|COI5P|MK887392_Naumenko_EveW
+|     |  |                       |  |                                           +--|
+|     |  |                       |  |                                           |  |     +**GBCM1750119|Eulimnogammarus_verrucosus|COI5P|MK887401_Naumenko_EveW
+|     |  |                       |  |                                           |  |  +**|
+|     |  |                       |  |                                           |  |  |  +--GBCM1752319|Eulimnogammarus_verrucosus|COI5P|MK887405_Naumenko_EveW
+|     |  |                       |  |                                           |  +--|
+|     |  |                       |  |                                           |     +**GBCM1767819|Eulimnogammarus_verrucosus|COI5P|MK887570_Naumenko_EveW
+|     |  |                       |  |                          +----------------|
+|     |  |                       |  |                          |                +**PQ557421_Eulimnogammarus_verrucosus_isolate_1020_W-7_Naumenko_EveW
+|     |  |                       |  |        +-----------------|
+|     |  |                       |  |        |                 |                          +**PQ557455_Eulimnogammarus_verrucosus_isolate_766_E-20_EveUB20181_EveE
+|     |  |                       |  |        |                 |                       +--|
+|     |  |                       |  |        |                 |                       |  |     +--PQ557457_Eulimnogammarus_verrucosus_isolate_942_E-20_EveUB20181_EveE
+|     |  |                       |  |        |                 |                       |  |  +**|
+|     |  |                       |  |        |                 |                       |  |  |  +**GBCM1753919|Eulimnogammarus_verrucosus|COI5P|MK887427_EveUB20181_EveE
+|     |  |                       |  |        |                 |                       |  +--|
+|     |  |                       |  |        |                 |                       |     +--PQ557477_Eulimnogammarus_verrucosus_isolate_944_E-40__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    +--|
+|     |  |                       |  |        |                 |                    |  |                                      +**PQ557458_Eulimnogammarus_verrucosus_isolate_1291_E-22_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                                   +**|
+|     |  |                       |  |        |                 |                    |  |                                   |  +**PQ557459_Eulimnogammarus_verrucosus_isolate_1354_E-22_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                                +**|
+|     |  |                       |  |        |                 |                    |  |                                |  +--PQ557461_Eulimnogammarus_verrucosus_isolate_1202_E-22_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                             +--|
+|     |  |                       |  |        |                 |                    |  |                             |  +--PQ557460_Eulimnogammarus_verrucosus_isolate_1355_E-22_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                          +**|
+|     |  |                       |  |        |                 |                    |  |                          |  |  +--GBCM1766019|Eulimnogammarus_verrucosus|COI5P|MK887546_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                          |  +**|
+|     |  |                       |  |        |                 |                    |  |                          |     +--GBCM1767619|Eulimnogammarus_verrucosus|COI5P|MK887564_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                       +**|
+|     |  |                       |  |        |                 |                    |  |                       |  +**GBCM1754419|Eulimnogammarus_verrucosus|COI5P|MK887432_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                    +**|
+|     |  |                       |  |        |                 |                    |  |                    |  +**PQ557467_Eulimnogammarus_verrucosus_isolate_945_E-36__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |                    +**PQ557462_Eulimnogammarus_verrucosus_isolate_1357_E-23a_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |                 +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |                 |  +**PQ557471_Eulimnogammarus_verrucosus_isolate_1298_E-39__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  |        +**PQ557465_Eulimnogammarus_verrucosus_isolate_777_E-23b_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  |     +--|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  |     |  +**PQ557466_Eulimnogammarus_verrucosus_isolate_778_E-23b_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  |  |  |  +--PQ557474_Eulimnogammarus_verrucosus_isolate_1197_E-39__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  |  |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  |  |     +--GBCM1767219|Eulimnogammarus_verrucosus|COI5P|MK887560_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |     +--PQ557468_Eulimnogammarus_verrucosus_isolate_946_E-36__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  +--|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  |  |  +--PQ557475_Eulimnogammarus_verrucosus_isolate_1153_E-40__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  |     |     +**GBCM1754219|Eulimnogammarus_verrucosus|COI5P|MK887430_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  |     |  +--|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  |     |  |  +--GBCM1754319|Eulimnogammarus_verrucosus|COI5P|MK887431_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  |     +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     |  |        +--GBCM1765719|Eulimnogammarus_verrucosus|COI5P|MK887545_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |              |     +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |              |        +--GBCM1766319|Eulimnogammarus_verrucosus|COI5P|MK887549_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |           +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |           |  |     +--GBCM1767119|Eulimnogammarus_verrucosus|COI5P|MK887559_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |           |  |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |           |  |  |  +--GBCMA269310|Eulimnogammarus_verrucosus|COI5P|FJ756325_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |           |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |           |     +--GBCM1765919|Eulimnogammarus_verrucosus|COI5P|MK887555_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |        +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |        |  |  +--PQ557464_Eulimnogammarus_verrucosus_isolate_776_E-23b_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |        |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |        |     |  +--GBCM1766119|Eulimnogammarus_verrucosus|COI5P|MK887547_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |        |     +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |        |        +--GBCM1767319|Eulimnogammarus_verrucosus|COI5P|MK887561_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |     +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |     |  +--GBCM1766619|Eulimnogammarus_verrucosus|COI5P|MK887552_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |  +--|
+|     |  |                       |  |        |                 |                    |  |                 |  |  |  |  +--GBCM1767419|Eulimnogammarus_verrucosus|COI5P|MK887562_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  |  |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |  |  |     +--GBCM1754019|Eulimnogammarus_verrucosus|COI5P|MK887428_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |                 |  +**|
+|     |  |                       |  |        |                 |                    |  |                 |     +--PQ557469_Eulimnogammarus_verrucosus_isolate_947_E-36__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |              +**|
+|     |  |                       |  |        |                 |                    |  |              |  +--GBCM1766419|Eulimnogammarus_verrucosus|COI5P|MK887550_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |           +--|
+|     |  |                       |  |        |                 |                    |  |           |  +--PQ557472_Eulimnogammarus_verrucosus_isolate_1375_E-39__EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |        +**|
+|     |  |                       |  |        |                 |                    |  |        |  +**PQ557463_Eulimnogammarus_verrucosus_isolate_1358_E-23a_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  |  +-----|
+|     |  |                       |  |        |                 |                    |  |  |     +--GBCM1766219|Eulimnogammarus_verrucosus|COI5P|MK887548_EveUB20181_EveE
+|     |  |                       |  |        |                 |                    |  +**|
+|     |  |                       |  |        |                 |                    |     +--PQ557476_Eulimnogammarus_verrucosus_isolate_943_E-40__EveUB20181_EveE
+|     |  |                       |  |        |                 +--------------------|
+|     |  |                       |  |        |                                      |  +--PQ557456_Eulimnogammarus_verrucosus_isolate_939_E-20_EveUB20181_EveE
+|     |  |                       |  |        |                                      +**|
+|     |  |                       |  |        |                                         +--GBCM1754119|Eulimnogammarus_verrucosus|COI5P|MK887429_EveUB20181_EveE
+|     |  |                       |  |     +--|
+|     |  |                       |  |     |  +--Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA108_SA_COI_EvePB2_EveS
+|     |  |                       |  |  +**|
+|     |  |                       |  |  |  +--Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA104_SA_COI_EvePB2_EveS
+|     |  |                       |  +--|
+|     |  |                       |     |  +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA038_SA_COI_EvePB2_EveS
+|     |  |                       |     +**|
+|     |  |                       |        +**Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA061_SA_COI_EvePB2_EveS
+|     |  |                    +**|
+|     |  |                    |  +--PQ557405_Eulimnogammarus_verrucosus_isolate_851_S-1_EvePB2_EveS
+|     |  |                 +**|
+|     |  |                 |  +--GBCM1756219|Eulimnogammarus_verrucosus|COI5P|MK887444_EvePB2_EveS
+|     |  |              +**|
+|     |  |              |  |  +**PQ557404_Eulimnogammarus_verrucosus_isolate_1235_S-1_EvePB2_EveS
+|     |  |              |  +**|
+|     |  |              |     |     +**PQ557411_Eulimnogammarus_verrucosus_isolate_1198_S-4_EvePB2_EveS
+|     |  |              |     |  +**|
+|     |  |              |     |  |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA200_SA_COI_EvePB2_EveS
+|     |  |              |     +**|
+|     |  |              |        +--GBCM1755519|Eulimnogammarus_verrucosus|COI5P|MK887449_EvePB2_EveS
+|     |  |           +**|
+|     |  |           |  +--GBCM1756519|Eulimnogammarus_verrucosus|COI5P|MK887447_EvePB2_EveS
+|     |  |        +**|
+|     |  |        |  +--GBCM1755619|Eulimnogammarus_verrucosus|COI5P|MK887450_EvePB2_EveS
+|     |  |     +**|
+|     |  |     |  +--GBCM1755819|Eulimnogammarus_verrucosus|COI5P|MK887452_EvePB2_EveS
+|     |  |  +--|
+|     |  |  |  |        +**Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA156_SA_COI_EvePB2_EveS
+|     |  |  |  |     +**|
+|     |  |  |  |     |  +**GBCM1747819|Eulimnogammarus_verrucosus|COI5P|MK887369_EvePB2_EveS
+|     |  |  |  |  +--|
+|     |  |  |  |  |  +--GBCM1748119|Eulimnogammarus_verrucosus|COI5P|MK887372_EvePB2_EveS
+|     |  |  |  +--|
+|     |  |  |     +--GBCM1762519|Eulimnogammarus_verrucosus|COI5P|MK887514_EvePB2_EveS
 |     |  +**|
-|     |     +--GBCM1750219|Eulimnogammarus_verrucosus|COI5P|MK887396_Naumenko_EveW
+|     |     +--Eulimnogammarus_verrucosus_IBISU211111_Angara_BR_EveA028_SA_COI_EvePB2_EveS
 |  +**|
-|  |  |     +**Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA213_SA_COI_Naumenko_EveW
-|  |  |  +--|
-|  |  |  |  +**GBCM1751819|Eulimnogammarus_verrucosus|COI5P|MK887413_Naumenko_EveW
-|  |  +**|
-|  |     |     +**Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA216_SA_COI_Naumenko_EveW
-|  |     |  +--|
-|  |     |  |  +--GBCM1768219|Eulimnogammarus_verrucosus|COI5P|MK887566_Naumenko_EveW
-|  |     +**|
-|  |        +--GBCM1757719|Eulimnogammarus_verrucosus|COI5P|MK887456_Naumenko_EveW
+|  |  +--Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA177_SA_COI_EvePB2_EveS
 +**|
-   +**Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA234_SA_COI_Naumenko_EveW
+|  |     +--Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA004_SA_COI_EvePB2_EveS
+|  |  +**|
+|  |  |  +--Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA107_SA_COI_EvePB2_EveS
+|  +**|
+|     +--Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA157_SA_COI_EvePB2_EveS
+|
++**PQ557400_Eulimnogammarus_verrucosus_isolate_1301_S-UB_EvePB2_EveS
 
 Tree in newick format:
 
-(Eulimnogammarus_verrucosus_EveW_COI_KF690638_Naumenko_EveW:0.0000010000,(((((((((((((((((((((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA001_SA_COI_EvePB2_EveS:0.0022347180,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA178_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA166_SA_COI_EvePB2_EveS:0.0022279040):0.0022276354,((((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA026_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211117_Angara_GL_EveA099_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA105_SA_COI_EvePB2_EveS:0.0022378918):0.0022327422,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA036_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA151_SA_COI_EvePB2_EveS:0.0000010000):0.0022329409):0.0000020929,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA037_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211117_Angara_GL_EveA065_SA_COI_EvePB2_EveS:0.0000010000):0.0000024078):0.0000022984):0.0000021278,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA163_SA_COI_EvePB2_EveS:0.0044742443):0.0022274843,(((((((((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA005_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA027_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA164_SA_COI_EvePB2_EveS:0.0022317087):0.0022316255,Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA024_SA_COI_EvePB2_EveS:0.0022386900):0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA171_SA_COI_EvePB2_EveS:0.0022438151):0.0000010000,((Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA034_SA_COI_EvePB2_EveS:0.0022408105,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA035_SA_COI_EvePB2_EveS:0.0000010000):0.0022388792,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA063_SA_COI_EvePB2_EveS:0.0022386892):0.0000020680):0.0000010000,Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA025_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA032_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA112_SA_COI_EvePB2_EveS:0.0022316595):0.0022297741,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA062_SA_COI_EvePB2_EveS:0.0000020062,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA150_SA_COI_EvePB2_EveS:0.0000021247):0.0022417376):0.0000020336):0.0022288712,((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA002_SA_COI_EvePB2_EveS:0.0000010000,((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA004_SA_COI_EvePB2_EveS:0.0022277957,Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA157_SA_COI_EvePB2_EveS:0.0022370245):0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA177_SA_COI_EvePB2_EveS:0.0022336362):0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA006_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000):0.0000020804,(Eulimnogammarus_verrucosus_IBISU211111_Angara_BR_EveA028_SA_COI_EvePB2_EveS:0.0115025989,Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA107_SA_COI_EvePB2_EveS:0.0022296845):0.0000010000):0.0068045079,GBCM1755619|Eulimnogammarus_verrucosus|COI5P|MK887450_EvePB2_EveS:0.0022430216):0.0000027258,Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA200_SA_COI_EvePB2_EveS:0.0022431655):0.0000025995,(GBCM1755819|Eulimnogammarus_verrucosus|COI5P|MK887452_EvePB2_EveS:0.0022420442,GBCM1756519|Eulimnogammarus_verrucosus|COI5P|MK887447_EvePB2_EveS:0.0022431498):0.0000010000):0.0000010000,GBCM1756119|Eulimnogammarus_verrucosus|COI5P|MK887443_EvePB2_EveS:0.0000010000):0.0000010000,GBCM1755919|Eulimnogammarus_verrucosus|COI5P|MK887453_EvePB2_EveS:0.0000010000):0.0000010000,(GBCM1756219|Eulimnogammarus_verrucosus|COI5P|MK887444_EvePB2_EveS:0.0045453459,GBCM1755519|Eulimnogammarus_verrucosus|COI5P|MK887449_EvePB2_EveS:0.0022625784):0.0000010000):0.0000010000,(((Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA156_SA_COI_EvePB2_EveS:0.0000010000,GBCM1747819|Eulimnogammarus_verrucosus|COI5P|MK887369_EvePB2_EveS:0.0000010000):0.0000010000,GBCM1748119|Eulimnogammarus_verrucosus|COI5P|MK887372_EvePB2_EveS:0.0022121760):0.0044887426,GBCM1762519|Eulimnogammarus_verrucosus|COI5P|MK887514_EvePB2_EveS:0.0045723455):0.0046134274):0.0045532058,(((Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA154_SA_COI_EvePB2_EveS:0.0000010000,GBCM1747619|Eulimnogammarus_verrucosus|COI5P|MK887367_EvePB2_EveS:0.0000010000):0.0000010000,GBCM1748519|Eulimnogammarus_verrucosus|COI5P|MK887366_EvePB2_EveS:0.0022649036):0.0000010000,GBCM1747919|Eulimnogammarus_verrucosus|COI5P|MK887370_EvePB2_EveS:0.0046016480):0.0046530422):0.0070421520,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA038_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA061_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA104_SA_COI_EvePB2_EveS:0.0022408779):0.0134633452,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA108_SA_COI_EvePB2_EveS:0.0053032630):0.0670384067,((GBCM1753919|Eulimnogammarus_verrucosus|COI5P|MK887427_EveUB20181_EveE:0.0043581904,(((((((GBCM1754219|Eulimnogammarus_verrucosus|COI5P|MK887430_EveUB20181_EveE:0.0000010000,GBCM1754319|Eulimnogammarus_verrucosus|COI5P|MK887431_EveUB20181_EveE:0.0021699736):0.0043556764,((((((GBCM1766319|Eulimnogammarus_verrucosus|COI5P|MK887549_EveUB20181_EveE:0.0021681349,(GBCM1765719|Eulimnogammarus_verrucosus|COI5P|MK887545_EveUB20181_EveE:0.0043988781,GBCM1767219|Eulimnogammarus_verrucosus|COI5P|MK887560_EveUB20181_EveE:0.0065706674):0.0021910685):0.0000010000,(GBCM1765919|Eulimnogammarus_verrucosus|COI5P|MK887555_EveUB20181_EveE:0.0021604671,GBCM1766619|Eulimnogammarus_verrucosus|COI5P|MK887552_EveUB20181_EveE:0.0021664931):0.0000010000):0.0000010000,GBCM1765819|Eulimnogammarus_verrucosus|COI5P|MK887554_EveUB20181_EveE:0.0000010000):0.0000010000,GBCM1766519|Eulimnogammarus_verrucosus|COI5P|MK887551_EveUB20181_EveE:0.0000010000):0.0000010000,((GBCMA269310|Eulimnogammarus_verrucosus|COI5P|FJ756325_EveUB20181_EveE:0.0089060916,GBCM1754019|Eulimnogammarus_verrucosus|COI5P|MK887428_EveUB20181_EveE:0.0021596110):0.0000010000,(GBCM1766119|Eulimnogammarus_verrucosus|COI5P|MK887547_EveUB20181_EveE:0.0022007559,GBCM1767319|Eulimnogammarus_verrucosus|COI5P|MK887561_EveUB20181_EveE:0.0044050901):0.0021755960):0.0000010000):0.0000010000,(GBCM1767119|Eulimnogammarus_verrucosus|COI5P|MK887559_EveUB20181_EveE:0.0021604350,GBCM1767419|Eulimnogammarus_verrucosus|COI5P|MK887562_EveUB20181_EveE:0.0043382382):0.0000020420):0.0000010000):0.0021613775,GBCM1766019|Eulimnogammarus_verrucosus|COI5P|MK887546_EveUB20181_EveE:0.0066296159):0.0000010000,(GBCM1754419|Eulimnogammarus_verrucosus|COI5P|MK887432_EveUB20181_EveE:0.0000010000,GBCM1766719|Eulimnogammarus_verrucosus|COI5P|MK887553_EveUB20181_EveE:0.0000010000):0.0000010000):0.0000010000,GBCM1766419|Eulimnogammarus_verrucosus|COI5P|MK887550_EveUB20181_EveE:0.0021694268):0.0000010000,GBCM1767619|Eulimnogammarus_verrucosus|COI5P|MK887564_EveUB20181_EveE:0.0021546093):0.0045899883,GBCM1766219|Eulimnogammarus_verrucosus|COI5P|MK887548_EveUB20181_EveE:0.0019833342):0.0269729367):0.0069300287,GBCM1754119|Eulimnogammarus_verrucosus|COI5P|MK887429_EveUB20181_EveE:0.0000028205):0.0875795044):0.0785174062,(Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA238_SA_COI_Naumenko_EveW:0.0000010000,GBCM1749719|Eulimnogammarus_verrucosus|COI5P|MK887397_Naumenko_EveW:0.0000010000):0.0000010000):0.0021578222,(((GBCM1750119|Eulimnogammarus_verrucosus|COI5P|MK887401_Naumenko_EveW:0.0000010000,GBCM1767819|Eulimnogammarus_verrucosus|COI5P|MK887570_Naumenko_EveW:0.0000010000):0.0000010000,GBCM1752319|Eulimnogammarus_verrucosus|COI5P|MK887405_Naumenko_EveW:0.0021578921):0.0043438591,GBCM1768519|Eulimnogammarus_verrucosus|COI5P|MK887569_Naumenko_EveW:0.0043245100):0.0000020378):0.0000010000,(((((((((Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA211_SA_COI_Naumenko_EveW:0.0000010000,Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA232_SA_COI_Naumenko_EveW:0.0000010000):0.0000010000,((Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA233_SA_COI_Naumenko_EveW:0.0021579362,GBCM1751419|Eulimnogammarus_verrucosus|COI5P|MK887402_Naumenko_EveW:0.0021559659):0.0000010000,(Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA237_SA_COI_Naumenko_EveW:0.0021744059,(GBCM1757019|Eulimnogammarus_verrucosus|COI5P|MK887460_Naumenko_EveW:0.0021559654,GBCM1751919|Eulimnogammarus_verrucosus|COI5P|MK887414_Naumenko_EveW:0.0043343020):0.0000010000):0.0000010000):0.0000010000):0.0000010000,((((((((GBCM1748819|Eulimnogammarus_verrucosus|COI5P|MK887384_Naumenko_EveW:0.0000010000,(((GBCM1762219|Eulimnogammarus_verrucosus|COI5P|MK887510_Naumenko_EveW:0.0021258419,(GBCM1765119|Eulimnogammarus_verrucosus|COI5P|MK887537_Naumenko_EveW:0.0000010000,GBCM1765019|Eulimnogammarus_verrucosus|COI5P|MK887536_Naumenko_EveW:0.0000010000):0.0000010000):0.0021231120,(GBCM1763419|Eulimnogammarus_verrucosus|COI5P|MK887528_Naumenko_EveW:0.0000010000,GBCM1764319|Eulimnogammarus_verrucosus|COI5P|MK887524_Naumenko_EveW:0.0000010000):0.0021288464):0.0000010000,(GBCM1768819|Eulimnogammarus_verrucosus|COI5P|MK887576_Naumenko_EveW:0.0021271515,GBCM1769019|Eulimnogammarus_verrucosus|COI5P|MK887578_Naumenko_EveW:0.0021258491):0.0000010000):0.0000010000):0.0000010000,(GBCM1749019|Eulimnogammarus_verrucosus|COI5P|MK887376_Naumenko_EveW:0.0000010000,((((GBCM1749319|Eulimnogammarus_verrucosus|COI5P|MK887379_Naumenko_EveW:0.0000010000,GBCM1749519|Eulimnogammarus_verrucosus|COI5P|MK887381_Naumenko_EveW:0.0000010000):0.0064784614,GBCM1749419|Eulimnogammarus_verrucosus|COI5P|MK887380_Naumenko_EveW:0.0021270010):0.0000010000,((GBCM1765219|Eulimnogammarus_verrucosus|COI5P|MK887538_Naumenko_EveW:0.0000010000,GBCM1764519|Eulimnogammarus_verrucosus|COI5P|MK887526_Naumenko_EveW:0.0000010000):0.0021223304,GBCM1748619|Eulimnogammarus_verrucosus|COI5P|MK887374_Naumenko_EveW:0.0021206581):0.0000010000):0.0000010000,((GBCM1765319|Eulimnogammarus_verrucosus|COI5P|MK887539_Naumenko_EveW:0.0021289223,GBCM1754619|Eulimnogammarus_verrucosus|COI5P|MK887442_Naumenko_EveW:0.0043092138):0.0000010000,GBCM1764619|Eulimnogammarus_verrucosus|COI5P|MK887534_Naumenko_EveW:0.0021401787):0.0000010000):0.0000010000):0.0000010000):0.0000020143,GBCM1754719|Eulimnogammarus_verrucosus|COI5P|MK887434_Naumenko_EveW:0.0021316682):0.0000010000,GBCM1765419|Eulimnogammarus_verrucosus|COI5P|MK887540_Naumenko_EveW:0.0021206524):0.0021279993,(GBCM1760919|Eulimnogammarus_verrucosus|COI5P|MK887496_Naumenko_EveW:0.0000027728,GBCM1761019|Eulimnogammarus_verrucosus|COI5P|MK887497_Naumenko_EveW:0.0000010000):0.0000025738):0.0043660624,((GBCM1753119|Eulimnogammarus_verrucosus|COI5P|MK887422_Naumenko_EveW:0.0000010000,GBCM1753819|Eulimnogammarus_verrucosus|COI5P|MK887418_Naumenko_EveW:0.0000010000):0.0000010000,(((((GBCM1757919|Eulimnogammarus_verrucosus|COI5P|MK887470_Naumenko_EveW:0.0000010000,((GBCM1758519|Eulimnogammarus_verrucosus|COI5P|MK887473_Naumenko_EveW:0.0021636703,GBCM1759819|Eulimnogammarus_verrucosus|COI5P|MK887481_Naumenko_EveW:0.0021568304):0.0000010000,GBCM1766819|Eulimnogammarus_verrucosus|COI5P|MK887556_Naumenko_EveW:0.0021665177):0.0000010000):0.0000010000,GBCM1759419|Eulimnogammarus_verrucosus|COI5P|MK887477_Naumenko_EveW:0.0000010000):0.0000010000,((GBCM1759319|Eulimnogammarus_verrucosus|COI5P|MK887476_Naumenko_EveW:0.0000010000,GBCM1757819|Eulimnogammarus_verrucosus|COI5P|MK887466_Naumenko_EveW:0.0000010000):0.0021568099,GBCM1759719|Eulimnogammarus_verrucosus|COI5P|MK887480_Naumenko_EveW:0.0043392550):0.0000010000):0.0000010000,((GBCM1758119|Eulimnogammarus_verrucosus|COI5P|MK887472_Naumenko_EveW:0.0000010000,GBCM1758919|Eulimnogammarus_verrucosus|COI5P|MK887485_Naumenko_EveW:0.0000010000):0.0000027628,(GBCM1760019|Eulimnogammarus_verrucosus|COI5P|MK887491_Naumenko_EveW:0.0000020447,GBCM1760419|Eulimnogammarus_verrucosus|COI5P|MK887488_Naumenko_EveW:0.0021712133):0.0021703490):0.0021636419):0.0043498380,GBCM1753019|Eulimnogammarus_verrucosus|COI5P|MK887421_Naumenko_EveW:0.0000020554):0.0021457490):0.0021066517):0.0044800476,(GBCM1756919|Eulimnogammarus_verrucosus|COI5P|MK887459_Naumenko_EveW:0.0000010000,GBCM1757319|Eulimnogammarus_verrucosus|COI5P|MK887463_Naumenko_EveW:0.0000010000):0.0043300694):0.0000020563,((GBCM1757619|Eulimnogammarus_verrucosus|COI5P|MK887455_Naumenko_EveW:0.0000026008,GBCM1750919|Eulimnogammarus_verrucosus|COI5P|MK887386_Naumenko_EveW:0.0021662542):0.0000023952,GBCM1757119|Eulimnogammarus_verrucosus|COI5P|MK887461_Naumenko_EveW:0.0021593985):0.0021577748):0.0000010000):0.0000010000,(GBCM1749919|Eulimnogammarus_verrucosus|COI5P|MK887399_Naumenko_EveW:0.0021602311,GBCM1752419|Eulimnogammarus_verrucosus|COI5P|MK887406_Naumenko_EveW:0.0000010000):0.0021577541):0.0000020290,GBCM1767719|Eulimnogammarus_verrucosus|COI5P|MK887565_Naumenko_EveW:0.0021501585):0.0021550689,GBCM1750419|Eulimnogammarus_verrucosus|COI5P|MK887392_Naumenko_EveW:0.0021524452):0.0000010000,(Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA239_SA_COI_Naumenko_EveW:0.0043662291,GBCM1750219|Eulimnogammarus_verrucosus|COI5P|MK887396_Naumenko_EveW:0.0021589733):0.0000029756):0.0000010000,((Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA213_SA_COI_Naumenko_EveW:0.0000010000,GBCM1751819|Eulimnogammarus_verrucosus|COI5P|MK887413_Naumenko_EveW:0.0000010000):0.0021589981,((Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA216_SA_COI_Naumenko_EveW:0.0000010000,GBCM1768219|Eulimnogammarus_verrucosus|COI5P|MK887566_Naumenko_EveW:0.0021483709):0.0021541547,GBCM1757719|Eulimnogammarus_verrucosus|COI5P|MK887456_Naumenko_EveW:0.0021541530):0.0000010000):0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA234_SA_COI_Naumenko_EveW:0.0000010000):0.0000010000);
+(PQ557398_Eulimnogammarus_verrucosus_isolate_1017_S-UB_EvePB2_EveS:0.0000010000,((((((((PQ557399_Eulimnogammarus_verrucosus_isolate_1018_S-UB_EvePB2_EveS:0.0000010000,PQ557401_Eulimnogammarus_verrucosus_isolate_1300_S-Irk_EvePB2_EveS:0.0000010000):0.0000010000,((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA024_SA_COI_EvePB2_EveS:0.0022610686,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA063_SA_COI_EvePB2_EveS:0.0022603710):0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA171_SA_COI_EvePB2_EveS:0.0022674784):0.0000026362):0.0000029072,(((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA005_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA027_SA_COI_EvePB2_EveS:0.0000010000):0.0000021417,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA164_SA_COI_EvePB2_EveS:0.0022535971):0.0022535068,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA112_SA_COI_EvePB2_EveS:0.0022535202):0.0000021443):0.0000020018,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA034_SA_COI_EvePB2_EveS:0.0022649320,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA035_SA_COI_EvePB2_EveS:0.0000010000):0.0022611205):0.0022496847,((((PQ557402_Eulimnogammarus_verrucosus_isolate_1361_S-Irk_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA037_SA_COI_EvePB2_EveS:0.0000010000):0.0000010000,((((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA026_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211117_Angara_GL_EveA099_SA_COI_EvePB2_EveS:0.0000010000):0.0000027384,Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA105_SA_COI_EvePB2_EveS:0.0022539278):0.0022499410,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA163_SA_COI_EvePB2_EveS:0.0045083383):0.0000010000,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA036_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA151_SA_COI_EvePB2_EveS:0.0000010000):0.0022499515):0.0000020132):0.0000021504,((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA001_SA_COI_EvePB2_EveS:0.0022561072,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA178_SA_COI_EvePB2_EveS:0.0000010000):0.0000029565,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA166_SA_COI_EvePB2_EveS:0.0022461610):0.0022460431):0.0022460097,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA062_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA150_SA_COI_EvePB2_EveS:0.0000010000):0.0022569252):0.0000020481):0.0022478197,((((((((((((((PQ557403_Eulimnogammarus_verrucosus_isolate_1234_S-1_EvePB2_EveS:0.0000010000,GBCM1748519|Eulimnogammarus_verrucosus|COI5P|MK887366_EvePB2_EveS:0.0022904404):0.0000010000,(PQ557406_Eulimnogammarus_verrucosus_isolate_853_S-1_EvePB2_EveS:0.0000010000,PQ557408_Eulimnogammarus_verrucosus_isolate_1200_S-2_EvePB2_EveS:0.0023023798):0.0000020843):0.0000010000,GBCM1747919|Eulimnogammarus_verrucosus|COI5P|MK887370_EvePB2_EveS:0.0046390803):0.0022904216,PQ557407_Eulimnogammarus_verrucosus_isolate_949_S-2_EvePB2_EveS:0.0000024353):0.0022911961,PQ557416_Eulimnogammarus_verrucosus_isolate_1312_S-5_EvePB2_EveS:0.0000021660):0.0000022830,((((((((PQ557420_Eulimnogammarus_verrucosus_isolate_1019_W-7_Naumenko_EveW:0.0000010000,(Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA213_SA_COI_Naumenko_EveW:0.0000010000,GBCM1751819|Eulimnogammarus_verrucosus|COI5P|MK887413_Naumenko_EveW:0.0000010000):0.0022187023):0.0000024693,(PQ557422_Eulimnogammarus_verrucosus_isolate_1233_W-7_Naumenko_EveW:0.0000010000,((((((((((((PQ557424_Eulimnogammarus_verrucosus_isolate_774_W-9_Naumenko_EveW:0.0000010000,(((((((((PQ557425_Eulimnogammarus_verrucosus_isolate_1273_W-10_Naumenko_EveW:0.0000010000,PQ557426_Eulimnogammarus_verrucosus_isolate_1275_W-10_Naumenko_EveW:0.0000010000):0.0000010000,((PQ557444_Eulimnogammarus_verrucosus_isolate_783_W-19__Naumenko_EveW:0.0000010000,GBCM1758119|Eulimnogammarus_verrucosus|COI5P|MK887472_Naumenko_EveW:0.0000010000):0.0000023739,(GBCM1760019|Eulimnogammarus_verrucosus|COI5P|MK887491_Naumenko_EveW:0.0000020517,GBCM1760419|Eulimnogammarus_verrucosus|COI5P|MK887488_Naumenko_EveW:0.0022185902):0.0022179233):0.0022103957):0.0000010000,GBCM1759719|Eulimnogammarus_verrucosus|COI5P|MK887480_Naumenko_EveW:0.0044269229):0.0000010000,GBCM1758519|Eulimnogammarus_verrucosus|COI5P|MK887473_Naumenko_EveW:0.0022104035):0.0000010000,(PQ557445_Eulimnogammarus_verrucosus_isolate_784_W-19__Naumenko_EveW:0.0022103843,GBCM1759819|Eulimnogammarus_verrucosus|COI5P|MK887481_Naumenko_EveW:0.0022030260):0.0000020467):0.0000021489,GBCM1766819|Eulimnogammarus_verrucosus|COI5P|MK887556_Naumenko_EveW:0.0022127682):0.0000029018,(GBCM1759319|Eulimnogammarus_verrucosus|COI5P|MK887476_Naumenko_EveW:0.0000010000,GBCM1757819|Eulimnogammarus_verrucosus|COI5P|MK887466_Naumenko_EveW:0.0000010000):0.0022029981):0.0022554401,(((((PQ557432_Eulimnogammarus_verrucosus_isolate_1292_W-15_Naumenko_EveW:0.0000020967,((((PQ557434_Eulimnogammarus_verrucosus_isolate_1294_W-15_Naumenko_EveW:0.0000010000,((((GBCM1749319|Eulimnogammarus_verrucosus|COI5P|MK887379_Naumenko_EveW:0.0000022912,GBCM1749519|Eulimnogammarus_verrucosus|COI5P|MK887381_Naumenko_EveW:0.0000022884):0.0065954073,GBCM1765319|Eulimnogammarus_verrucosus|COI5P|MK887539_Naumenko_EveW:0.0021695340):0.0000010000,GBCM1748619|Eulimnogammarus_verrucosus|COI5P|MK887374_Naumenko_EveW:0.0021589547):0.0000025823,((GBCM1765219|Eulimnogammarus_verrucosus|COI5P|MK887538_Naumenko_EveW:0.0000010000,GBCM1764519|Eulimnogammarus_verrucosus|COI5P|MK887526_Naumenko_EveW:0.0000010000):0.0021624346,GBCM1754719|Eulimnogammarus_verrucosus|COI5P|MK887434_Naumenko_EveW:0.0021718509):0.0000025823):0.0000010000):0.0000010000,((PQ557440_Eulimnogammarus_verrucosus_isolate_940_W-19_Naumenko_EveW:0.0000010000,PQ557441_Eulimnogammarus_verrucosus_isolate_1227_W-19_Naumenko_EveW:0.0000010000):0.0021695355,((GBCM1749419|Eulimnogammarus_verrucosus|COI5P|MK887380_Naumenko_EveW:0.0021661153,(GBCM1762219|Eulimnogammarus_verrucosus|COI5P|MK887510_Naumenko_EveW:0.0021671979,(GBCM1765119|Eulimnogammarus_verrucosus|COI5P|MK887537_Naumenko_EveW:0.0000010000,GBCM1765019|Eulimnogammarus_verrucosus|COI5P|MK887536_Naumenko_EveW:0.0000010000):0.0000020412):0.0021630918):0.0000020379,GBCM1754619|Eulimnogammarus_verrucosus|COI5P|MK887442_Naumenko_EveW:0.0043753363):0.0000010000):0.0000010000):0.0000010000,(PQ557435_Eulimnogammarus_verrucosus_isolate_1161_W-18_Naumenko_EveW:0.0000010000,GBCM1769019|Eulimnogammarus_verrucosus|COI5P|MK887578_Naumenko_EveW:0.0021652229):0.0000010000):0.0000010000,(PQ557438_Eulimnogammarus_verrucosus_isolate_890_W-18a_Naumenko_EveW:0.0021624605,((GBCM1765419|Eulimnogammarus_verrucosus|COI5P|MK887540_Naumenko_EveW:0.0021593929,GBCM1768819|Eulimnogammarus_verrucosus|COI5P|MK887576_Naumenko_EveW:0.0021661562):0.0000010000,GBCM1764619|Eulimnogammarus_verrucosus|COI5P|MK887534_Naumenko_EveW:0.0021765949):0.0000010000):0.0000029635):0.0021693693):0.0000020641,PQ557433_Eulimnogammarus_verrucosus_isolate_1293_W-15_Naumenko_EveW:0.0000010000):0.0066266270,PQ557454_Eulimnogammarus_verrucosus_isolate_1285_W-30__Naumenko_EveW:0.0000010000):0.0000021544,PQ557470_Eulimnogammarus_verrucosus_isolate_1196_w-39__Naumenko_EveW:0.0000010000):0.0021942224,GBCM1753019|Eulimnogammarus_verrucosus|COI5P|MK887421_Naumenko_EveW:0.0000021210):0.0021731609):0.0045141754,GBCM1757019|Eulimnogammarus_verrucosus|COI5P|MK887460_Naumenko_EveW:0.0000029452):0.0022149470):0.0000021309,GBCM1751919|Eulimnogammarus_verrucosus|COI5P|MK887414_Naumenko_EveW:0.0044527301):0.0000020570,((GBCM1756919|Eulimnogammarus_verrucosus|COI5P|MK887459_Naumenko_EveW:0.0000026133,GBCM1757319|Eulimnogammarus_verrucosus|COI5P|MK887463_Naumenko_EveW:0.0000010000):0.0044450865,GBCM1767719|Eulimnogammarus_verrucosus|COI5P|MK887565_Naumenko_EveW:0.0022092362):0.0000010000):0.0000010000,Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA233_SA_COI_Naumenko_EveW:0.0022185715):0.0000010000,Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA237_SA_COI_Naumenko_EveW:0.0022298018):0.0000010000,(GBCM1749919|Eulimnogammarus_verrucosus|COI5P|MK887399_Naumenko_EveW:0.0022214939,GBCM1752419|Eulimnogammarus_verrucosus|COI5P|MK887406_Naumenko_EveW:0.0000010000):0.0022178500):0.0000020467,GBCM1751419|Eulimnogammarus_verrucosus|COI5P|MK887402_Naumenko_EveW:0.0022149930):0.0000010000,(Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA211_SA_COI_Naumenko_EveW:0.0000010000,((GBCM1757619|Eulimnogammarus_verrucosus|COI5P|MK887455_Naumenko_EveW:0.0000010000,GBCM1750919|Eulimnogammarus_verrucosus|COI5P|MK887386_Naumenko_EveW:0.0022296451):0.0000010000,GBCM1757119|Eulimnogammarus_verrucosus|COI5P|MK887461_Naumenko_EveW:0.0022221456):0.0022185142):0.0000010000):0.0022149108,(Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA239_SA_COI_Naumenko_EveW:0.0044809121,GBCM1750219|Eulimnogammarus_verrucosus|COI5P|MK887396_Naumenko_EveW:0.0022186685):0.0000010000):0.0000010000,(((Eulimnogammarus_verrucosus_IBISU220710_Angara_Ni_EveA216_SA_COI_Naumenko_EveW:0.0000010000,GBCM1768219|Eulimnogammarus_verrucosus|COI5P|MK887566_Naumenko_EveW:0.0022090991):0.0022148348,(Eulimnogammarus_verrucosus_IBISU221010_Angara_Sh_EveA238_SA_COI_Naumenko_EveW:0.0000010000,GBCM1749719|Eulimnogammarus_verrucosus|COI5P|MK887397_Naumenko_EveW:0.0000010000):0.0022186170):0.0000010000,GBCM1757719|Eulimnogammarus_verrucosus|COI5P|MK887456_Naumenko_EveW:0.0022148395):0.0000010000):0.0000010000,GBCM1768519|Eulimnogammarus_verrucosus|COI5P|MK887569_Naumenko_EveW:0.0044409928):0.0000010000,GBCM1750419|Eulimnogammarus_verrucosus|COI5P|MK887392_Naumenko_EveW:0.0022114077):0.0000010000):0.0000010000):0.0000020621,((GBCM1750119|Eulimnogammarus_verrucosus|COI5P|MK887401_Naumenko_EveW:0.0000010000,GBCM1752319|Eulimnogammarus_verrucosus|COI5P|MK887405_Naumenko_EveW:0.0022220555):0.0000024605,GBCM1767819|Eulimnogammarus_verrucosus|COI5P|MK887570_Naumenko_EveW:0.0000010000):0.0044663086):0.0044821441,PQ557421_Eulimnogammarus_verrucosus_isolate_1020_W-7_Naumenko_EveW:0.0000021149):0.0677808761,(((PQ557455_Eulimnogammarus_verrucosus_isolate_766_E-20_EveUB20181_EveE:0.0000021300,((PQ557457_Eulimnogammarus_verrucosus_isolate_942_E-20_EveUB20181_EveE:0.0021985574,GBCM1753919|Eulimnogammarus_verrucosus|COI5P|MK887427_EveUB20181_EveE:0.0000010000):0.0000010000,PQ557477_Eulimnogammarus_verrucosus_isolate_944_E-40__EveUB20181_EveE:0.0044273345):0.0044269330):0.0044209136,((((((((((((PQ557458_Eulimnogammarus_verrucosus_isolate_1291_E-22_EveUB20181_EveE:0.0000010000,PQ557459_Eulimnogammarus_verrucosus_isolate_1354_E-22_EveUB20181_EveE:0.0000010000):0.0000010000,PQ557461_Eulimnogammarus_verrucosus_isolate_1202_E-22_EveUB20181_EveE:0.0021649208):0.0000028886,PQ557460_Eulimnogammarus_verrucosus_isolate_1355_E-22_EveUB20181_EveE:0.0043476350):0.0021648785,(GBCM1766019|Eulimnogammarus_verrucosus|COI5P|MK887546_EveUB20181_EveE:0.0066141387,GBCM1767619|Eulimnogammarus_verrucosus|COI5P|MK887564_EveUB20181_EveE:0.0021543082):0.0000025757):0.0000010000,GBCM1754419|Eulimnogammarus_verrucosus|COI5P|MK887432_EveUB20181_EveE:0.0000010000):0.0000010000,PQ557467_Eulimnogammarus_verrucosus_isolate_945_E-36__EveUB20181_EveE:0.0000010000):0.0000010000,(((((((PQ557462_Eulimnogammarus_verrucosus_isolate_1357_E-23a_EveUB20181_EveE:0.0000010000,PQ557471_Eulimnogammarus_verrucosus_isolate_1298_E-39__EveUB20181_EveE:0.0000010000):0.0000010000,(((PQ557465_Eulimnogammarus_verrucosus_isolate_777_E-23b_EveUB20181_EveE:0.0000010000,PQ557466_Eulimnogammarus_verrucosus_isolate_778_E-23b_EveUB20181_EveE:0.0000010000):0.0021685670,(PQ557474_Eulimnogammarus_verrucosus_isolate_1197_E-39__EveUB20181_EveE:0.0065864569,GBCM1767219|Eulimnogammarus_verrucosus|COI5P|MK887560_EveUB20181_EveE:0.0087543250):0.0000010000):0.0000010000,((PQ557468_Eulimnogammarus_verrucosus_isolate_946_E-36__EveUB20181_EveE:0.0043806094,(PQ557475_Eulimnogammarus_verrucosus_isolate_1153_E-40__EveUB20181_EveE:0.0021727492,((GBCM1754219|Eulimnogammarus_verrucosus|COI5P|MK887430_EveUB20181_EveE:0.0000021363,GBCM1754319|Eulimnogammarus_verrucosus|COI5P|MK887431_EveUB20181_EveE:0.0021719965):0.0021702746,GBCM1765719|Eulimnogammarus_verrucosus|COI5P|MK887545_EveUB20181_EveE:0.0043666087):0.0000021045):0.0000020713):0.0021685791,GBCM1766319|Eulimnogammarus_verrucosus|COI5P|MK887549_EveUB20181_EveE:0.0021679327):0.0000010000):0.0000029886):0.0000010000,((GBCM1767119|Eulimnogammarus_verrucosus|COI5P|MK887559_EveUB20181_EveE:0.0021596906,GBCMA269310|Eulimnogammarus_verrucosus|COI5P|FJ756325_EveUB20181_EveE:0.0088931704):0.0000010000,GBCM1765919|Eulimnogammarus_verrucosus|COI5P|MK887555_EveUB20181_EveE:0.0021597123):0.0000010000):0.0000020184,(PQ557464_Eulimnogammarus_verrucosus_isolate_776_E-23b_EveUB20181_EveE:0.0021312199,(GBCM1766119|Eulimnogammarus_verrucosus|COI5P|MK887547_EveUB20181_EveE:0.0021962658,GBCM1767319|Eulimnogammarus_verrucosus|COI5P|MK887561_EveUB20181_EveE:0.0043800041):0.0013841359):0.0008169868):0.0000029824,GBCM1766619|Eulimnogammarus_verrucosus|COI5P|MK887552_EveUB20181_EveE:0.0021651931):0.0000020117,(GBCM1767419|Eulimnogammarus_verrucosus|COI5P|MK887562_EveUB20181_EveE:0.0043336520,GBCM1754019|Eulimnogammarus_verrucosus|COI5P|MK887428_EveUB20181_EveE:0.0021580358):0.0000010000):0.0021614675,PQ557469_Eulimnogammarus_verrucosus_isolate_947_E-36__EveUB20181_EveE:0.0089345395):0.0000020953):0.0000020126,GBCM1766419|Eulimnogammarus_verrucosus|COI5P|MK887550_EveUB20181_EveE:0.0021674456):0.0000020327,PQ557472_Eulimnogammarus_verrucosus_isolate_1375_E-39__EveUB20181_EveE:0.0111293853):0.0021577584,PQ557463_Eulimnogammarus_verrucosus_isolate_1358_E-23a_EveUB20181_EveE:0.0000010000):0.0020404835,GBCM1766219|Eulimnogammarus_verrucosus|COI5P|MK887548_EveUB20181_EveE:0.0023159003):0.0258756658,PQ557476_Eulimnogammarus_verrucosus_isolate_943_E-40__EveUB20181_EveE:0.0066204934):0.0000026936):0.0029195514,(PQ557456_Eulimnogammarus_verrucosus_isolate_939_E-20_EveUB20181_EveE:0.0044557294,GBCM1754119|Eulimnogammarus_verrucosus|COI5P|MK887429_EveUB20181_EveE:0.0022201392):0.0015326536):0.0799756508):0.0711385973,Eulimnogammarus_verrucosus_IBISU211118_Angara_AL_EveA108_SA_COI_EvePB2_EveS:0.0047969442):0.0142294795,Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA104_SA_COI_EvePB2_EveS:0.0022707563):0.0000028079,(Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA038_SA_COI_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211111_Angara_GR_EveA061_SA_COI_EvePB2_EveS:0.0000010000):0.0000026535):0.0069608130):0.0045855430,PQ557405_Eulimnogammarus_verrucosus_isolate_851_S-1_EvePB2_EveS:0.0022662853):0.0000020327,GBCM1756219|Eulimnogammarus_verrucosus|COI5P|MK887444_EvePB2_EveS:0.0045975653):0.0000010000,(PQ557404_Eulimnogammarus_verrucosus_isolate_1235_S-1_EvePB2_EveS:0.0000010000,((PQ557411_Eulimnogammarus_verrucosus_isolate_1198_S-4_EvePB2_EveS:0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA200_SA_COI_EvePB2_EveS:0.0022683872):0.0000010000,GBCM1755519|Eulimnogammarus_verrucosus|COI5P|MK887449_EvePB2_EveS:0.0022833376):0.0000010000):0.0000010000):0.0000010000,GBCM1756519|Eulimnogammarus_verrucosus|COI5P|MK887447_EvePB2_EveS:0.0022683976):0.0000027199,GBCM1755619|Eulimnogammarus_verrucosus|COI5P|MK887450_EvePB2_EveS:0.0022683088):0.0000026873,GBCM1755819|Eulimnogammarus_verrucosus|COI5P|MK887452_EvePB2_EveS:0.0022663161):0.0000026118,(((Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA156_SA_COI_EvePB2_EveS:0.0000010000,GBCM1747819|Eulimnogammarus_verrucosus|COI5P|MK887369_EvePB2_EveS:0.0000010000):0.0000010000,GBCM1748119|Eulimnogammarus_verrucosus|COI5P|MK887372_EvePB2_EveS:0.0022402253):0.0045399884,GBCM1762519|Eulimnogammarus_verrucosus|COI5P|MK887514_EvePB2_EveS:0.0046327145):0.0046975761):0.0068688129,Eulimnogammarus_verrucosus_IBISU211111_Angara_BR_EveA028_SA_COI_EvePB2_EveS:0.0115976317):0.0000021020):0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_To_EveA177_SA_COI_EvePB2_EveS:0.0022525531):0.0000010000,((Eulimnogammarus_verrucosus_IBISU211110_Angara_AR_EveA004_SA_COI_EvePB2_EveS:0.0022458022,Eulimnogammarus_verrucosus_IBISU211118_Angara_BL_EveA107_SA_COI_EvePB2_EveS:0.0022495738):0.0000010000,Eulimnogammarus_verrucosus_IBISU211125_Angara_Ya_EveA157_SA_COI_EvePB2_EveS:0.0022572556):0.0000010000):0.0000010000,PQ557400_Eulimnogammarus_verrucosus_isolate_1301_S-UB_EvePB2_EveS:0.0000010000);
 
 TIME STAMP
 ----------
 
-Date and time: Wed Mar  4 16:34:43 2026
-Total CPU time used: 26.2248 seconds (0h:0m:26s)
-Total wall-clock time used: 27.7169 seconds (0h:0m:27s)
+Date and time: Fri Mar 13 11:12:30 2026
+Total CPU time used: 50.2623 seconds (0h:0m:50s)
+Total wall-clock time used: 52.678 seconds (0h:0m:52s)
 

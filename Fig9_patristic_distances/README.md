@@ -10,17 +10,9 @@ Idea of the analysis: compare four studied _Eulimnogammarus_ species adequately 
     Rscript ./Script_new_ID_for_fasta.R
     cp Eulimno_COI_with_class.fasta ../0_Eulimno_COI_with_class.fasta 
     ```
-  - Alignment: filter by length to increase total length of the alignment, then align, trim and split into 4 files
-    ```{bash}
-    # keep >=550
-    ~/lib/kentUtils/faFilter -minSize=550 0_Eulimno_COI_with_class.fasta 1_all_COI_more550.fasta
-    # align
-    mafft --auto 1_all_COI_more550.fasta >2_all_COI_more550.aln..fasta
-    # added P. monodon COI sequence 100-580 (AF217843), realigned with mafft in UGENE and trimmed all sequences to this length
-    ## NB: 
+  - Alignment: mafft in UGENE => manually trimmed to the coordinates of P. monodon COI 100-580 AF217843 (484-bp alignment)
 
-
-    # split    
+    # split sequences into files for each species
     ~/lib/kentUtils/faFilter -name=*verrucosus* 3_all_COI_more550.trim.aln.fasta 4_Eve.fasta
     ~/lib/kentUtils/faFilter -name=*cyaneus* 3_all_COI_more550.trim.aln.fasta 4_Ecy.fasta
     ~/lib/kentUtils/faFilter -name=*vittatus* 3_all_COI_more550.trim.aln.fasta 4_Evi.fasta
@@ -30,14 +22,14 @@ Idea of the analysis: compare four studied _Eulimnogammarus_ species adequately 
     grep -c \> 4_*fasta
     #4_Ecy.fasta:160
     #4_Ema.fasta:63 ## had to remove 2 sequences manually; were not long enough
-    #4_Eve.fasta:295 ## had to remove 2 sequences manually; were not long enough
+    #4_Eve.fasta:375 ## had to remove 2 sequences manually; were not long enough
     #4_Evi.fasta:141 ## had to remove 7 sequences manually; were not long enough
     # clean up
     mv 1* 2_alignment/
     mv 2* 2_alignment/
     mv 3* 2_alignment/
     ```
-  - Then loaded each alignment (`4_E*.fasta`) into SplitsTree4 and saved to nexus with splits (File => Save As). For Evi, had to resave fasta in UGENE for Splitstree (otherwise an error, no idea why).
+  - Then loaded each alignment (`4_E*.fasta`) into SplitsTree4 and saved to nexus with splits (File => Save As).
   - Nexus files (`3_SplitsTree/`) were loaded into `Fig9_draw_network_maps.R` to plot split networks to the same scale (Fig. 9A).
   - The same alignments (`4_E*.fasta`) were used to calculate distances:
     - p and K2P distances with MEGA11 (see screenshot in the `3_mega` folder for an example)
@@ -65,7 +57,7 @@ Idea of the analysis: compare four studied _Eulimnogammarus_ species adequately 
      - ggrastr ## to rasterize points and reduce svg size!
      - reshape2 ## for melt
      - matrixcalc #triangular matrix for lower.triangle
-     - rBLAST ## for
+     - rBLAST ## for appending suffixes
      - tidyr ## for data manipulation
   - ncbi-blast+ 2.12.0+
   - kentUtils

@@ -6,7 +6,7 @@ library(tidyr)
 #Specify the path to the database BLAST
 custom_db_path <- blast(db = "model_seq_Eulimno.blastdb")
 #We pass the .fasta file to the variable
-seq <- readDNAStringSet("Eulimno_COI.fasta")
+seq <- readDNAStringSet("Eulimno_COI_wref.fasta")
 #Test command to run rBLAST
 cl <- predict(custom_db_path, seq[600, ], BLAST_args = "-perc_identity 95") #Compares sequence number 600 from the .fasta file and searches the database for a sequence with a percent identity of at least 95
 #Estimated length of .fasta file (how many sequences in total)
@@ -14,11 +14,11 @@ length(seq)
 #A command that creates a BLAST result sheet for all sequences in a .fasta file.
 a <- lapply(1:length(seq), function(x) predict(custom_db_path, seq[x, ], BLAST_args = "-perc_identity 95"))
 #Creates a shared dataframe containing all BLAST results.
-df <- tibble(data = a ) %>%
+df <- tibble(data = a) %>%
   unnest_wider(data) %>%
   unnest(qseqid)
 #Delete all columns except the first two.
-df <- df[ , c(1,2)]
+df <- df[ , c(13,14)]
 #Create a vector from the sequence IDs of your .fasta file
 current_names <- names(seq)
 #Create new sequence headers for the .fasta file
