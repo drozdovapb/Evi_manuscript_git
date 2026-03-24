@@ -27,25 +27,31 @@ WxW <- "#F0E442"
 WxS <- "#228833"
 SxW <- "#66CCEE"
 colcolors <- c(SxW, WxS, WxW)
+## proper labels
+col.labels <- c("♀S×♂W ", 
+                "♀W×♂S " , 
+                "♀W×♂W ")
 
 ## general plot settings
 mytheme <- function(){
   list(theme_bw(base_size = 12), 
        theme(line = element_line(size = .5, color = "lightgrey"), 
              panel.grid.major.y = element_blank(),
-             legend.position = 'NA', 
              strip.text = element_text(size=14)),
        #scale_fill_manual(values = fillcolors),
-       scale_color_manual(values = colcolors),
+       scale_color_manual(values = colcolors, 
+                          labels = col.labels),
        scale_y_continuous(breaks = pretty_breaks()),
-       scale_linetype_manual(values = c("twodash", "dashed", "solid")), 
+       scale_linetype_manual(values = c("twodash", "dashed", "solid"),
+                             labels = col.labels), 
        scale_x_date(date_breaks = "1 month", date_labels = "%b"),
-       theme(legend.position = 'bottom', legend.key.width = unit(1, "cm")))
+       theme(legend.position = 'bottom', legend.text = element_text(size=12),
+             legend.key.width = unit(2, "cm")))
 }
 
 
-facet.labels <- c("♀W × ♂W", "♀W × ♂ S", "♀S × ♂W")
-names(facet.labels) <- c("WxW", "WxS", "SxW")
+
+
 
 expdat <- read.xlsx("Crossing Evi.xlsx")
 expdat$Date <- convertToDate(expdat$Date)
@@ -84,11 +90,9 @@ pani <-
   mytheme()
 pani
 
-library(extrafont)
-font_import()
-ggarrange(pani+rremove("x.axis"), pampl+rremove("x.axis"), pjuv, pani, 
-          labels = LETTERS[4:7], 
+ggarrange(pani+xlab(""), pampl+xlab(""), pfem, pjuv, 
+          labels = LETTERS[1:4], 
           common.legend = TRUE, legend = "bottom")
 
-ggsave("Evi_cross.png", width=9, height=5, device=png, bg = "white")
+ggsave("Evi_cross.png", width=9, height=6, device=png, bg = "white")
 ggsave("Evi_cross.svg", width=9, height=5, device=svg())
