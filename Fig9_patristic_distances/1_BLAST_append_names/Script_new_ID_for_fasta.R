@@ -4,9 +4,9 @@ system("makeblastdb -dbtype nucl -in model_seq_Eulimno.fa -input_type fasta -par
 library(rBLAST)
 library(tidyr)
 #Specify the path to the database BLAST
-custom_db_path <- blast(db = "model_seq_Eulimno.blastdb")
+custom_db_path <- blast(db = "0_model_seq_Eulimno.blastdb")
 #We pass the .fasta file to the variable
-seq <- readDNAStringSet("Eulimno_COI_wref.fasta")
+seq <- readDNAStringSet("0_Eulimno_COI_wref.fasta")
 #Test command to run rBLAST
 cl <- predict(custom_db_path, seq[600, ], BLAST_args = "-perc_identity 95") #Compares sequence number 600 from the .fasta file and searches the database for a sequence with a percent identity of at least 95
 #Estimated length of .fasta file (how many sequences in total)
@@ -32,6 +32,6 @@ names(seq) <- new_headers
 #And also remove spaces from names because they spoil everything!!
 names(seq) <- sub(" ", "_", names(seq))
 #Save the new .fasta file
-writeXStringSet(seq, "Eulimno_COI_with_class.fasta", format="fasta")
+writeXStringSet(seq, "1_Eulimno_COI_wref_with_class.fasta", format="fasta")
 #Clean up
 system("rm *.blastdb*")

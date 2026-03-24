@@ -155,6 +155,7 @@ plot_distances <- function(csv_filename, already_triangular=TRUE) {
   table_long$group[table_long$group == "N\nS"] <- "S\nN"
   table_long$group[table_long$group == "S\nE"] <- "E\nS"
   table_long$group[table_long$group == "S\nC"] <- "C\nS"
+  table_long$group[table_long$group == "W\nC"] <- "C\nW"
   ## let's make sure we don't run the same comparisons twice
   print(paste("number of comparisons", nrow(table_long))) 
   ## get statistics
@@ -247,6 +248,7 @@ ppdist <- plot_grid(pdist.cy, pdist.ma, pdist.vi, pdist.ve,
                     rel_widths = c(0.5, 1, 1,1), nrow=1)
 pk2pdist <- plot_grid(k2pdist.cy, k2pdist.ma, k2pdist.vi, k2pdist.ve, 
                       rel_widths = c(0.5, 1, 1,1), nrow=1)
+
 plot_grid(ppatr, ppdist, pk2pdist, nrow=3, labels="AUTO")
 ggsave("FigS2_Eu_sp_distances.png", bg = "white",
        width=24, height=18, units="cm", res=600, device=png)

@@ -1,0 +1,14 @@
+IQ-TREE multicore version 2.0.7 for Linux 64-bit built Jan 21 2022
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    drozdovapb-HP-17-by1xxx (AVX2, FMA3, 11 GB RAM)
+Command: iqtree2 -s ../2_alignments/3_Ecy.fasta --prefix ecy
+Seed:    781757 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Mar 24 12:48:36 2026
+Kernel:  AVX+FMA - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ../2_alignments/3_Ecy.fasta ... ERROR: File not found ../2_alignments/3_Ecy.fasta
